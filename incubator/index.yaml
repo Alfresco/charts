@@ -1,5 +1,14 @@
 apiVersion: v1
 entries:
+  activemq:
+  - apiVersion: v1
+    created: 2018-02-06T16:16:29.100254386Z
+    description: A Helm chart Providing Apache ActiveMQ.
+    digest: 09c410a23fb2f1cff867a5b0b1154109ac99a265bda870e702e0f0468d126df0
+    name: activemq
+    urls:
+    - https://alfresco.github.io/charts/incubator/activemq-0.1.0.tgz
+    version: 0.1.0
   hello-world-service:
   - created: 2018-02-06T16:05:42.175971585Z
     description: Hello world sample service to demonstrate deployment capabilities
@@ -18,4 +27,4 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/hello-world-service-0.1.tgz
     version: "0.1"
-generated: 2018-02-06T16:05:42.173458874Z
+generated: 2018-02-06T16:16:29.099983424Z
