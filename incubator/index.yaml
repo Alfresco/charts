@@ -9,6 +9,17 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/activemq-0.1.0.tgz
     version: 0.1.0
+  alfresco-api-gateway:
+  - apiVersion: v1
+    created: 2018-02-06T18:12:54.437202927Z
+    description: A Helm chart for Alfresco API Gateway
+    digest: 03ebee735a65521366a3cb7f05f7c58e480a8763f03ff9b23cfeb50b02450538
+    maintainers:
+    - name: Alfresco
+    name: alfresco-api-gateway
+    urls:
+    - https://alfresco.github.io/charts/incubator/alfresco-api-gateway-0.1.0.tgz
+    version: 0.1.0
   hello-world-service:
   - created: 2018-02-06T16:05:42.175971585Z
     description: Hello world sample service to demonstrate deployment capabilities
@@ -27,4 +38,4 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/hello-world-service-0.1.tgz
     version: "0.1"
-generated: 2018-02-06T16:16:29.099983424Z
+generated: 2018-02-06T18:12:54.436873183Z
