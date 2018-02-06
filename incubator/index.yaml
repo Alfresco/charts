@@ -9,6 +9,17 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/activemq-0.1.0.tgz
     version: 0.1.0
+  alfresco-activiti-cloud-registry:
+  - apiVersion: v1
+    created: 2018-02-06T21:09:48.257007252Z
+    description: A Helm chart for Alfresco Activiti Cloud Registry
+    digest: 9938b8090a8c882feea30f0478f6df813f0908f77caaec6aa50512c2d6c05a43
+    maintainers:
+    - name: Alfresco
+    name: alfresco-activiti-cloud-registry
+    urls:
+    - https://alfresco.github.io/charts/incubator/alfresco-activiti-cloud-registry-0.1.0.tgz
+    version: 0.1.0
   alfresco-api-gateway:
   - apiVersion: v1
     created: 2018-02-06T18:12:54.437202927Z
@@ -60,4 +71,4 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/hello-world-service-0.1.tgz
     version: "0.1"
-generated: 2018-02-06T18:39:35.764765365Z
+generated: 2018-02-06T21:09:48.256697473Z
