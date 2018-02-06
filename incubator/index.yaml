@@ -20,6 +20,17 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/alfresco-api-gateway-0.1.0.tgz
     version: 0.1.0
+  alfresco-keycloak:
+  - apiVersion: v1
+    created: 2018-02-06T18:16:16.441633236Z
+    description: A Helm chart for Alfresco Activiti SSO identity-service
+    digest: a337e8a1fc8cc448fbf9f58b871760a824539228e3750ee0673440c5bbf35554
+    maintainers:
+    - name: Alfresco
+    name: alfresco-keycloak
+    urls:
+    - https://alfresco.github.io/charts/incubator/alfresco-keycloak-0.1.0.tgz
+    version: 0.1.0
   hello-world-service:
   - created: 2018-02-06T16:05:42.175971585Z
     description: Hello world sample service to demonstrate deployment capabilities
@@ -38,4 +49,4 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/hello-world-service-0.1.tgz
     version: "0.1"
-generated: 2018-02-06T18:12:54.436873183Z
+generated: 2018-02-06T18:16:16.441274395Z
