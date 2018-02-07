@@ -54,9 +54,9 @@ entries:
     - https://alfresco.github.io/charts/incubator/alfresco-keycloak-0.1.0.tgz
     version: 0.1.0
   hello-world-service:
-  - created: 2018-02-07T12:07:37.152290503Z
+  - created: 2018-02-07T12:10:47.17103076Z
     description: Hello world sample service to demonstrate deployment capabilities
-    digest: f7c3d6cf8b2bfa6fdf5950b27e3b222757323f2a557198e515f60b0a3dcf2014
+    digest: 5f7fa1b106e99e6bc6018ef97c36bd38549829ed50f02f6cfeafff4d34927837
     home: https://github.com/Alfresco/alfresco-anaxes-hello-world
     keywords:
     - alfresco
@@ -71,4 +71,4 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/hello-world-service-0.1.tgz
     version: "0.1"
-generated: 2018-02-07T12:07:37.151052715Z
+generated: 2018-02-07T12:10:47.168752952Z
