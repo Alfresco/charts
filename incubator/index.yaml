@@ -31,6 +31,24 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/alfresco-api-gateway-0.1.0.tgz
     version: 0.1.0
+  alfresco-content-services:
+  - created: 2018-02-08T10:10:19.96318505Z
+    description: A Helm chart for deploying Alfresco Content Services
+    digest: fd412ad4e37a2dacd1db9be9a98602633dd64234d4d1880e9084efef3b927b16
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - content
+    - content services
+    - alfresco
+    - community
+    - alfresco community
+    name: alfresco-content-services
+    sources:
+    - https://github.com/Alfresco/acs-community-full-packaging/tree/master/helm
+    urls:
+    - https://alfresco.github.io/charts/incubator/alfresco-content-services-0.0.1.tgz
+    version: 0.0.1
   alfresco-dbp-infrastructure:
   - apiVersion: v1
     created: 2018-02-08T06:10:02.668236128Z
@@ -115,4 +133,4 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/hello-world-ui-0.1.tgz
     version: "0.1"
-generated: 2018-02-08T10:06:57.416633612Z
+generated: 2018-02-08T10:10:19.961221031Z
