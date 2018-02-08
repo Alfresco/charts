@@ -53,6 +53,21 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/alfresco-keycloak-0.1.0.tgz
     version: 0.1.0
+  alfresco-sync-service:
+  - created: 2018-02-08T10:00:48.083083547Z
+    description: Alfresco Syncservice
+    digest: 4f7478fc497430dd63c46c37becf4f6f5a63f5e092d2680a022d1fa234452265
+    engine: gotpl
+    keywords:
+    - syncservice
+    - alfresco
+    - application
+    maintainers:
+    - name: Alfresco
+    name: alfresco-sync-service
+    urls:
+    - https://alfresco.github.io/charts/incubator/alfresco-sync-service-0.1.0.tgz
+    version: 0.1.0
   hello-world-service:
   - created: 2018-02-07T12:10:47.17103076Z
     description: Hello world sample service to demonstrate deployment capabilities
@@ -71,4 +86,4 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/hello-world-service-0.1.tgz
     version: "0.1"
-generated: 2018-02-08T06:10:02.665493356Z
+generated: 2018-02-08T10:00:48.08183583Z
