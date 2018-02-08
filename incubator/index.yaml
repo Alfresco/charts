@@ -53,6 +53,17 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/alfresco-keycloak-0.1.0.tgz
     version: 0.1.0
+  alfresco-process-services:
+  - apiVersion: v1
+    created: 2018-02-08T10:04:00.133045949Z
+    description: A Helm chart for Alresco Process Services
+    digest: 3c190421a06b30bcc915904b6f5539478dfdc80badfc7c3c710f81e5690c5570
+    maintainers:
+    - name: Alfresco
+    name: alfresco-process-services
+    urls:
+    - https://alfresco.github.io/charts/incubator/alfresco-process-services-0.1.0.tgz
+    version: 0.1.0
   alfresco-sync-service:
   - created: 2018-02-08T10:00:48.083083547Z
     description: Alfresco Syncservice
@@ -86,4 +97,4 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/hello-world-service-0.1.tgz
     version: "0.1"
-generated: 2018-02-08T10:00:48.08183583Z
+generated: 2018-02-08T10:04:00.130788095Z
