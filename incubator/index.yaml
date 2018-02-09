@@ -98,9 +98,9 @@ entries:
     - https://alfresco.github.io/charts/incubator/alfresco-sync-service-0.1.0.tgz
     version: 0.1.0
   hello-world-service:
-  - created: 2018-02-07T12:10:47.17103076Z
+  - created: 2018-02-09T08:35:49.818355277Z
     description: Hello world sample service to demonstrate deployment capabilities
-    digest: 5f7fa1b106e99e6bc6018ef97c36bd38549829ed50f02f6cfeafff4d34927837
+    digest: 81279e4d9a0c38796878077b488d7821141caa733c5fff21bcde4536f531dbe7
     home: https://github.com/Alfresco/alfresco-anaxes-hello-world
     keywords:
     - alfresco
@@ -133,4 +133,4 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/hello-world-ui-0.1.tgz
     version: "0.1"
-generated: 2018-02-08T23:48:48.023367777Z
+generated: 2018-02-09T08:35:49.81721552Z
