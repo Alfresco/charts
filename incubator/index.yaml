@@ -22,9 +22,9 @@ entries:
     version: 0.1.0
   alfresco-api-gateway:
   - apiVersion: v1
-    created: 2018-02-12T14:39:48.477389168Z
+    created: 2018-02-12T15:45:49.64160617Z
     description: A Helm chart for Alfresco API Gateway
-    digest: de3ff75171a8ee8750b731b2239b22388d99fa1e5f8cd54b7d83c05fafedfcd5
+    digest: 3833c561c0ec734ae644f3d44df4cb32d6588653a25f976c6484f9b5053f7b94
     maintainers:
     - name: Alfresco
     name: alfresco-api-gateway
@@ -162,4 +162,4 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/hello-world-ui-0.1.tgz
     version: "0.1"
-generated: 2018-02-12T14:42:53.051738026Z
+generated: 2018-02-12T15:45:49.641186135Z
