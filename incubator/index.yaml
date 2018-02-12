@@ -62,11 +62,11 @@ entries:
     version: 0.1.0
   alfresco-infrastructure:
   - apiVersion: v1
-    created: 2018-02-12T14:25:28.370680953Z
+    created: 2018-02-12T20:18:38.522810116Z
     description: A Helm chart Providing the required Alfresco infrastructure. This
       includes nginx-ingress, activemq, alfresco-api-gateway, alfresco-keycloak, and
       the content services volume.
-    digest: 0993f296e1a17b04fdae15d397a1c2ff32535b68debea222e6c5ba024396436e
+    digest: 83a0e22c09da548fac979220df3051e9abdd7490da36d8b3ef7627c989f32f9d
     name: alfresco-infrastructure
     urls:
     - https://alfresco.github.io/charts/incubator/alfresco-infrastructure-0.1.0.tgz
@@ -162,4 +162,4 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/hello-world-ui-0.1.tgz
     version: "0.1"
-generated: 2018-02-12T15:45:49.641186135Z
+generated: 2018-02-12T20:18:38.520016124Z
