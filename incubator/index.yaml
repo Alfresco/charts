@@ -49,17 +49,6 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/alfresco-content-services-0.0.1.tgz
     version: 0.0.1
-  alfresco-dbp-infrastructure:
-  - apiVersion: v1
-    created: 2018-02-08T23:48:39.15875182Z
-    description: A Helm chart Providing the required Infrastructure deployments for
-      the Alfresco DBP. This includes nginx-ingress, activemq, alfresco-api-gateway,
-      alfresco-keycloak, and the content services volume.
-    digest: 54a69f2d84a5e2e967fd24375baaf960e5ff8cf8f33bf2844384513fea6208a7
-    name: alfresco-dbp-infrastructure
-    urls:
-    - https://alfresco.github.io/charts/incubator/alfresco-dbp-infrastructure-0.1.0.tgz
-    version: 0.1.0
   alfresco-infrastructure:
   - apiVersion: v1
     created: 2018-02-12T20:18:38.522810116Z
