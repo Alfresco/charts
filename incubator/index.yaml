@@ -62,7 +62,7 @@ entries:
     version: 0.1.0
   alfresco-keycloak:
   - apiVersion: v1
-    created: 2018-02-13T16:12:50.497239971Z
+    created: 2018-02-14T01:24:03.582022905Z
     description: A Helm chart for Alfresco and Activiti SSO identity-service
     digest: 0a3d030cc9fbaf8b0e0dc01a45895985083b0f3dc2b8fd132f8720eb67512df6
     maintainers:
@@ -151,4 +151,4 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/hello-world-ui-0.1.tgz
     version: "0.1"
-generated: 2018-02-14T01:23:33.809329382Z
+generated: 2018-02-14T01:24:03.581625416Z
