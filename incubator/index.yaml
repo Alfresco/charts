@@ -83,9 +83,9 @@ entries:
     - https://alfresco.github.io/charts/incubator/alfresco-process-services-0.1.0.tgz
     version: 0.1.0
   alfresco-sync-service:
-  - created: 2018-02-15T12:31:14.931467628Z
+  - created: 2018-02-26T11:20:24.470403893Z
     description: Alfresco Syncservice
-    digest: b96678b1e0956f50f07ebacbef30d073e2ffe7a857254a041fb01be48d99a9cb
+    digest: 47f22abd516dc161039da36b123e826708052969aa9657ff0e24ff924502e5e9
     engine: gotpl
     keywords:
     - syncservice
@@ -95,7 +95,7 @@ entries:
     - name: Alfresco
     name: alfresco-sync-service
     urls:
-    - https://alfresco.github.io/charts/incubator/alfresco-sync-service-0.1.0.tgz
+    - http://kubernetes-charts.alfresco.com/incubator/alfresco-sync-service-0.1.0.tgz
     version: 0.1.0
   hello-world-app:
   - created: 2018-02-22T09:33:54.586863608Z
@@ -151,4 +151,4 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/hello-world-ui-0.1.tgz
     version: "0.1"
-generated: 2018-02-23T16:46:18.000549734Z
+generated: 2018-02-26T11:20:24.46888906Z
