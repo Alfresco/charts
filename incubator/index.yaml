@@ -11,14 +11,14 @@ entries:
     version: 0.1.0
   alfresco-activiti-cloud-registry:
   - apiVersion: v1
-    created: 2018-02-14T14:37:13.028010173Z
+    created: 2018-02-26T12:27:56.877149959Z
     description: A Helm chart for Alfresco Activiti Cloud Registry
-    digest: e5535cf733970446245b06e2e1710cfbf6c8c7142f6be4724753e7ea8f3c78b2
+    digest: 9938b8090a8c882feea30f0478f6df813f0908f77caaec6aa50512c2d6c05a43
     maintainers:
     - name: Alfresco
     name: alfresco-activiti-cloud-registry
     urls:
-    - https://alfresco.github.io/charts/incubator/alfresco-activiti-cloud-registry-0.1.0.tgz
+    - http://kubernetes-charts.alfresco.com/incubator/alfresco-activiti-cloud-registry-0.1.0.tgz
     version: 0.1.0
   alfresco-api-gateway:
   - apiVersion: v1
@@ -151,4 +151,4 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/hello-world-ui-0.1.tgz
     version: "0.1"
-generated: 2018-02-26T11:57:56.808442837Z
+generated: 2018-02-26T12:27:56.876773946Z
