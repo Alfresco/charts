@@ -2,12 +2,12 @@ apiVersion: v1
 entries:
   activemq:
   - apiVersion: v1
-    created: 2018-02-14T01:24:33.632469672Z
+    created: 2018-02-26T11:57:56.80924463Z
     description: A Helm chart Providing Apache ActiveMQ.
     digest: 09c410a23fb2f1cff867a5b0b1154109ac99a265bda870e702e0f0468d126df0
     name: activemq
     urls:
-    - https://alfresco.github.io/charts/incubator/activemq-0.1.0.tgz
+    - http://kubernetes-charts.alfresco.com/incubator/activemq-0.1.0.tgz
     version: 0.1.0
   alfresco-activiti-cloud-registry:
   - apiVersion: v1
@@ -151,4 +151,4 @@ entries:
     urls:
     - https://alfresco.github.io/charts/incubator/hello-world-ui-0.1.tgz
     version: "0.1"
-generated: 2018-02-26T11:53:22.098225361Z
+generated: 2018-02-26T11:57:56.808442837Z
