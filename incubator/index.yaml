@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   activemq:
   - apiVersion: v1
-    created: 2018-03-07T14:50:54.144185651Z
+    created: 2018-03-07T15:16:43.205284934Z
     description: A Helm chart Providing Apache ActiveMQ.
     digest: 09c410a23fb2f1cff867a5b0b1154109ac99a265bda870e702e0f0468d126df0
     name: activemq
@@ -11,7 +11,7 @@ entries:
     version: 0.1.0
   alfresco-activiti-cloud-registry:
   - apiVersion: v1
-    created: 2018-03-07T14:50:54.144795204Z
+    created: 2018-03-07T15:16:43.205534155Z
     description: A Helm chart for Alfresco Activiti Cloud Registry
     digest: 9938b8090a8c882feea30f0478f6df813f0908f77caaec6aa50512c2d6c05a43
     maintainers:
@@ -22,7 +22,7 @@ entries:
     version: 0.1.0
   alfresco-api-gateway:
   - apiVersion: v1
-    created: 2018-03-07T14:50:54.145390732Z
+    created: 2018-03-07T15:16:43.205752861Z
     description: A Helm chart for Alfresco API Gateway
     digest: 3833c561c0ec734ae644f3d44df4cb32d6588653a25f976c6484f9b5053f7b94
     maintainers:
@@ -32,7 +32,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/stable/alfresco-api-gateway-0.1.0.tgz
     version: 0.1.0
   alfresco-content-services:
-  - created: 2018-03-07T14:50:54.146846934Z
+  - created: 2018-03-07T15:16:43.207206432Z
     description: A Helm chart for deploying Alfresco Content Services
     digest: fd412ad4e37a2dacd1db9be9a98602633dd64234d4d1880e9084efef3b927b16
     home: https://www.alfresco.com
@@ -51,7 +51,7 @@ entries:
     version: 0.0.1
   alfresco-infrastructure:
   - apiVersion: v1
-    created: 2018-03-07T14:50:54.148080036Z
+    created: 2018-03-07T15:16:43.208385478Z
     description: A Helm chart Providing the required Alfresco infrastructure. This
       includes nginx-ingress, activemq, alfresco-api-gateway, alfresco-keycloak, and
       the content services volume.
@@ -62,7 +62,7 @@ entries:
     version: 0.1.0
   alfresco-keycloak:
   - apiVersion: v1
-    created: 2018-03-07T14:50:54.148313085Z
+    created: 2018-03-07T15:16:43.208597545Z
     description: A Helm chart for Alfresco and Activiti SSO identity-service
     digest: 0a3d030cc9fbaf8b0e0dc01a45895985083b0f3dc2b8fd132f8720eb67512df6
     maintainers:
@@ -73,7 +73,7 @@ entries:
     version: 0.1.0
   alfresco-process-services:
   - apiVersion: v1
-    created: 2018-03-07T14:50:54.149030586Z
+    created: 2018-03-07T15:16:43.209278429Z
     description: A Helm chart for Alresco Process Services
     digest: d2a8800d5d7735ae0c19a742e6fad6d128a985c091434f97e24b00af02b19455
     maintainers:
@@ -83,7 +83,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/stable/alfresco-process-services-0.1.0.tgz
     version: 0.1.0
   alfresco-sync-service:
-  - created: 2018-03-07T14:50:54.149751793Z
+  - created: 2018-03-07T15:16:43.210005399Z
     description: Alfresco Syncservice
     digest: 2f77b0b38ffa935d3a312a6b7400ea0d3542cf2ce34db65c892e6a476ede9d12
     engine: gotpl
@@ -98,7 +98,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/stable/alfresco-sync-service-0.1.0.tgz
     version: 0.1.0
   hello-world-service:
-  - created: 2018-03-07T14:58:21.028973172Z
+  - created: 2018-03-07T15:16:43.210770209Z
     description: Hello world sample service to demonstrate deployment capabilities
     digest: 86de9238156def51f2a798696feb82ef1d445a8907e88593e408420fc2aded86
     home: https://github.com/Alfresco/alfresco-anaxes-hello-world
@@ -113,24 +113,6 @@ entries:
     sources:
     - https://github.com/Alfresco/alfresco-anaxes-hello-world-service-deployment/helm
     urls:
-    - http://kubernetes-charts.alfresco.com/incubator/hello-world-service-0.1.tgz
+    - http://kubernetes-charts.alfresco.com/stable/hello-world-service-0.1.tgz
     version: "0.1"
-  hello-world-ui:
-  - created: 2018-03-07T15:10:55.831361369Z
-    description: Hello world sample UI to demonstrate deployment capabilities
-    digest: 8ad6643b5c309d020cfaa30b47de17ab9221788f9cfbc9a5cc2e618a99041d9c
-    home: https://github.com/Alfresco/alfresco-anaxes-hello-world
-    keywords:
-    - alfresco
-    - anaxes
-    - hello
-    - world
-    maintainers:
-    - name: Alfresco
-    name: hello-world-ui
-    sources:
-    - https://github.com/Alfresco/alfresco-anaxes-hello-world-ui-deployment/helm
-    urls:
-    - http://kubernetes-charts.alfresco.com/incubator/hello-world-ui-0.1.tgz
-    version: "0.1"
-generated: 2018-03-07T15:10:55.83092863Z
+generated: 2018-03-07T15:16:43.205038764Z
