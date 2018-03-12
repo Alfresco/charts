@@ -73,9 +73,9 @@ entries:
     version: 0.1.0
   alfresco-process-services:
   - apiVersion: v1
-    created: 2018-03-09T15:00:54.859148+02:00
+    created: 2018-03-12T10:15:16.306122202Z
     description: A Helm chart for Alresco Process Services
-    digest: d2a8800d5d7735ae0c19a742e6fad6d128a985c091434f97e24b00af02b19455
+    digest: e0ecba3aa6e84a8d427b32aa999bc265af2b77b7b95d8dbd96a182729f411d08
     maintainers:
     - name: Alfresco
     name: alfresco-process-services
@@ -151,4 +151,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/hello-world-ui-0.1.tgz
     version: "0.1"
-generated: 2018-03-09T15:00:54.849588+02:00
+generated: 2018-03-12T10:15:16.305244596Z
