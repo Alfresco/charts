@@ -1,3 +1,21 @@
 apiVersion: v1
-entries: {}
-generated: 2018-03-09T15:01:34.087011+02:00
+entries:
+  hello-world-app:
+  - created: 2018-03-27T12:45:46.978798084Z
+    description: Hello world sample app to demonstrate deployment capabilities
+    digest: 40ab5317bf4349025e7c272e06dd4093f4afae98c8cf74ce9a93b71b3a545c7f
+    home: https://github.com/Alfresco/alfresco-anaxes-hello-world/app-deployment/helm
+    keywords:
+    - alfresco
+    - anaxes
+    - hello
+    - world
+    maintainers:
+    - name: Alfresco
+    name: hello-world-app
+    sources:
+    - https://github.com/Alfresco/alfresco-anaxes-hello-world/app-deployment/helm
+    urls:
+    - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
+    version: "0.1"
+generated: 2018-03-27T12:45:46.976362267Z
