@@ -1,7 +1,24 @@
 apiVersion: v1
 entries:
+  alfresco-content-services:
+  - created: 2018-04-05T13:50:36.963634156Z
+    description: A Helm chart for deploying Alfresco Content Services
+    digest: a648d7ddc859f41b007286096afaf8ce203f76bf338535ea9e7e6c2c88f3eb43
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - content
+    - content services
+    - alfresco
+    - alfresco content services
+    name: alfresco-content-services
+    sources:
+    - https://git.alfresco.com/Repository/acs-packaging/tree/master/helm
+    urls:
+    - http://kubernetes-charts.alfresco.com/stable/alfresco-content-services-0.0.1.tgz
+    version: 0.0.1
   hello-world-app:
-  - created: 2018-03-27T12:45:46.978798084Z
+  - created: 2018-04-05T13:50:36.964792094Z
     description: Hello world sample app to demonstrate deployment capabilities
     digest: 40ab5317bf4349025e7c272e06dd4093f4afae98c8cf74ce9a93b71b3a545c7f
     home: https://github.com/Alfresco/alfresco-anaxes-hello-world/app-deployment/helm
@@ -18,4 +35,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: 2018-03-27T12:45:46.976362267Z
+generated: 2018-04-05T13:50:36.959779122Z
