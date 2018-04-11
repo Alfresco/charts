@@ -111,20 +111,6 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-dbp-0.3.0.tgz
     version: 0.3.0
-  - created: 2018-04-05T13:51:15.811828543Z
-    description: A Helm chart for the Alfresco Digital Business Platform
-    digest: 08fb224a85afe04b873e2850a3a3e7d238525e2e87a0c477e719dd0c600afac8
-    home: https://www.alfresco.com/platform
-    keywords:
-    - alfresco
-    - dbp
-    - platform
-    maintainers:
-    - name: Alfresco Platform Services Team
-    name: alfresco-dbp
-    urls:
-    - http://kubernetes-charts.alfresco.com/incubator/alfresco-dbp-0.3.0-DEPLOY-426.tgz
-    version: 0.3.0-DEPLOY-426
   - created: 2018-04-05T13:51:15.805479299Z
     description: A Helm chart for the Alfresco Digital Business Platform
     digest: 3a54eba945794f8d24255ce3b8d4e5c81375abe14f2fb6bb15939049d25f6446
@@ -150,16 +136,6 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-infrastructure-0.1.0.tgz
     version: 0.1.0
-  - apiVersion: v1
-    created: 2018-04-05T13:51:15.815448335Z
-    description: A Helm chart Providing the required Alfresco infrastructure. This
-      includes nginx-ingress, activemq, alfresco-api-gateway, alfresco-keycloak, and
-      the content services volume.
-    digest: 072a525d0547f7d99954695ce7d189d92d966b3c98ddb93d75ebba3e086cf82e
-    name: alfresco-infrastructure
-    urls:
-    - http://kubernetes-charts.alfresco.com/incubator/alfresco-infrastructure-0.1.0-DEPLOY-426.tgz
-    version: 0.1.0-DEPLOY-426
   alfresco-keycloak:
   - apiVersion: v1
     created: 2018-04-05T13:51:15.817374614Z
@@ -182,16 +158,6 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-process-services-0.1.0.tgz
     version: 0.1.0
-  - apiVersion: v1
-    created: 2018-04-05T13:51:15.820031437Z
-    description: A Helm chart for Alresco Process Services
-    digest: 087f0b945800dc07dc04a7503f0b82ac15a7b738ca282e880081a78176a55c9d
-    maintainers:
-    - name: Alfresco
-    name: alfresco-process-services
-    urls:
-    - http://kubernetes-charts.alfresco.com/incubator/alfresco-process-services-0.1.0-DEPLOY-426.tgz
-    version: 0.1.0-DEPLOY-426
   alfresco-sync-service:
   - created: 2018-04-05T13:51:15.821375671Z
     description: Alfresco Syncservice
