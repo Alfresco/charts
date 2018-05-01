@@ -64,9 +64,9 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-content-services-6.0.0-rc3.tgz
     version: 6.0.0-rc3
-  - created: 2018-05-01T09:52:24.943660487Z
+  - created: 2018-05-01T10:17:55.246922923Z
     description: A Helm chart for deploying Alfresco Content Services
-    digest: c07ea8007931ea3dfa033d76356ba9d7e832317bcdd69f8efd6eb19f3ca889d9
+    digest: 84fbdf81e7c01e1914636431adc811575ca470fd5ed03309cdbd077fe1de9a26
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -368,4 +368,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/hello-world-ui-0.1.tgz
     version: "0.1"
-generated: 2018-05-01T09:52:24.941199576Z
+generated: 2018-05-01T10:17:55.243009464Z
