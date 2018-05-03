@@ -331,9 +331,9 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-sync-service-0.1.0.tgz
     version: 0.1.0
   hello-world-app:
-  - created: 2018-05-03T08:08:22.740543485Z
+  - created: 2018-05-03T08:11:22.835256829Z
     description: Hello world sample app to demonstrate deployment capabilities
-    digest: d6944d0ae42d66afc1135ec29fbeba960a404eda2a149289e8a4f36cac4e6c6e
+    digest: bd5e257ecf96fa2b17d46b76480530d48e67e1e13824944d636e31958707379a
     home: https://github.com/Alfresco/alfresco-anaxes-hello-world/app-deployment/helm
     keywords:
     - alfresco
@@ -384,4 +384,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/hello-world-ui-0.1.tgz
     version: "0.1"
-generated: 2018-05-03T08:08:22.738507699Z
+generated: 2018-05-03T08:11:22.833062711Z
