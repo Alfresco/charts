@@ -31,6 +31,16 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-api-gateway-0.1.0.tgz
     version: 0.1.0
+  - apiVersion: v1
+    created: 2018-05-14T12:52:22.267177328Z
+    description: A Helm chart for Alfresco API Gateway
+    digest: 58ccc3d22949b514f3b0a938879cf1300b8b230ee1fcac205d5c5298b0a824aa
+    maintainers:
+    - name: Alfresco
+    name: alfresco-api-gateway
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/alfresco-api-gateway-0.1.0-AUTH-118.tgz
+    version: 0.1.0-AUTH-118
   alfresco-content-services:
   - created: 2018-05-03T11:27:01.398261212Z
     description: A Helm chart for deploying Alfresco Content Services
@@ -410,4 +420,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/hello-world-ui-0.1.tgz
     version: "0.1"
-generated: 2018-05-14T11:41:19.734168346Z
+generated: 2018-05-14T12:52:22.266779418Z
