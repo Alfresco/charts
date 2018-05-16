@@ -216,6 +216,23 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-dbp-0.2.0.tgz
     version: 0.2.0
+  alfresco-event-gateway:
+  - created: 2018-05-16T19:54:43.433000392Z
+    description: Alfresco Event Gateway
+    digest: c59d080d138cf458ffa991f3413d4fe6921b38fa755852d3a6032ec2806e0175
+    home: https://github.com/Alfresco/alfresco-event-gateway
+    keywords:
+    - alfresco
+    - events
+    - gateway
+    maintainers:
+    - name: Alfresco
+    name: alfresco-event-gateway
+    sources:
+    - https://github.com/Alfresco/alfresco-event-gateway-deployment/helm
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/alfresco-event-gateway-0.1.tgz
+    version: "0.1"
   alfresco-identity-service:
   - created: 2018-05-16T10:53:36.928591915Z
     description: The Alfresco Identity Service provides a Single Sign On experience
@@ -410,4 +427,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/hello-world-ui-0.1.tgz
     version: "0.1"
-generated: 2018-05-16T15:19:47.946499354Z
+generated: 2018-05-16T19:54:43.43239653Z
