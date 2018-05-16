@@ -41,16 +41,6 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-api-gateway-0.1.0.tgz
     version: 0.1.0
-  - apiVersion: v1
-    created: 2018-05-15T08:09:14.18892703Z
-    description: A Helm chart for Alfresco API Gateway
-    digest: 58ccc3d22949b514f3b0a938879cf1300b8b230ee1fcac205d5c5298b0a824aa
-    maintainers:
-    - name: Alfresco
-    name: alfresco-api-gateway
-    urls:
-    - http://kubernetes-charts.alfresco.com/incubator/alfresco-api-gateway-0.1.0-AUTH-118.tgz
-    version: 0.1.0-AUTH-118
   alfresco-content-services:
   - created: 2018-05-03T11:27:01.398261212Z
     description: A Helm chart for deploying Alfresco Content Services
@@ -282,26 +272,6 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-infrastructure-0.1.0.tgz
     version: 0.1.0
-  - apiVersion: v1
-    created: 2018-05-16T11:16:28.214385749Z
-    description: A Helm chart Providing the required Alfresco infrastructure. This
-      includes nginx-ingress, activemq, alfresco-api-gateway, alfresco-identity-service,
-      and the content services volume.
-    digest: 6c68785d1265e1f5951613fdaebaabf601ddbe60aab34a14346a7fc9d0de0480
-    name: alfresco-infrastructure
-    urls:
-    - http://kubernetes-charts.alfresco.com/incubator/alfresco-infrastructure-0.1.0-NO118.tgz
-    version: 0.1.0-NO118
-  - apiVersion: v1
-    created: 2018-05-15T12:19:38.633968388Z
-    description: A Helm chart Providing the required Alfresco infrastructure. This
-      includes nginx-ingress, activemq, alfresco-api-gateway, alfresco-identity-service,
-      and the content services volume.
-    digest: 7c27b40fe7ba7af3a1568e47ad77cbb24a6c50a1eecc6573fd7b2b8ee5b60f06
-    name: alfresco-infrastructure
-    urls:
-    - http://kubernetes-charts.alfresco.com/incubator/alfresco-infrastructure-0.1.0-DEPLOY-118.tgz
-    version: 0.1.0-DEPLOY-118
   alfresco-keycloak:
   - apiVersion: v1
     created: 2018-05-03T11:27:01.42676548Z
