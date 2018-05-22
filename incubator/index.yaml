@@ -280,7 +280,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-infrastructure-1.1.0-SNAPSHOT.tgz
     version: 1.1.0-SNAPSHOT
   - apiVersion: v1
-    created: 2018-05-22T07:08:25.524493185Z
+    created: 2018-05-22T12:46:28.207855921Z
     description: A Helm chart Providing the required Alfresco infrastructure for the
       Digital Business Platform.
     digest: 857af535c5265c5ac55cea1a6fb1de286f237b5711017d112e42c6617f41be54
@@ -447,4 +447,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/hello-world-ui-0.1.tgz
     version: "0.1"
-generated: 2018-05-22T10:44:49.750320625Z
+generated: 2018-05-22T12:46:28.207538591Z
