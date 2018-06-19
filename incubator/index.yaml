@@ -224,11 +224,11 @@ entries:
     version: "0.1"
   alfresco-infrastructure:
   - apiVersion: v1
-    created: 2018-06-19T08:24:08.983520945Z
+    created: 2018-06-19T08:57:08.149392678Z
     description: A Helm chart Providing the required Alfresco infrastructure. This
       includes activemq, alfresco-api-gateway, alfresco-identity-service, and a persistent
       volume to use with the dbp chart.
-    digest: 64ef3f51103006f548308d2cb78e838df5fd9a2acc84062932c710b4e5431651
+    digest: 1669cfc825607145f02a48100c51b690c5b936e85a587c7ce51365d18921900f
     name: alfresco-infrastructure
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-infrastructure-1.1.0-SNAPSHOT.tgz
@@ -391,4 +391,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/hello-world-ui-0.1.tgz
     version: "0.1"
-generated: 2018-06-19T08:48:00.248032081Z
+generated: 2018-06-19T08:57:08.146021417Z
