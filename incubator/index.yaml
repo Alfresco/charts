@@ -453,4 +453,14 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/hello-world-ui-0.1.tgz
     version: "0.1"
-generated: 2018-06-22T13:14:35.205239754Z
+  process-services-infrastructure:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-06-22T13:51:23.061927595Z
+    description: A Helm chart for Kubernetes
+    digest: fd7412b178e5cbf9f4d8912bb7cacd71540bc24c352099f876b1f1a6f89f2856
+    name: process-services-infrastructure
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
+    version: 0.1.1
+generated: 2018-06-22T13:51:23.058806958Z
