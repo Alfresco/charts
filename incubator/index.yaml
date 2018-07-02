@@ -119,9 +119,9 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-content-services-community-6.0.5-01.tgz
     version: 6.0.5-01
   - appVersion: 6.0.7-ga
-    created: 2018-07-02T13:59:53.165127976Z
+    created: 2018-07-02T14:17:44.617227774Z
     description: A Helm chart for deploying Alfresco Content Services Community
-    digest: d26d323926a3703f0110ae9175ac145525047e79447c3d30427c76d0360487e0
+    digest: 469d7696bac87b67414c6a242f2ee29fbea4ca3bfb30ddce84a2f0c703de40b3
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -516,4 +516,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2018-07-02T14:17:18.238158026Z
+generated: 2018-07-02T14:17:44.615311445Z
