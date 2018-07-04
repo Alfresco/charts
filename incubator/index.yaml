@@ -537,11 +537,11 @@ entries:
   process-services-infrastructure:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-03T10:47:14.387124742Z
+    created: 2018-07-04T13:31:34.119744302Z
     description: A Helm chart for Kubernetes
-    digest: 3c855e77e72cecde07112926f61827096a4bbb0332a53f81cf59eefce412c991
+    digest: f4b02a629374c58a9b6c76d88f93c0f07d743f0bc7985fc2f4131ce5129bcf70
     name: process-services-infrastructure
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2018-07-04T13:06:45.285499854Z
+generated: 2018-07-04T13:31:34.115756034Z
