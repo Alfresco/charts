@@ -480,6 +480,18 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-sync-service-0.1.0.tgz
     version: 0.1.0
+  alfresco-template-service:
+  - apiVersion: v1
+    appVersion: 1.0-SNAPSHOT
+    created: 2018-07-05T09:39:57.962751497Z
+    description: A Helm chart for the APS2 alfresco-template-service service
+    digest: 7850f67d797c65022cfbd40756e9032a4284b34a977fb5fcf817d5572d6b1988
+    maintainers:
+    - name: Alfresco
+    name: alfresco-template-service
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/alfresco-template-service-0.1.0.tgz
+    version: 0.1.0
   hello-world-app:
   - created: 2018-07-03T10:47:14.382229689Z
     description: Hello world sample app to demonstrate deployment capabilities
@@ -544,4 +556,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2018-07-05T08:43:31.561763969Z
+generated: 2018-07-05T09:39:57.962419558Z
