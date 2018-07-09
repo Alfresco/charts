@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   activemq:
   - apiVersion: v1
-    created: 2018-07-09T08:46:22.158052885Z
+    created: 2018-07-09T08:49:48.829634199Z
     description: A Helm chart Providing Apache ActiveMQ.
     digest: 09c410a23fb2f1cff867a5b0b1154109ac99a265bda870e702e0f0468d126df0
     name: activemq
@@ -11,7 +11,7 @@ entries:
     version: 0.1.0
   alfresco-activiti-cloud-registry:
   - apiVersion: v1
-    created: 2018-07-09T08:46:22.158288741Z
+    created: 2018-07-09T08:49:48.829908781Z
     description: A Helm chart for Alfresco Activiti Cloud Registry
     digest: 9938b8090a8c882feea30f0478f6df813f0908f77caaec6aa50512c2d6c05a43
     maintainers:
@@ -22,7 +22,7 @@ entries:
     version: 0.1.0
   alfresco-api-gateway:
   - apiVersion: v1
-    created: 2018-07-09T08:46:22.158748283Z
+    created: 2018-07-09T08:49:48.830379545Z
     description: A Helm chart for Alfresco API Gateway
     digest: 73f2afa87ee3805b6e2e94b5c6398d96f15c180e085e25739e3d917972dcd76c
     maintainers:
@@ -32,7 +32,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-api-gateway-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
-    created: 2018-07-09T08:46:22.158512884Z
+    created: 2018-07-09T08:49:48.830147656Z
     description: A Helm chart for Alfresco API Gateway
     digest: 3833c561c0ec734ae644f3d44df4cb32d6588653a25f976c6484f9b5053f7b94
     maintainers:
@@ -43,7 +43,7 @@ entries:
     version: 0.1.0
   alfresco-content-services:
   - appVersion: 6.0.0-RC5
-    created: 2018-07-09T08:46:22.164085289Z
+    created: 2018-07-09T08:49:48.835701517Z
     deprecated: true
     description: A Helm chart for deploying Alfresco Content Services
     digest: 1121936ec051b6fbf6d74e3635d24c5c99f15959ecc352f185fbd9e8f06037a8
@@ -61,7 +61,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-content-services-6.0.0-01.tgz
     version: 6.0.0-01
   - appVersion: 6.0.0
-    created: 2018-07-09T08:46:22.162489351Z
+    created: 2018-07-09T08:49:48.834138328Z
     description: A Helm chart for deploying Alfresco Content Services
     digest: 7fffe6b540625d4928300d84b7994e69f9f5064d5076564a001f256a5e85998b
     home: https://www.alfresco.com
@@ -78,7 +78,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-content-services-1.1.0.tgz
     version: 1.1.0
   - appVersion: 6.0.0
-    created: 2018-07-09T08:46:22.160620754Z
+    created: 2018-07-09T08:49:48.832236804Z
     description: A Helm chart for deploying Alfresco Content Services
     digest: cdb0620cae4105e5811b85615d5a97dd70c8984630249e8d5625fbd586b6d062
     home: https://www.alfresco.com
@@ -96,7 +96,7 @@ entries:
     version: 1.0.1
   alfresco-content-services-community:
   - appVersion: 6.0.7-ga
-    created: 2018-07-09T08:46:22.168808566Z
+    created: 2018-07-09T08:49:48.842123789Z
     deprecated: true
     description: A Helm chart for deploying Alfresco Content Services Community
     digest: c6effc727032b01fe53c09d9a6f9aa692ca63f2f73ae6e8d0e4dccdf08e53fd9
@@ -116,7 +116,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-content-services-community-6.0.7-01.tgz
     version: 6.0.7-01
   - appVersion: 6.0.5-ea
-    created: 2018-07-09T08:46:22.167371464Z
+    created: 2018-07-09T08:49:48.838939775Z
     deprecated: true
     description: A Helm chart for deploying Alfresco Content Services Community
     digest: 8dd5acf5b4a2b03c90c7da6b5a64aed6729896f9d4ade6a4a6215b510dfd06f5
@@ -136,7 +136,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-content-services-community-6.0.5-01.tgz
     version: 6.0.5-01
   - appVersion: 6.0.7-ga
-    created: 2018-07-09T08:46:22.165912835Z
+    created: 2018-07-09T08:49:48.83748267Z
     description: A Helm chart for deploying Alfresco Content Services Community
     digest: dfe7a3c635c5ada7666ed7a304c768dc8fc46ab23be3558bafa65a1ac981dfb6
     home: https://www.alfresco.com
@@ -155,7 +155,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-content-services-community-1.0.1.tgz
     version: 1.0.1
   alfresco-dbp:
-  - created: 2018-07-09T08:46:22.19959801Z
+  - created: 2018-07-09T08:49:48.871809854Z
     description: A Helm chart for the Alfresco Digital Business Platform
     digest: 00370ff2d6c2193d4a1eb7f8deeca33424d6dcaa5014758280c06143ce431fdf
     home: https://www.alfresco.com/platform
@@ -169,7 +169,7 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-dbp-0.6.0.tgz
     version: 0.6.0
-  - created: 2018-07-09T08:46:22.19143586Z
+  - created: 2018-07-09T08:49:48.863639513Z
     description: A Helm chart for the Alfresco Digital Business Platform
     digest: 38fba55ee0c7ad78985b2be294243a76175424fb8e40e5531ae649b636590811
     home: https://www.alfresco.com/platform
@@ -183,7 +183,7 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-dbp-0.5.0.tgz
     version: 0.5.0
-  - created: 2018-07-09T08:46:22.182690489Z
+  - created: 2018-07-09T08:49:48.854714344Z
     description: A Helm chart for the Alfresco Digital Business Platform
     digest: 48785995f7536735e096b49644244ef47e064dc1f655ba7bcda82fff0d2299db
     home: https://www.alfresco.com/platform
@@ -197,7 +197,7 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-dbp-0.4.0.tgz
     version: 0.4.0
-  - created: 2018-07-09T08:46:22.174797036Z
+  - created: 2018-07-09T08:49:48.846568461Z
     description: A Helm chart for the Alfresco Digital Business Platform
     digest: 8f8dfa61bf2c7dd76e2fd271767f8d6fbea84ea4310b990c5cd01f7087e3c813
     home: https://www.alfresco.com/platform
@@ -211,7 +211,7 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-dbp-0.3.0.tgz
     version: 0.3.0
-  - created: 2018-07-09T08:46:22.172520738Z
+  - created: 2018-07-09T08:49:48.844372823Z
     description: A Helm chart for the Alfresco Digital Business Platform
     digest: 3a54eba945794f8d24255ce3b8d4e5c81375abe14f2fb6bb15939049d25f6446
     home: https://www.alfresco.com/platform
@@ -226,7 +226,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-dbp-0.2.0.tgz
     version: 0.2.0
   alfresco-event-gateway:
-  - created: 2018-07-09T08:46:22.200016592Z
+  - created: 2018-07-09T08:49:48.872247704Z
     description: Alfresco Event Gateway
     digest: 98d5b6b553ac380a8f3fc918b995b9f50a33528649a6cd21ea0aea4d22fd23ff
     home: https://github.com/Alfresco/alfresco-event-gateway
@@ -243,7 +243,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-event-gateway-0.1.tgz
     version: "0.1"
   alfresco-identity-service:
-  - created: 2018-07-09T08:46:22.209261428Z
+  - created: 2018-07-09T08:49:48.880957007Z
     description: The Alfresco Identity Service provides a Single Sign On experience
       for the Alfresco Digital Business Platform (DBP).
     digest: 61f8372772426b75812d6fc339fb741105da69e405fd7094bc58f3da5a304dd0
@@ -260,7 +260,7 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-identity-service-0.3.1.tgz
     version: 0.3.1
-  - created: 2018-07-09T08:46:22.207339833Z
+  - created: 2018-07-09T08:49:48.879076165Z
     description: The Alfresco Identity Service provides a Single Sign On experience
       for the Alfresco Digital Business Platform (DBP).
     digest: 50c130337d5af10f4135a23f312ad1afe558649a45a439a437f7dc98b9258224
@@ -277,7 +277,7 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-identity-service-0.3.0.tgz
     version: 0.3.0
-  - created: 2018-07-09T08:46:22.203949872Z
+  - created: 2018-07-09T08:49:48.877164883Z
     description: The Alfresco Identity Service provides a Single Sign On experience
       for the Alfresco Digital Business Platform (DBP).
     digest: a79a2110fd448e6bf3fcbb36ad41d997a15fb2c876400423068c43a7fbc4e0d0
@@ -294,7 +294,7 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-identity-service-0.2.tgz
     version: "0.2"
-  - created: 2018-07-09T08:46:22.201881093Z
+  - created: 2018-07-09T08:49:48.874129644Z
     description: The Alfresco Identity Service provides a Single Sign On experience
       for the Alfresco Digital Business Platform (DBP).
     digest: eb44d12e3f99926aca1ec7bfba9aeba9efe1a11a1629bf50c048007d86c00cec
@@ -313,7 +313,7 @@ entries:
     version: "0.1"
   alfresco-infrastructure:
   - apiVersion: v1
-    created: 2018-07-09T08:46:22.21802496Z
+    created: 2018-07-09T08:49:48.889639403Z
     description: A Helm chart Providing the required Alfresco infrastructure for the
       Digital Business Platform. This includes activemq, alfresco-api-gateway, alfresco-identity-service,
       nginx-ingress and a persistent volume to use with the dbp chart.
@@ -324,7 +324,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-infrastructure-2.0.0-SNAPSHOT.tgz
     version: 2.0.0-SNAPSHOT
   - apiVersion: v1
-    created: 2018-07-09T08:46:22.214333753Z
+    created: 2018-07-09T08:49:48.885972977Z
     description: A Helm chart Providing the required Alfresco infrastructure for the
       Digital Business Platform.
     digest: 73ee7969918896ea9f39f56014a7f042a21da2fc35bde9388ffc50d7f58dc942
@@ -334,7 +334,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-infrastructure-1.1.0-SNAPSHOT.tgz
     version: 1.1.0-SNAPSHOT
   - apiVersion: v1
-    created: 2018-07-09T08:46:22.213413768Z
+    created: 2018-07-09T08:49:48.885020754Z
     description: A Helm chart Providing the required Alfresco infrastructure for the
       Digital Business Platform.
     digest: 857af535c5265c5ac55cea1a6fb1de286f237b5711017d112e42c6617f41be54
@@ -344,7 +344,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-infrastructure-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v1
-    created: 2018-07-09T08:46:22.213233854Z
+    created: 2018-07-09T08:49:48.884845907Z
     description: A Helm chart Providing the required Alfresco infrastructure. This
       includes nginx-ingress, activemq, alfresco-api-gateway, alfresco-identity-service,
       and the content services volume.
@@ -354,7 +354,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-infrastructure-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: 2018-07-09T08:46:22.210379053Z
+    created: 2018-07-09T08:49:48.882052133Z
     description: A Helm chart Providing the required Alfresco infrastructure. This
       includes nginx-ingress, activemq, alfresco-api-gateway, alfresco-identity-service,
       and the content services volume.
@@ -364,7 +364,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-infrastructure-0.1.0.tgz
     version: 0.1.0
   alfresco-insight-zeppelin:
-  - created: 2018-07-09T08:47:34.744132652Z
+  - created: 2018-07-09T08:49:48.89040588Z
     description: A Helm chart for deploying Alfresco Insight Zeppelin
     digest: e2ae6e111f9689c38461258f63e1bf25377e165b104545dfa35802c061f4ab8f
     home: https://www.alfresco.com
@@ -380,7 +380,7 @@ entries:
     version: 0.0.2
   alfresco-keycloak:
   - apiVersion: v1
-    created: 2018-07-09T08:46:22.218238879Z
+    created: 2018-07-09T08:49:48.890929838Z
     description: A Helm chart for Alfresco and Activiti SSO identity-service
     digest: 0a3d030cc9fbaf8b0e0dc01a45895985083b0f3dc2b8fd132f8720eb67512df6
     maintainers:
@@ -391,7 +391,7 @@ entries:
     version: 0.1.0
   alfresco-process-services:
   - apiVersion: v1
-    created: 2018-07-09T08:46:22.225504755Z
+    created: 2018-07-09T08:49:48.896751325Z
     description: A Helm chart for Alresco Process Services
     digest: 81a17bd18d44eb122793563b3ef8bf61ef999af679eb733f308abbc26ee203f9
     maintainers:
@@ -401,7 +401,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-process-services-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v1
-    created: 2018-07-09T08:46:22.223714852Z
+    created: 2018-07-09T08:49:48.894979403Z
     description: A Helm chart for Alresco Process Services
     digest: c65d783459dc2cb4343155353330c8113004d80dbfab2581a8ddf814c500af6d
     maintainers:
@@ -411,7 +411,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-process-services-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
-    created: 2018-07-09T08:46:22.221854851Z
+    created: 2018-07-09T08:49:48.893173823Z
     description: A Helm chart for Alresco Process Services
     digest: b42ebc9adc5c715452666bf9eebf44ea08b8ab99b2a12c33c25ebb9313b5cd40
     maintainers:
@@ -421,25 +421,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-process-services-0.1.0.tgz
     version: 0.1.0
   alfresco-search:
-  - created: 2018-07-09T08:49:13.501019148Z
-    description: A Helm chart for deploying Alfresco Search
-    digest: 84ae2980e2153cfe5a76c5336746a0efb071252eb3189841c406ac65a34170fe
-    home: https://www.alfresco.com
-    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
-    keywords:
-    - search
-    - search services
-    - alfresco search services
-    - insight
-    - insight engine
-    - alfresco insight engine
-    name: alfresco-search
-    sources:
-    - https://github.com/alfresco/alfresco-search-deployment
-    urls:
-    - http://kubernetes-charts.alfresco.com/incubator/alfresco-search-0.0.4.tgz
-    version: 0.0.4
-  - created: 2018-07-09T08:46:22.226106133Z
+  - created: 2018-07-09T08:49:48.897313196Z
     description: A Helm chart for deploying Alfresco Search
     digest: 6943f71e9e67c7715eb7169dac9e7159938f60586fb4d0289caf80e927718f73
     home: https://www.alfresco.com
@@ -455,7 +437,7 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-search-0.0.2.tgz
     version: 0.0.2
-  - created: 2018-07-09T08:46:22.225779107Z
+  - created: 2018-07-09T08:49:48.897024735Z
     description: A Helm chart for deploying Alfresco Search
     digest: fdb11492a3003ae4b8441d922cf32fce07238c7631736d4823089b2a37b68a86
     home: https://www.alfresco.com
@@ -472,7 +454,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-search-0.0.1.tgz
     version: 0.0.1
   alfresco-search-services:
-  - created: 2018-07-09T08:46:22.22684053Z
+  - created: 2018-07-09T08:49:48.897575287Z
     description: A Helm chart for deploying Alfresco Search Services
     digest: 93190e1d202f773b22aa61a273e33a45b1d154145504a79b1de4efa233d71046
     home: https://www.alfresco.com
@@ -486,7 +468,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-search-services-0.0.1.tgz
     version: 0.0.1
   alfresco-sync-service:
-  - created: 2018-07-09T08:46:22.227496938Z
+  - created: 2018-07-09T08:49:48.898237955Z
     description: Alfresco Syncservice
     digest: d7204f0fdd3a1157a71be5082af95187f71c1123a523c0bf8eb7524a9d5e946b
     engine: gotpl
@@ -503,7 +485,7 @@ entries:
   alfresco-template-service:
   - apiVersion: v1
     appVersion: 1.0-SNAPSHOT
-    created: 2018-07-09T08:46:22.227730016Z
+    created: 2018-07-09T08:49:48.898461764Z
     description: A Helm chart for the APS2 alfresco-template-service service
     digest: 7850f67d797c65022cfbd40756e9032a4284b34a977fb5fcf817d5572d6b1988
     maintainers:
@@ -513,7 +495,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-template-service-0.1.0.tgz
     version: 0.1.0
   hello-world-app:
-  - created: 2018-07-09T08:46:22.228794497Z
+  - created: 2018-07-09T08:49:48.899497422Z
     description: Hello world sample app to demonstrate deployment capabilities
     digest: 9f79073b0c0cc78dc2e634decb61f9fe8747c7355030424c3ca051dd7217d6f6
     home: https://github.com/Alfresco/alfresco-anaxes-hello-world/app-deployment/helm
@@ -531,7 +513,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/hello-world-app-0.1.tgz
     version: "0.1"
   hello-world-service:
-  - created: 2018-07-09T08:46:22.22956136Z
+  - created: 2018-07-09T08:49:48.900220894Z
     description: Hello world sample service to demonstrate deployment capabilities
     digest: 1bb766d9d680406bf77cb50a8eb56887025e42140ac21467d7f069f858ff3329
     home: https://github.com/Alfresco/alfresco-anaxes-hello-world
@@ -549,7 +531,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/hello-world-service-0.1.tgz
     version: "0.1"
   hello-world-ui:
-  - created: 2018-07-09T08:46:22.229826802Z
+  - created: 2018-07-09T08:49:48.900476431Z
     description: Hello world sample UI to demonstrate deployment capabilities
     digest: 8ad6643b5c309d020cfaa30b47de17ab9221788f9cfbc9a5cc2e618a99041d9c
     home: https://github.com/Alfresco/alfresco-anaxes-hello-world
@@ -569,11 +551,11 @@ entries:
   process-services-infrastructure:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-09T08:46:22.234157996Z
+    created: 2018-07-09T08:49:48.9058402Z
     description: A Helm chart for Kubernetes
     digest: f4b02a629374c58a9b6c76d88f93c0f07d743f0bc7985fc2f4131ce5129bcf70
     name: process-services-infrastructure
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2018-07-09T08:49:13.500402049Z
+generated: 2018-07-09T08:49:48.829312838Z
