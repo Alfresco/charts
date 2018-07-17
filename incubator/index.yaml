@@ -243,9 +243,9 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-dbp-0.2.0.tgz
     version: 0.2.0
   alfresco-event-gateway:
-  - created: 2018-07-17T20:19:46.148502956Z
+  - created: 2018-07-17T20:25:53.969365024Z
     description: Alfresco Event Gateway
-    digest: c071a4be769193296bc853d32904644ef17807681fe0de0eda1e3894b2538327
+    digest: fab65b0eb7ca87df61e897516d838c71d50537670dbe4c19ba59dab5c6c64475
     home: https://github.com/Alfresco/alfresco-event-gateway
     keywords:
     - alfresco
@@ -613,4 +613,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2018-07-17T20:19:46.147937505Z
+generated: 2018-07-17T20:25:53.968752854Z
