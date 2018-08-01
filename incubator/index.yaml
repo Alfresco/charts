@@ -1,9 +1,9 @@
 apiVersion: v1
 entries:
   acs-events-consolidator:
-  - created: 2018-08-01T12:25:57.433568725Z
+  - created: 2018-08-01T12:29:04.499883476Z
     description: ACS Events Consolidator
-    digest: 0898233b44c808f0de33169ce2acb371004d168ad45365af40a4e8a482b4a2e0
+    digest: b7fa3583dff5e655e254a80341ede337c93ffc740b94b70d1386d3c51806a474
     home: https://github.com/Alfresco/acs-events-consolidator
     keywords:
     - alfresco
@@ -689,4 +689,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2018-08-01T12:25:57.432998185Z
+generated: 2018-08-01T12:29:04.499220689Z
