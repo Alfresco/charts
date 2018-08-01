@@ -439,6 +439,18 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-keycloak-0.1.0.tgz
     version: 0.1.0
+  alfresco-modeling-service:
+  - apiVersion: v1
+    appVersion: 1.0-SNAPSHOT
+    created: 2018-08-01T08:01:04.19723267Z
+    description: A Helm chart for the APS2 alfresco-modeling-service service
+    digest: cb851444b8997267aad7ecaeff7d0a5cb8e2eef9aca4b22ac689b576345b6417
+    maintainers:
+    - name: Alfresco
+    name: alfresco-modeling-service
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/alfresco-modeling-service-0.1.0.tgz
+    version: 0.1.0
   alfresco-process-services:
   - apiVersion: v1
     created: 2018-07-26T15:39:58.90259988Z
@@ -665,4 +677,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2018-07-31T20:52:37.383714706Z
+generated: 2018-08-01T08:01:04.191728403Z
