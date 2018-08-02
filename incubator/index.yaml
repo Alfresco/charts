@@ -679,6 +679,23 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/hello-world-service-0.1.tgz
     version: "0.1"
   hello-world-ui:
+  - created: 2018-08-02T16:32:25.728185089Z
+    description: Hello world sample UI to demonstrate deployment capabilities
+    digest: 39177350157ca010479059e0f42e8eb441261dab8c8e3cfffc63beb51d216e24
+    home: https://github.com/Alfresco/alfresco-anaxes-hello-world
+    keywords:
+    - alfresco
+    - anaxes
+    - hello
+    - world
+    maintainers:
+    - name: Alfresco
+    name: hello-world-ui
+    sources:
+    - https://github.com/Alfresco/alfresco-anaxes-hello-world-ui-deployment/helm
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/hello-world-ui-0.2.tgz
+    version: "0.2"
   - created: 2018-08-02T13:42:01.283955348Z
     description: Hello world sample UI to demonstrate deployment capabilities
     digest: c26c9aa55ac49d5f32721e3d74af4a93e25267f371a256045d975c542c4bc068
@@ -706,4 +723,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2018-08-02T16:30:55.026770027Z
+generated: 2018-08-02T16:32:25.727707976Z
