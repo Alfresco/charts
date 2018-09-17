@@ -403,10 +403,10 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-event-gateway-0.1.tgz
     version: "0.1"
   alfresco-identity-service:
-  - created: 2018-09-13T15:33:46.584469294Z
+  - created: 2018-09-17T09:09:04.19943817Z
     description: The Alfresco Identity Service provides a Single Sign On experience
       for the Alfresco Digital Business Platform (DBP).
-    digest: 93ef778bdef3d8dd96b87552536bda2659edee820f3c55bdcadcd9093d23398a
+    digest: e85f8bbdde47a83659bcb7a4a5fab23d8aafd4168fe0b2c92c4fc40188ee8f0b
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
     - alfresco
@@ -1008,4 +1008,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2018-09-14T17:57:20.091865173Z
+generated: 2018-09-17T09:09:04.197363929Z
