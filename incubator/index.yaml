@@ -36,6 +36,17 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-activiti-cloud-registry-0.1.0.tgz
     version: 0.1.0
+  alfresco-adf-app:
+  - apiVersion: v1
+    created: 2018-09-19T14:52:28.953498766Z
+    description: A Helm chart for deploy a generic ADF frontend application
+    digest: 24db7ddf7bb4d4cd37255f5fe564af62263d1f6f89b37a4a86b14139e23f569c
+    maintainers:
+    - name: Alfresco
+    name: alfresco-adf-app
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/alfresco-adf-app-0.1.0.tgz
+    version: 0.1.0
   alfresco-api-gateway:
   - apiVersion: v1
     created: 2018-09-19T10:20:53.655072523Z
@@ -1008,4 +1019,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2018-09-19T13:54:18.807104526Z
+generated: 2018-09-19T14:52:28.953111439Z
