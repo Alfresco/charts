@@ -730,9 +730,9 @@ entries:
   alfresco-modeling-service:
   - apiVersion: v1
     appVersion: 1.0-SNAPSHOT
-    created: 2018-09-19T10:20:53.767570801Z
+    created: 2018-09-25T10:10:05.525263981Z
     description: A Helm chart for the APS2 alfresco-modeling-service service
-    digest: cb851444b8997267aad7ecaeff7d0a5cb8e2eef9aca4b22ac689b576345b6417
+    digest: eefbce81d67be23dd2c98362d4ae6fcada24ca69bb2a6917f3ec93c9c7ca26fd
     maintainers:
     - name: Alfresco
     name: alfresco-modeling-service
@@ -1050,4 +1050,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2018-09-25T09:08:04.075627154Z
+generated: 2018-09-25T10:10:05.519420388Z
