@@ -923,9 +923,9 @@ entries:
   alfresco-template-service:
   - apiVersion: v1
     appVersion: 1.0-SNAPSHOT
-    created: 2018-09-19T10:20:53.797937882Z
+    created: 2018-09-30T15:42:09.950803913Z
     description: A Helm chart for the APS2 alfresco-template-service service
-    digest: 7850f67d797c65022cfbd40756e9032a4284b34a977fb5fcf817d5572d6b1988
+    digest: 93a397d09d97240d30307f868d6158ee7ab551a783a46d07a81e24e213987f09
     maintainers:
     - name: Alfresco
     name: alfresco-template-service
@@ -1081,4 +1081,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2018-09-29T01:21:36.874469863Z
+generated: 2018-09-30T15:42:09.950380544Z
