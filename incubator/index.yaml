@@ -27,9 +27,9 @@ entries:
     version: 0.1.0
   alfresco-activiti-cloud-registry:
   - apiVersion: v1
-    created: 2018-10-03T08:39:59.837985677Z
+    created: 2018-10-03T08:42:53.471555858Z
     description: A Helm chart for Alfresco Activiti Cloud Registry
-    digest: 9938b8090a8c882feea30f0478f6df813f0908f77caaec6aa50512c2d6c05a43
+    digest: e5535cf733970446245b06e2e1710cfbf6c8c7142f6be4724753e7ea8f3c78b2
     maintainers:
     - name: Alfresco
     name: alfresco-activiti-cloud-registry
@@ -1081,4 +1081,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2018-10-03T08:39:59.837568196Z
+generated: 2018-10-03T08:42:53.471112247Z
