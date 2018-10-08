@@ -475,6 +475,18 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-event-gateway-0.1.tgz
     version: "0.1"
+  alfresco-form-service:
+  - apiVersion: v1
+    appVersion: 1.0-SNAPSHOT
+    created: 2018-10-08T14:48:17.239611794Z
+    description: A Helm chart for the APS2 alfresco-form-service service
+    digest: c3ed8797863df96e4beaab9c36c8ea49755b8e450fa9c0785656f5752a543dc0
+    maintainers:
+    - name: Alfresco
+    name: alfresco-form-service
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/alfresco-form-service-0.1.0.tgz
+    version: 0.1.0
   alfresco-identity-service:
   - created: 2018-10-05T16:34:37.943651781Z
     description: The Alfresco Identity Service provides a Single Sign On experience
@@ -1092,4 +1104,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2018-10-05T17:06:19.10281567Z
+generated: 2018-10-08T14:48:17.233733379Z
