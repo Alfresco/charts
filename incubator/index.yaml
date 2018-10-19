@@ -18,6 +18,14 @@ entries:
     version: "0.1"
   activemq:
   - apiVersion: v1
+    created: 2018-10-19T11:08:44.493933695Z
+    description: A Helm chart Providing Apache ActiveMQ.
+    digest: d56ebaf546c738efb081befcee799a543f68ee0520804a238d03662b45ee4816
+    name: activemq
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/activemq-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
     created: 2018-09-19T10:20:53.654374807Z
     description: A Helm chart Providing Apache ActiveMQ.
     digest: 09c410a23fb2f1cff867a5b0b1154109ac99a265bda870e702e0f0468d126df0
@@ -1138,4 +1146,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2018-10-19T10:46:53.649803459Z
+generated: 2018-10-19T11:08:44.493523999Z
