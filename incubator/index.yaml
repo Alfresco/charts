@@ -736,11 +736,11 @@ entries:
     version: "0.1"
   alfresco-infrastructure:
   - apiVersion: v1
-    created: 2018-10-19T09:48:41.982693617Z
+    created: 2018-10-19T11:15:33.552362608Z
     description: A Helm chart Providing the required Alfresco infrastructure for the
       Digital Business Platform. This includes activemq, alfresco-api-gateway, alfresco-identity-service,
       nginx-ingress and a persistent volume to use with the dbp chart.
-    digest: 39f21957d79b9d8e7b4935bb829f98f53dbfa625b1cec5997a55e70c9f63e545
+    digest: 1ba3b4344c72441c7dc760e56fd7b40620822048a18d397a8be25a1a572a302a
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
     urls:
@@ -1146,4 +1146,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2018-10-19T11:10:33.391154736Z
+generated: 2018-10-19T11:15:33.548986811Z
