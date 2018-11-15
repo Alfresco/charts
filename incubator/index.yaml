@@ -563,9 +563,9 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-event-gateway-0.1.1.tgz
     version: 0.1.1
-  - created: 2018-11-14T12:23:15.23532987Z
+  - created: 2018-11-15T12:55:39.223762084Z
     description: Alfresco Event Gateway
-    digest: 3f69c3d97be7550ffd261baa33e3cec2d053fde257fe0d5691d5aa7781d90934
+    digest: 9ddb3f9ba06e661450f6607151fcd1467b391896ba34e97e5d271f02fc624d96
     home: https://github.com/Alfresco/alfresco-event-gateway
     keywords:
     - alfresco
@@ -1280,4 +1280,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2018-11-14T15:34:14.694119411Z
+generated: 2018-11-15T12:55:39.223102583Z
