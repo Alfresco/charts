@@ -1057,9 +1057,9 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-process-services-infrastructure-0.1.0.tgz
     version: 0.1.0
   alfresco-search:
-  - created: 2018-11-19T16:03:27.759801183Z
+  - created: 2018-11-20T14:54:03.910177307Z
     description: A Helm chart for deploying Alfresco Search
-    digest: 49c46702b55f12a2d02ebf0f3a3d92ecbe122709209b2ca7c7a23907946c7dca
+    digest: f0407311fdef8639e4013a52cdcca07319a65ea684750a90572556309eaa3c85
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -1280,4 +1280,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2018-11-20T14:35:55.000130572Z
+generated: 2018-11-20T14:54:03.909513172Z
