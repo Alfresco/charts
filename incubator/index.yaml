@@ -585,9 +585,9 @@ entries:
   alfresco-deployment-service:
   - apiVersion: v1
     appVersion: 1.0-SNAPSHOT
-    created: 2018-12-11T11:14:59.792217035Z
+    created: 2019-01-07T18:26:26.528954861Z
     description: A Helm chart for the APS2 alfresco-deployment-service service
-    digest: 31eb6a512d7cfc801722063897868373a3c5bfa206c3e8647eb38b282b447fb9
+    digest: e06aa7f1273ebd2f517522b89c73ba42754d697a492993efc80bdaea2e9d0a63
     maintainers:
     - name: Alfresco
     name: alfresco-deployment-service
@@ -1409,4 +1409,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2019-01-07T12:40:03.994281186Z
+generated: 2019-01-07T18:26:26.522593283Z
