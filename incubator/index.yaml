@@ -706,6 +706,21 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-digital-workspace-1.0.1-tls.tgz
     version: 1.0.1-tls
+  - appVersion: v1.0.0
+    created: 2019-01-23T14:15:34.156401752Z
+    description: A Helm chart for deploying Alfresco Digital Workspace application
+    digest: 17dc94f2cd3ab539412563b74633f5e973105394981ffe57809bddec8fb9dedf
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - alfresco
+    - digital workskspace
+    name: alfresco-digital-workspace
+    sources:
+    - https://git.alfresco.com/client-applications/digital-workspace-deployment
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/alfresco-digital-workspace-1.0.0.tgz
+    version: 1.0.0
   alfresco-event-gateway:
   - created: 2019-01-22T15:01:27.466553324Z
     description: Alfresco Event Gateway
@@ -1621,4 +1636,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2019-01-23T14:14:41.750484389Z
+generated: 2019-01-23T14:15:34.155928086Z
