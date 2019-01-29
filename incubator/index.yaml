@@ -739,6 +739,22 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-digital-workspace-1.0.0.tgz
     version: 1.0.0
   alfresco-event-gateway:
+  - created: 2019-01-29T08:49:27.703091243Z
+    description: Alfresco Event Gateway
+    digest: 927823c8b0b3311595b0518378de15c6a8788e932dc765a672f7bb8a28b8fe33
+    home: https://github.com/Alfresco/alfresco-event-gateway
+    keywords:
+    - alfresco
+    - events
+    - gateway
+    maintainers:
+    - name: Alfresco
+    name: alfresco-event-gateway
+    sources:
+    - https://github.com/Alfresco/alfresco-event-gateway-deployment/helm
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/alfresco-event-gateway-0.1.2.tgz
+    version: 0.1.2
   - created: 2019-01-22T15:01:27.466553324Z
     description: Alfresco Event Gateway
     digest: aa5072a2e696ac9fb95aa3db6d8eb38dd2ae01a876456e447a7032d965000095
@@ -1653,4 +1669,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2019-01-29T08:46:06.018911825Z
+generated: 2019-01-29T08:49:27.702373814Z
