@@ -1,9 +1,17 @@
 # Alfresco Kubernetes Charts
 
-Helm repository for Alfresco Kubernetes Charts.     
-Please use https://kubernetes-charts.alfresco.com/stable as the helm repo.
+Helm repositories for Alfresco Kubernetes Charts.
 
-## Disclaimer !
+Please use https://kubernetes-charts.alfresco.com/stable when adding the helm repo to environments and charts.
 
-#### The charts in *incubator* are subject to change as we may override the version with new releases.   
-As an end user of the charts, this is to inform you that for latest stable released version, use the charts in *stable* directory. 
+# Helm Repos
+
+## Incubator
+
+Charts in an experimental stage.
+
+**These charts are subject to change as we may override the version with new releases.**
+
+## Stable
+
+Stable released charts that should follow semantic versioning guidelines.
