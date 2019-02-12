@@ -987,23 +987,6 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-identity-service-0.4.tgz
     version: "0.4"
-  - created: 2019-02-12T12:41:13.141604284Z
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
-    digest: 2df0ff00ac5f8c9810910d897ad2d959646dadab7c73c1f384e02bc42c451ab8
-    home: https://github.com/Alfresco/alfresco-identity-service/helm
-    keywords:
-    - alfresco
-    - keycloak
-    - identity-service
-    maintainers:
-    - name: Alfresco
-    name: alfresco-identity-service
-    sources:
-    - https://github.com/Alfresco/alfresco-identity-service/helm
-    urls:
-    - http://kubernetes-charts.alfresco.com/incubator/alfresco-identity-service-0.4.0.tgz
-    version: 0.4.0
   - created: 2019-02-12T12:41:13.127125136Z
     description: The Alfresco Identity Service provides a Single Sign On experience
       for the Alfresco Digital Business Platform (DBP).
@@ -1378,6 +1361,21 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-infrastructure-0.1.0.tgz
     version: 0.1.0
+  alfresco-insight-zeppelin:
+  - created: 2019-02-12T14:37:09.879227515Z
+    description: A Helm chart for deploying Alfresco Insight Zeppelin
+    digest: 31ca9652ff54272ccbd383050532a540da2a2866eb632076b6c865db8bc8a440
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - zeppelin
+    - insight zeppelin
+    - alfresco zeppelin
+    - alfresco insight zeppelin
+    name: alfresco-insight-zeppelin
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/alfresco-insight-zeppelin-0.0.3.tgz
+    version: 0.0.3
   alfresco-keycloak:
   - apiVersion: v1
     created: 2019-02-12T12:41:13.190828471Z
@@ -1757,4 +1755,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2019-02-12T12:41:12.913230196Z
+generated: 2019-02-12T14:37:09.878804146Z
