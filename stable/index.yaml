@@ -557,6 +557,28 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/alfresco-insight-zeppelin-0.0.1.tgz
     version: 0.0.1
+  alfresco-process-infrastructure:
+  - apiVersion: v1
+    appVersion: 2.0.0
+    created: 2019-02-28T18:10:05.33299551Z
+    description: A Helm chart for Alfresco Process Infrastructure
+    digest: 15cca4b839cb9afa285be7b9e687ff2af0ed2868a22cba5adb26da628166563d
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - process
+    - process services
+    - alfresco
+    - alfresco process services
+    - activiti
+    - activiti enterprise
+    - alfresco activiti enterprise
+    name: alfresco-process-infrastructure
+    sources:
+    - https://git.alfresco.com/process-services-public/alfresco-process-infrastructure
+    urls:
+    - http://kubernetes-charts.alfresco.com/stable/alfresco-process-infrastructure-2.0.0.tgz
+    version: 2.0.0
   alfresco-search:
   - created: 2019-02-21T12:58:38.092306746Z
     description: A Helm chart for deploying Alfresco Search
@@ -719,4 +741,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: 2019-02-28T18:07:14.922733626Z
+generated: 2019-02-28T18:10:05.327027238Z
