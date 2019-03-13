@@ -10,7 +10,7 @@ Please use https://kubernetes-charts.alfresco.com/stable when adding the helm re
 
 Charts in an experimental stage.
 
-**These charts are subject to change as we may override the version with new releases.**
+**These charts are subject to change as we may overwrite the version with new releases.**
 
 ## Stable
 
