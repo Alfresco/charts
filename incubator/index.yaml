@@ -1912,9 +1912,9 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/hello-world-app-0.1.tgz
     version: "0.1"
   hello-world-service:
-  - created: 2019-03-26T10:32:16.808617419Z
+  - created: 2019-03-26T16:38:21.931660776Z
     description: Hello world sample service to demonstrate deployment capabilities
-    digest: 642e052159be3c3ce841263e274dd2ac090d011c0c51463cb9541c8bb509dc6a
+    digest: 5321f75505cd2ac31aeb43c80b11557f01f34d29ee46bfe2635a52329118f14b
     home: https://github.com/Alfresco/alfresco-anaxes-hello-world
     keywords:
     - alfresco
@@ -2008,4 +2008,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2019-03-26T11:13:31.892698661Z
+generated: 2019-03-26T16:38:21.930679807Z
