@@ -34,6 +34,20 @@ entries:
   activemq:
   - apiVersion: v1
     appVersion: 5.15.6
+    created: 2019-03-26T18:40:46.386031064Z
+    description: A Helm chart Providing Apache ActiveMQ.
+    digest: 19588dde63500cceb2ed35a3a242c689559b84fc8f6a9de9c983295f348e5b4b
+    keywords:
+    - activemq
+    - message broker
+    name: activemq
+    sources:
+    - https://github.com/Alfresco/alfresco-activemq-deployment
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/activemq-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v1
+    appVersion: 5.15.6
     created: 2019-03-26T16:49:37.251230306Z
     description: A Helm chart Providing Apache ActiveMQ.
     digest: 2dedfc2bb904450e5c25cc2199bf15a8133e8ef698fdce6e9a4916f3c0695fe1
@@ -1119,23 +1133,6 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-identity-service-0.4.tgz
     version: "0.4"
-  - created: 2019-03-26T16:49:37.532523733Z
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
-    digest: 2df0ff00ac5f8c9810910d897ad2d959646dadab7c73c1f384e02bc42c451ab8
-    home: https://github.com/Alfresco/alfresco-identity-service/helm
-    keywords:
-    - alfresco
-    - keycloak
-    - identity-service
-    maintainers:
-    - name: Alfresco
-    name: alfresco-identity-service
-    sources:
-    - https://github.com/Alfresco/alfresco-identity-service/helm
-    urls:
-    - http://kubernetes-charts.alfresco.com/incubator/alfresco-identity-service-0.4.0.tgz
-    version: 0.4.0
   - created: 2019-03-26T16:49:37.517342655Z
     description: The Alfresco Identity Service provides a Single Sign On experience
       for the Alfresco Digital Business Platform (DBP).
@@ -2025,4 +2022,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2019-03-26T16:49:37.249731365Z
+generated: 2019-03-26T18:40:46.385648472Z
