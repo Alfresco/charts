@@ -34,9 +34,9 @@ entries:
   activemq:
   - apiVersion: v1
     appVersion: 5.15.8
-    created: 2019-04-10T03:58:59.857065006Z
+    created: 2019-04-10T04:11:01.464531342Z
     description: A Helm chart Providing Apache ActiveMQ.
-    digest: 2a33b05e070bd42ddb233d733aa8a062ffe7fba04a1b30a93e38711f19179ec3
+    digest: bb74c9c217be66001891e3e1cf805ffa3d6763d5ee9dce9300227f563b73b5b9
     keywords:
     - activemq
     - message broker
@@ -2174,4 +2174,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2019-04-10T03:58:59.856675772Z
+generated: 2019-04-10T04:11:01.464144146Z
