@@ -1933,6 +1933,16 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-process-services-infrastructure-0.1.0.tgz
     version: 0.1.0
+  alfresco-process-springboot-service:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-04-16T11:31:05.118757471Z
+    description: A Helm chart for a generic APS Spring Boot based microservice
+    digest: 88c16482e6c3307cf2daeb58697e7b80913ce51d0b8bb53136176a3d820ef2d1
+    name: alfresco-process-springboot-service
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/alfresco-process-springboot-service-2.1.0.tgz
+    version: 2.1.0
   alfresco-search:
   - created: 2019-04-16T08:52:41.272404976Z
     description: A Helm chart for deploying Alfresco Search
@@ -2242,4 +2252,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2019-04-16T09:13:53.786822456Z
+generated: 2019-04-16T11:31:05.118062646Z
