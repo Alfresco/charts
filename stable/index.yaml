@@ -664,9 +664,9 @@ entries:
   alfresco-process-application:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: 2019-04-24T15:30:00.307064723Z
+    created: 2019-04-29T16:08:02.383964492Z
     description: A Helm chart for Alfresco Activiti Enterprise Process Application
-    digest: bbc83957e329cdd0df4846d488501df2a3be6fbdfc6bdb5682c9ab148b75bf02
+    digest: 96fd5044f7e6ec6fe181d0916b40659ed45f837400f1bba319e35e96921992c1
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -885,4 +885,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: 2019-04-29T16:07:20.446966192Z
+generated: 2019-04-29T16:08:02.352700747Z
