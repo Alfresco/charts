@@ -2000,9 +2000,9 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-process-springboot-service-2.1.0.tgz
     version: 2.1.0
   alfresco-search:
-  - created: 2019-06-05T16:08:23.168850677Z
+  - created: 2019-06-05T16:16:00.745164621Z
     description: A Helm chart for deploying Alfresco Search
-    digest: 1420571ea0468fd3502116720d62c38b5ca9108d5833fd6db85959b0999b1b30
+    digest: c7f5ce041214205c2208b6f3b3fa3d7f075d18221b1d542e77d723f6a2a6af79
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -2291,4 +2291,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2019-06-05T16:08:23.168158946Z
+generated: 2019-06-05T16:16:00.744408712Z
