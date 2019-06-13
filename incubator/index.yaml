@@ -1155,12 +1155,12 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-form-service-0.1.0.tgz
     version: 0.1.0
   alfresco-identity-service:
-  - created: 2019-06-13T14:54:33.22352974Z
+  - created: 2019-06-13T20:16:16.13356956Z
     description: The Alfresco Identity Service will become the central component responsible
       for identity-related capabilities needed by other Alfresco software, such as
       managing users, groups, roles, profiles, and authentication. Currently it deals
       just with authentication.
-    digest: 2d4c7c27de6a286b5040368cbd53cd7ddcdff10cbf6ecb2ed4b762527efadca9
+    digest: da26eb078fdd5671ecc4d2db1c3de47fc389fa31a59ed57fd84856dd20a12787
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
     - alfresco
@@ -2325,4 +2325,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2019-06-13T19:56:04.442081568Z
+generated: 2019-06-13T20:16:16.13148337Z
