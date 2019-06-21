@@ -707,9 +707,9 @@ entries:
   alfresco-process-infrastructure:
   - apiVersion: v1
     appVersion: 2.2.0
-    created: 2019-06-21T14:10:03.948158633Z
+    created: 2019-06-21T16:30:40.302255682Z
     description: A Helm chart for Alfresco Process Infrastructure
-    digest: c79d6c800e87df371bc796067ec39f9e4e9e067d2248558d2a366af0641e3595
+    digest: b3da94bbfc3ab74afa301ff90f7884489f0a00cd7648e3a6baafc8a46afa051f
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -945,4 +945,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: 2019-06-21T16:29:37.360538385Z
+generated: 2019-06-21T16:30:40.290827451Z
