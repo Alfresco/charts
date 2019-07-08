@@ -1127,6 +1127,16 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-digital-workspace-1.0.0.tgz
     version: 1.0.0
+  alfresco-dmn-service:
+  - apiVersion: v1
+    appVersion: 2.3.0-SNAPSHOT
+    created: 2019-07-08T12:59:25.579119052Z
+    description: Helm chart for alfresco-dmn-service
+    digest: 7f81ac5302030be1b6227d47343d1001f2d018e299aae495e34bae60d67b5b96
+    name: alfresco-dmn-service
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/alfresco-dmn-service-0.1.0.tgz
+    version: 0.1.0
   alfresco-event-gateway:
   - created: 2019-06-13T14:54:33.178605561Z
     description: Alfresco Event Gateway
@@ -2440,4 +2450,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2019-07-08T09:21:25.647865736Z
+generated: 2019-07-08T12:59:25.57833182Z
