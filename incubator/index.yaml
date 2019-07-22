@@ -2278,9 +2278,9 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-search-services-0.0.1.tgz
     version: 0.0.1
   alfresco-sync-service:
-  - created: 2019-07-17T13:24:33.068080088Z
+  - created: 2019-07-22T14:01:48.925190724Z
     description: Alfresco Syncservice
-    digest: 3119e5f0c14d909591b44224a38cb5a365c52d0600d5ad3414894eeba78e7842
+    digest: 139aaa3f185e79c679d1a73e4f115e79fd7583da76e1871e7796ef037cb69b8b
     engine: gotpl
     keywords:
     - syncservice
@@ -2481,4 +2481,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2019-07-22T13:08:25.529177457Z
+generated: 2019-07-22T14:01:48.924098766Z
