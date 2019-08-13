@@ -352,9 +352,9 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-content-services-3.0.0-include-sync-service.tgz
     version: 3.0.0-include-sync-service
   - appVersion: 6.1.1
-    created: 2019-08-12T13:51:43.493924606Z
+    created: 2019-08-13T13:52:28.925550531Z
     description: A Helm chart for deploying Alfresco Content Services
-    digest: 942c6c89dfc38c39c13a2d110a01757df19aa35dbd3bed4dc9ce197f46a8c37c
+    digest: 92a357d352d5ec57514c849ff492fde79e211a0a7a020266b64d7aab0f895792
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -2602,4 +2602,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2019-08-13T13:30:45.361943887Z
+generated: 2019-08-13T13:52:28.918236411Z
