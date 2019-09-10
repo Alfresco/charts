@@ -876,21 +876,6 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-dbp-1.5.tgz
     version: "1.5"
-  - appVersion: "1.5"
-    created: 2019-09-10T15:25:30.011225483Z
-    description: A Helm chart for the Alfresco Digital Business Platform
-    digest: 92b562d3d6c0618edb01f30ff96323884015dce00f651a06c137ad3c10336bfe
-    home: https://www.alfresco.com/platform
-    keywords:
-    - alfresco
-    - dbp
-    - platform
-    maintainers:
-    - name: Alfresco Platform Services Team
-    name: alfresco-dbp
-    urls:
-    - http://kubernetes-charts.alfresco.com/incubator/alfresco-dbp-1.5.0.tgz
-    version: 1.5.0
   - created: 2019-09-10T15:25:29.994933629Z
     description: A Helm chart for the Alfresco Digital Business Platform
     digest: 74efc09bb8ee8336768ba468d1400125a813ea53f6b91650c768afadeaa6078a
@@ -1529,23 +1514,6 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-identity-service-0.4.tgz
     version: "0.4"
-  - created: 2019-09-10T15:25:30.068575703Z
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
-    digest: 2df0ff00ac5f8c9810910d897ad2d959646dadab7c73c1f384e02bc42c451ab8
-    home: https://github.com/Alfresco/alfresco-identity-service/helm
-    keywords:
-    - alfresco
-    - keycloak
-    - identity-service
-    maintainers:
-    - name: Alfresco
-    name: alfresco-identity-service
-    sources:
-    - https://github.com/Alfresco/alfresco-identity-service/helm
-    urls:
-    - http://kubernetes-charts.alfresco.com/incubator/alfresco-identity-service-0.4.0.tgz
-    version: 0.4.0
   - created: 2019-09-10T15:25:30.053212806Z
     description: The Alfresco Identity Service provides a Single Sign On experience
       for the Alfresco Digital Business Platform (DBP).
@@ -2446,6 +2414,24 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-process-springboot-service-2.1.0.tgz
     version: 2.1.0
   alfresco-search:
+  - created: 2019-09-10T15:39:38.447253766Z
+    description: A Helm chart for deploying Alfresco Search
+    digest: 3f3f6dbcccbd3f90f254f343cce55304e4bb40f99dc97cd12c361ec0dca5c417
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - search
+    - search services
+    - alfresco search services
+    - insight
+    - insight engine
+    - alfresco insight engine
+    name: alfresco-search
+    sources:
+    - https://github.com/alfresco/alfresco-search-deployment
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/alfresco-search-1.0.0.tgz
+    version: 1.0.0
   - created: 2019-09-10T15:25:30.360177056Z
     description: A Helm chart for deploying Alfresco Search
     digest: ec830694387b186ba66171e2727db09ee39386721361d78c9ebf274c59b42cb0
@@ -2780,4 +2766,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2019-09-10T15:25:29.602859911Z
+generated: 2019-09-10T15:39:38.446603831Z
