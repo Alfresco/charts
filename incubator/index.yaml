@@ -1188,9 +1188,9 @@ entries:
   alfresco-dbp-connector-service:
   - apiVersion: v1
     appVersion: 0.5.0-SNAPSHOT
-    created: 2019-09-20T11:21:00.757074407Z
+    created: 2019-09-20T11:35:05.834528724Z
     description: Alfresco DBP Connector Chart for Alfresco Content Services
-    digest: 4b0f4fb8c586446f73b172a45ba0eaf86f6d590afd91139ffca3e359a5be0744
+    digest: 69ed481179e899670d6c31a5d4fc6c22ea371642548a549419e2b118e1c4e7b4
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
     name: alfresco-dbp-connector-service
     urls:
@@ -2827,4 +2827,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2019-09-20T11:21:00.756723248Z
+generated: 2019-09-20T11:35:05.834160188Z
