@@ -43,20 +43,6 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/activemq-1.0.0.tgz
     version: 1.0.0
-  - apiVersion: v1
-    appVersion: 5.15.6
-    created: 2019-10-01T14:49:05.492302595Z
-    description: A Helm chart Providing Apache ActiveMQ.
-    digest: f2bdbc7d0c2211f82e09e0fcb2536c6080bf60f5bb95ccf83c402cb855a8425c
-    keywords:
-    - activemq
-    - message broker
-    name: activemq
-    sources:
-    - https://github.com/Alfresco/alfresco-activemq-deployment
-    urls:
-    - http://kubernetes-charts.alfresco.com/stable/activemq-1.tgz
-    version: "1"
   alfresco-adf-app:
   - apiVersion: v1
     appVersion: 2.0.0
@@ -815,6 +801,27 @@ entries:
     version: 2.0.0
   alfresco-process-infrastructure:
   - apiVersion: v1
+    appVersion: 7.1.0.M4
+    created: 2019-10-02T11:48:02.424297363Z
+    description: A Helm chart for Alfresco Process Infrastructure
+    digest: dabdda080499e00a4b00bfc819f2267e97698032088c3224e1b4961fc55cd035
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - process
+    - process services
+    - alfresco
+    - alfresco process services
+    - activiti
+    - activiti enterprise
+    - alfresco activiti enterprise
+    name: alfresco-process-infrastructure
+    sources:
+    - https://git.alfresco.com/process-services-public/alfresco-process-infrastructure
+    urls:
+    - http://kubernetes-charts.alfresco.com/stable/alfresco-process-infrastructure-7.1.0-M4.tgz
+    version: 7.1.0-M4
+  - apiVersion: v1
     appVersion: 2.3.0
     created: 2019-10-01T14:49:05.623034862Z
     description: A Helm chart for Alfresco Process Infrastructure
@@ -1153,4 +1160,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: 2019-10-01T14:49:05.491089379Z
+generated: 2019-10-02T11:48:02.411927763Z
