@@ -2937,6 +2937,21 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-sync-service-2.0.0.tgz
     version: 2.0.0
   - appVersion: 3.2.0
+    created: 2019-10-28T11:52:11.363971905Z
+    description: Alfresco Syncservice
+    digest: 56862a9f9323e11b5537aaeb6dd542264591e4ed87b532fc50587560aad2bed5
+    engine: gotpl
+    keywords:
+    - syncservice
+    - alfresco
+    - application
+    maintainers:
+    - name: Alfresco Apps Repo Team
+    name: alfresco-sync-service
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/alfresco-sync-service-2.0.0-RC2.tgz
+    version: 2.0.0-RC2
+  - appVersion: 3.2.0
     created: 2019-10-24T15:26:42.761901047Z
     description: Alfresco Syncservice
     digest: 2f88ca8637f93d4c07126d70594d0ecd2e262aed49269f827e4752596a9e800e
@@ -3214,4 +3229,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2019-10-25T14:57:11.329819542Z
+generated: 2019-10-28T11:52:11.362885072Z
