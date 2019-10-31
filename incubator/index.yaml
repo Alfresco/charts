@@ -1856,23 +1856,6 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-identity-service-0.4.0.tgz
     version: 0.4.0
-  - created: 2019-10-30T17:51:54.438582817Z
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
-    digest: 01f36e1b3109aefb121348d561d3b616877fdd259336bae0197f9f9159bdd353
-    home: https://github.com/Alfresco/alfresco-identity-service/helm
-    keywords:
-    - alfresco
-    - keycloak
-    - identity-service
-    maintainers:
-    - name: Alfresco
-    name: alfresco-identity-service
-    sources:
-    - https://github.com/Alfresco/alfresco-identity-service/helm
-    urls:
-    - http://kubernetes-charts.alfresco.com/incubator/alfresco-identity-service-0.4.tgz
-    version: "0.4"
   - created: 2019-10-30T17:51:54.417638933Z
     description: The Alfresco Identity Service provides a Single Sign On experience
       for the Alfresco Digital Business Platform (DBP).
@@ -2888,6 +2871,24 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-process-springboot-service-2.1.0.tgz
     version: 2.1.0
   alfresco-search:
+  - created: 2019-10-31T08:58:23.473008046Z
+    description: A Helm chart for deploying Alfresco Search
+    digest: 5de36cd7d69dd47f49b0edc3f52f6041e7990621cece0b02d3851794d2f003cf
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - search
+    - search services
+    - alfresco search services
+    - insight
+    - insight engine
+    - alfresco insight engine
+    name: alfresco-search
+    sources:
+    - https://github.com/alfresco/alfresco-search-deployment
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/alfresco-search-1.0.1.tgz
+    version: 1.0.1
   - created: 2019-10-30T17:51:54.792033019Z
     description: A Helm chart for deploying Alfresco Search
     digest: ec830694387b186ba66171e2727db09ee39386721361d78c9ebf274c59b42cb0
@@ -3297,4 +3298,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2019-10-30T17:51:53.890361024Z
+generated: 2019-10-31T08:58:23.472313346Z
