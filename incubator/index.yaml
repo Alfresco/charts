@@ -949,9 +949,9 @@ entries:
     version: 1.0.1
   alfresco-dbp:
   - appVersion: 2.0-SNAPSHOT
-    created: 2019-11-05T14:19:07.861213567Z
+    created: 2019-11-05T14:22:07.948888664Z
     description: A Helm chart for the Alfresco Digital Business Platform
-    digest: e9bed038283cac9e674d2d91f7029995b385edac0baa8817d7da1b6ac2ea14b9
+    digest: 3c05a26b7c8c72e7b2365b7e11411bcca4d7bba3311b58efc75506e27c77d33f
     home: https://www.alfresco.com/platform
     keywords:
     - alfresco
@@ -3354,4 +3354,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2019-11-05T14:19:07.845739786Z
+generated: 2019-11-05T14:22:07.933324326Z
