@@ -1416,7 +1416,7 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-digital-workspace-1.2.0.tgz
     version: 1.2.0
   - appVersion: v1.2.0
-    created: 2019-11-04T12:06:36.398901288Z
+    created: 2019-11-05T14:10:31.61180408Z
     description: A Helm chart for deploying Alfresco Digital Workspace application
     digest: 3c6ed16a6481ee61240c7740c14da7508452f6ec8c6fb439b48461de092d1792
     home: https://www.alfresco.com
@@ -3339,4 +3339,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2019-11-05T12:57:16.833286588Z
+generated: 2019-11-05T14:10:31.611265908Z
