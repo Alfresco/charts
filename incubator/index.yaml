@@ -2471,6 +2471,20 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-infrastructure-0.1.0.tgz
     version: 0.1.0
   alfresco-insight-zeppelin:
+  - created: 2020-01-15T13:50:06.620734329Z
+    description: A Helm chart for deploying Alfresco Insight Zeppelin
+    digest: 5b77f751e7b74b89aaf10d7e5d1fb80cd75ce2ea5332e6e9a1af147222d56096
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - zeppelin
+    - insight zeppelin
+    - alfresco zeppelin
+    - alfresco insight zeppelin
+    name: alfresco-insight-zeppelin
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/alfresco-insight-zeppelin-1.0.3.tgz
+    version: 1.0.3
   - created: 2020-01-15T12:56:13.556651798Z
     description: A Helm chart for deploying Alfresco Insight Zeppelin
     digest: 2788b38923353fba5bc88f3eb127343ed0a77ecab172f4e6e886ecacd6ac2dfd
@@ -3498,4 +3512,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2020-01-15T13:23:16.031500246Z
+generated: 2020-01-15T13:50:06.620314604Z
