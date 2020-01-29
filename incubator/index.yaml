@@ -1629,9 +1629,9 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-dmn-service-0.1.0.tgz
     version: 0.1.0
   alfresco-event-gateway:
-  - created: 2020-01-22T15:28:53.875568467Z
+  - created: 2020-01-29T19:23:28.019026165Z
     description: Alfresco Event Gateway
-    digest: dccac313e70595c6b02926f3845b84a1742886dc37d85f4cb5f8f66855ad12ad
+    digest: c7f4e884254d2abec0ee31be782e22161677cd63b3915723dd01e61e1e12c28b
     home: https://github.com/Alfresco/alfresco-event-gateway
     keywords:
     - alfresco
@@ -3524,4 +3524,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2020-01-29T14:54:30.512583871Z
+generated: 2020-01-29T19:23:28.018359222Z
