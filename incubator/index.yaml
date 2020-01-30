@@ -1691,12 +1691,12 @@ entries:
     version: 0.1.0
   alfresco-identity-service:
   - appVersion: 1.2.0
-    created: 2020-01-30T11:56:05.26858975Z
+    created: 2020-01-30T12:06:38.229277204Z
     description: The Alfresco Identity Service will become the central component responsible
       for identity-related capabilities needed by other Alfresco software, such as
       managing users, groups, roles, profiles, and authentication. Currently it deals
       just with authentication.
-    digest: eb0448ae52fc41b78aa58008a105e0b85ae840617fce8efc0b49230a495561ca
+    digest: 9e0178a1473a76b759a48320d529923c75005c6de043b9feddbd22d10755b6a1
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
     - alfresco
@@ -3524,4 +3524,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2020-01-30T11:56:05.265504073Z
+generated: 2020-01-30T12:06:38.226288001Z
