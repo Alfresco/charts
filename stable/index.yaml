@@ -43,21 +43,35 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/activemq-1.0.0.tgz
     version: 1.0.0
-  - apiVersion: v1
-    appVersion: 5.15.6
-    created: 2020-01-22T15:28:57.494608451Z
-    description: A Helm chart Providing Apache ActiveMQ.
-    digest: f2bdbc7d0c2211f82e09e0fcb2536c6080bf60f5bb95ccf83c402cb855a8425c
-    keywords:
-    - activemq
-    - message broker
-    name: activemq
-    sources:
-    - https://github.com/Alfresco/alfresco-activemq-deployment
-    urls:
-    - http://kubernetes-charts.alfresco.com/stable/activemq-1.tgz
-    version: "1"
   alfresco-adf-app:
+  - apiVersion: v1
+    appVersion: 2.1.0
+    created: 2020-02-06T16:38:15.287293364Z
+    description: A Helm chart for a generic Alfresco ADF frontend application
+    digest: 4dd65ff5fd47130f4c9aa4321b705c6b56c9b03d0e670e8646d19413e42ffb97
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - alfresco
+    - adf
+    - alfresco development framework
+    - content
+    - content services
+    - alfresco content services
+    - process
+    - process services
+    - alfresco process services
+    - activiti
+    - activiti enterprise
+    - alfresco activiti enterprise
+    maintainers:
+    - name: Alfresco
+    name: alfresco-adf-app
+    sources:
+    - https://github.com/alfresco/alfresco-adf-app-deployment
+    urls:
+    - http://kubernetes-charts.alfresco.com/stable/alfresco-adf-app-2.1.3.tgz
+    version: 2.1.3
   - apiVersion: v1
     appVersion: 2.0.0
     created: 2020-01-22T15:28:57.494952173Z
@@ -1652,4 +1666,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: 2020-01-22T15:28:57.493484626Z
+generated: 2020-02-06T16:38:15.285577371Z
