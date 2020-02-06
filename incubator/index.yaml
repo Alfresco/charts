@@ -3139,10 +3139,10 @@ entries:
     version: 0.1.0
   alfresco-process-springboot-service:
   - apiVersion: v1
-    created: 2020-01-22T15:28:54.281956556Z
+    created: 2020-02-06T18:00:52.180926772Z
     description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot
       based microservice
-    digest: b9e67726b400ae83d3c6758505d4f96f23d2f0df55c699a3522152b329e3ab43
+    digest: 3a260c0324457cec5c99a22345639008b0c6a827f0002120e9b002ecb87892f9
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -3574,4 +3574,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2020-02-06T16:35:14.952258754Z
+generated: 2020-02-06T18:00:52.179311088Z
