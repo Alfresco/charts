@@ -1062,9 +1062,9 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-dbp-1.6.0-kerberos.tgz
     version: 1.6.0-kerberos
   - appVersion: 1.6-SNAPSHOT
-    created: 2020-02-07T15:37:07.343616816Z
+    created: 2020-02-07T15:53:27.014258486Z
     description: A Helm chart for the Alfresco Digital Business Platform
-    digest: 724855957d2f142370efd8d540280c07a34890c0a45ccfe3039ef537c0194b0e
+    digest: 732fbd18c12a9b12bc0d75dbe90f08da05c21196e106c187cae54e234f093382
     home: https://www.alfresco.com/platform
     keywords:
     - alfresco
@@ -3574,4 +3574,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2020-02-07T15:37:07.328083519Z
+generated: 2020-02-07T15:53:26.998979403Z
