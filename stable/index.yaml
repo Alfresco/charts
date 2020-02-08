@@ -46,9 +46,9 @@ entries:
   alfresco-adf-app:
   - apiVersion: v1
     appVersion: 2.1.0
-    created: 2020-02-08T17:13:41.645248616Z
+    created: 2020-02-08T17:22:37.157243228Z
     description: A Helm chart for a generic Alfresco ADF frontend application
-    digest: 691b3a46c7d406007a54c33d1fdbb025899bf2728d6b8a587cc0c7bcd0494329
+    digest: 4e2074d5ce856542c1eb308c14f362ff72d49764b0ead7cc8e7cc7d3bd224893
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -1693,4 +1693,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: 2020-02-08T17:13:41.64358233Z
+generated: 2020-02-08T17:22:37.155623325Z
