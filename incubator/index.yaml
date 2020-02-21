@@ -2083,23 +2083,6 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-identity-service-0.4.0.tgz
     version: 0.4.0
-  - created: 2020-02-21T14:41:26.378386565Z
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
-    digest: 01f36e1b3109aefb121348d561d3b616877fdd259336bae0197f9f9159bdd353
-    home: https://github.com/Alfresco/alfresco-identity-service/helm
-    keywords:
-    - alfresco
-    - keycloak
-    - identity-service
-    maintainers:
-    - name: Alfresco
-    name: alfresco-identity-service
-    sources:
-    - https://github.com/Alfresco/alfresco-identity-service/helm
-    urls:
-    - http://kubernetes-charts.alfresco.com/incubator/alfresco-identity-service-0.4.tgz
-    version: "0.4"
   - created: 2020-02-21T14:41:26.358370098Z
     description: The Alfresco Identity Service provides a Single Sign On experience
       for the Alfresco Digital Business Platform (DBP).
@@ -2796,9 +2779,9 @@ entries:
   alfresco-process-infrastructure:
   - apiVersion: v1
     appVersion: 7.1.0.M6
-    created: 2020-02-21T14:41:26.70072847Z
+    created: 2020-02-21T21:07:47.518885501Z
     description: A Helm chart for Alfresco Activiti Enterprise infrastructure
-    digest: 535fe5603f1d76bbf8e404404ee650e4a22ca6b3fe7fdefbb533823d2d623513
+    digest: 2689d749934c977af32fc9ed780c44e669e678242869abaa6d924d72aedffd02
     home: https://github.com/Alfresco/alfresco-process-infrastructure
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -2810,7 +2793,7 @@ entries:
     sources:
     - https://github.com/Alfresco/alfresco-process-infrastructure
     urls:
-    - http://kubernetes-charts.alfresco.com/incubator/alfresco-process-infrastructure-7.1.0-M6.tgz
+    - https://kubernetes-charts.alfresco.com/incubator/alfresco-process-infrastructure-7.1.0-M6.tgz
     version: 7.1.0-M6
   - apiVersion: v1
     appVersion: 7.1.0.M5
@@ -3634,4 +3617,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2020-02-21T14:41:25.743899253Z
+generated: 2020-02-21T21:07:47.506324919Z
