@@ -2083,23 +2083,6 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-identity-service-0.4.0.tgz
     version: 0.4.0
-  - created: 2020-02-24T08:55:36.670936142Z
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
-    digest: 01f36e1b3109aefb121348d561d3b616877fdd259336bae0197f9f9159bdd353
-    home: https://github.com/Alfresco/alfresco-identity-service/helm
-    keywords:
-    - alfresco
-    - keycloak
-    - identity-service
-    maintainers:
-    - name: Alfresco
-    name: alfresco-identity-service
-    sources:
-    - https://github.com/Alfresco/alfresco-identity-service/helm
-    urls:
-    - http://kubernetes-charts.alfresco.com/incubator/alfresco-identity-service-0.4.tgz
-    version: "0.4"
   - created: 2020-02-24T08:55:36.649504423Z
     description: The Alfresco Identity Service provides a Single Sign On experience
       for the Alfresco Digital Business Platform (DBP).
@@ -3357,6 +3340,21 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-sync-service-2.0.0-RC1.tgz
     version: 2.0.0-RC1
   - appVersion: 3.1.2
+    created: 2020-02-24T09:05:45.676753243Z
+    description: Alfresco Syncservice
+    digest: 4f5050a85fbb699d8d3016bc3eb608c04aaa5e159547f5284ffd4c8f121dca7d
+    engine: gotpl
+    keywords:
+    - syncservice
+    - alfresco
+    - application
+    maintainers:
+    - name: Alfresco Apps Repo Team
+    name: alfresco-sync-service
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/alfresco-sync-service-1.1.2.tgz
+    version: 1.1.2
+  - appVersion: 3.1.2
     created: 2020-02-24T08:55:37.066230369Z
     description: Alfresco Syncservice
     digest: 6fd1b3eab73d6ab9c37ca674290fe15a893e978784f8bd05b7b604ede51e516d
@@ -3619,4 +3617,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2020-02-24T08:55:36.00090445Z
+generated: 2020-02-24T09:05:45.675599971Z
