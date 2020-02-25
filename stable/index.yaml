@@ -1285,9 +1285,9 @@ entries:
   alfresco-process-infrastructure:
   - apiVersion: v1
     appVersion: 7.1.0.M6
-    created: 2020-02-24T20:24:31.348626325Z
+    created: 2020-02-25T09:58:44.676519917Z
     description: A Helm chart for Alfresco Activiti Enterprise infrastructure
-    digest: 410b7fda86c861791dd70979516a33f8ff5aa37d97e02d0c1e7cd3098df99369
+    digest: b9506a19c7d2e4f61f9715e22e34343a28c4c97652444181068e88a7a5604280
     home: https://github.com/Alfresco/alfresco-process-infrastructure
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -1905,4 +1905,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: 2020-02-24T20:24:31.335512859Z
+generated: 2020-02-25T09:58:44.665708479Z
