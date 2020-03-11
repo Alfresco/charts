@@ -3120,6 +3120,32 @@ entries:
     version: 0.1.0
   alfresco-process-springboot-service:
   - apiVersion: v1
+    created: 2020-03-11T12:26:53.777371084Z
+    description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot
+      based microservice
+    digest: 7577142f32ec600548c06e58c99936c1368028624a279f965d55f1ab31424fe8
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - alfresco
+    - content
+    - content services
+    - alfresco content services
+    - activiti
+    - process
+    - alfresco activiti enterprise
+    - java
+    - spring boot
+    - microservice
+    maintainers:
+    - name: Alfresco
+    name: alfresco-process-springboot-service
+    sources:
+    - https://github.com/Alfresco/alfresco-process-springboot-service-deployment
+    urls:
+    - https://kubernetes-charts.alfresco.com/incubator/alfresco-process-springboot-service-2.2.0.tgz
+    version: 2.2.0
+  - apiVersion: v1
     created: 2020-02-25T14:46:25.505407696Z
     description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot
       based microservice
@@ -3600,4 +3626,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2020-03-10T11:50:08.084602255Z
+generated: 2020-03-11T12:26:53.776216294Z
