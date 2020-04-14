@@ -2626,9 +2626,9 @@ entries:
   alfresco-process-application:
   - apiVersion: v1
     appVersion: 7.1.0.M7
-    created: 2020-04-10T15:47:29.211539892Z
+    created: 2020-04-14T12:12:46.370655171Z
     description: A Helm chart for an Alfresco Activiti Enterprise application
-    digest: 1ef9b12c36e383ed9ba1f0d6c805ea703796e66a5d0d061e207125255f0a9dc8
+    digest: d9056e973d97859c526f208a675b6f733782489f2623ca0342eddd2ca9365798
     home: https://github.com/Alfresco/alfresco-process-application-deployment
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -3677,4 +3677,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2020-04-10T15:47:29.203909043Z
+generated: 2020-04-14T12:12:46.363601258Z
