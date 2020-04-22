@@ -112,9 +112,9 @@ entries:
   alfresco-adf-app:
   - apiVersion: v1
     appVersion: 2.1.0
-    created: 2020-04-21T17:07:12.24917226Z
+    created: 2020-04-22T13:28:49.201527671Z
     description: A Helm chart for a generic Alfresco ADF frontend application
-    digest: b8838f4e99875f8087d7662ed08301d1fcf0a5bc9b5d5742f2c79b43343e6ade
+    digest: 9e0ce737a51e5b401bb71806d957f1804faa1fb778b2fb393a5a7b5a4a403b03
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -3694,4 +3694,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2020-04-22T10:42:47.091326103Z
+generated: 2020-04-22T13:28:49.199841041Z
