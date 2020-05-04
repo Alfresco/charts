@@ -43,20 +43,6 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/activemq-1.0.0.tgz
     version: 1.0.0
-  - apiVersion: v1
-    appVersion: 5.15.6
-    created: 2020-03-31T17:10:43.875617839Z
-    description: A Helm chart Providing Apache ActiveMQ.
-    digest: f2bdbc7d0c2211f82e09e0fcb2536c6080bf60f5bb95ccf83c402cb855a8425c
-    keywords:
-    - activemq
-    - message broker
-    name: activemq
-    sources:
-    - https://github.com/Alfresco/alfresco-activemq-deployment
-    urls:
-    - http://kubernetes-charts.alfresco.com/stable/activemq-1.tgz
-    version: "1"
   alfresco-adf-app:
   - apiVersion: v1
     appVersion: 2.1.0
@@ -1489,6 +1475,32 @@ entries:
     version: 0.1.5
   alfresco-process-springboot-service:
   - apiVersion: v1
+    created: 2020-05-04T20:50:33.526307506Z
+    description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot
+      based microservice
+    digest: 9d4e6ff3b02f01d2ab4036cd8d806f1e58acbf90ecf1b60c55f71b716f670b04
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - alfresco
+    - content
+    - content services
+    - alfresco content services
+    - activiti
+    - process
+    - alfresco activiti enterprise
+    - java
+    - spring boot
+    - microservice
+    maintainers:
+    - name: Alfresco
+    name: alfresco-process-springboot-service
+    sources:
+    - https://github.com/Alfresco/alfresco-process-springboot-service-deployment
+    urls:
+    - https://kubernetes-charts.alfresco.com/stable/alfresco-process-springboot-service-2.2.0.tgz
+    version: 2.2.0
+  - apiVersion: v1
     created: 2020-03-31T17:10:44.196031062Z
     description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot
       based microservice
@@ -1964,4 +1976,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: 2020-03-31T17:10:43.874455973Z
+generated: 2020-05-04T20:50:33.524446941Z
