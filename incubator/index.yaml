@@ -2267,23 +2267,6 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-identity-service-0.4.0.tgz
     version: 0.4.0
-  - created: 2020-05-13T07:50:14.903956931Z
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
-    digest: 01f36e1b3109aefb121348d561d3b616877fdd259336bae0197f9f9159bdd353
-    home: https://github.com/Alfresco/alfresco-identity-service/helm
-    keywords:
-    - alfresco
-    - keycloak
-    - identity-service
-    maintainers:
-    - name: Alfresco
-    name: alfresco-identity-service
-    sources:
-    - https://github.com/Alfresco/alfresco-identity-service/helm
-    urls:
-    - http://kubernetes-charts.alfresco.com/incubator/alfresco-identity-service-0.4.tgz
-    version: "0.4"
   - created: 2020-05-13T07:50:14.882619155Z
     description: The Alfresco Identity Service provides a Single Sign On experience
       for the Alfresco Digital Business Platform (DBP).
@@ -3525,6 +3508,21 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-search-services-0.0.1.tgz
     version: 0.0.1
   alfresco-sync-service:
+  - appVersion: 3.3.2
+    created: 2020-05-13T08:10:40.356120812Z
+    description: Alfresco Syncservice
+    digest: 481f173225c9d81f7143509ee9f20a5fada6f03e254bb88502bcdee90d0e13ec
+    engine: gotpl
+    keywords:
+    - syncservice
+    - alfresco
+    - application
+    maintainers:
+    - name: Alfresco Apps Repo Team
+    name: alfresco-sync-service
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/alfresco-sync-service-3.0.4-SNAPSHOT.tgz
+    version: 3.0.4-SNAPSHOT
   - appVersion: 3.3.1
     created: 2020-05-13T07:50:15.31674071Z
     description: Alfresco Syncservice
@@ -3878,4 +3876,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2020-05-13T07:50:14.199188876Z
+generated: 2020-05-13T08:10:40.355014534Z
