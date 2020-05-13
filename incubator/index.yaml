@@ -383,9 +383,9 @@ entries:
     version: 0.0.1
   alfresco-content-services:
   - appVersion: 7.0.0
-    created: 2020-05-07T20:02:29.146526473Z
+    created: 2020-05-13T06:31:34.689851882Z
     description: A Helm chart for deploying Alfresco Content Services
-    digest: 86411355c30c5806125519f6026ea74e7aa7ddb0b7217f956b8ad94b9806b635
+    digest: 129626f769975db0bd8e59047d84b5d7a14c50c9f14b121368824a4a6063c11a
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -3876,4 +3876,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2020-05-12T17:18:01.587057911Z
+generated: 2020-05-13T06:31:34.680676961Z
