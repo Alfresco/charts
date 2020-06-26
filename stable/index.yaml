@@ -43,20 +43,6 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/activemq-1.0.0.tgz
     version: 1.0.0
-  - apiVersion: v1
-    appVersion: 5.15.6
-    created: 2020-06-03T12:03:30.047704458Z
-    description: A Helm chart Providing Apache ActiveMQ.
-    digest: f2bdbc7d0c2211f82e09e0fcb2536c6080bf60f5bb95ccf83c402cb855a8425c
-    keywords:
-    - activemq
-    - message broker
-    name: activemq
-    sources:
-    - https://github.com/Alfresco/alfresco-activemq-deployment
-    urls:
-    - http://kubernetes-charts.alfresco.com/stable/activemq-1.tgz
-    version: "1"
   alfresco-adf-app:
   - apiVersion: v1
     created: 2020-06-03T12:03:30.049709045Z
@@ -142,6 +128,24 @@ entries:
     - http://kubernetes-charts.alfresco.com/stable/alfresco-adf-app-2.0.0.tgz
     version: 2.0.0
   alfresco-content-services:
+  - apiVersion: v2
+    appVersion: 7.0.0
+    created: 2020-06-26T19:49:28.379514414Z
+    description: A Helm chart for deploying Alfresco Content Services
+    digest: f07cbb45678c08ad3982ba144e167c04fb15a893e8e5c0bbc5391cea8ce15bbf
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - content
+    - content services
+    - alfresco
+    - alfresco content services
+    name: alfresco-content-services
+    sources:
+    - https://github.com/Alfresco/acs-deployment
+    urls:
+    - https://kubernetes-charts.alfresco.com/stable/alfresco-content-services-5.0.0-115.tgz
+    version: 5.0.0-115
   - appVersion: 6.2.1
     created: 2020-06-03T12:03:30.192817909Z
     description: A Helm chart for deploying Alfresco Content Services
@@ -2116,4 +2120,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: 2020-06-03T12:03:30.046496413Z
+generated: 2020-06-26T19:49:28.375534682Z
