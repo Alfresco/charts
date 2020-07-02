@@ -731,6 +731,23 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-content-services-2.0.0.tgz
     version: 2.0.0
+  - appVersion: 6.0.1.5
+    created: 2020-07-02T09:43:41.956480978Z
+    description: A Helm chart for deploying Alfresco Content Services
+    digest: 94edef33a49acffaa82b7116d95ea7d2b2d269c67e0af1b8f6d79e70ec30adef
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - content
+    - content services
+    - alfresco
+    - alfresco content services
+    name: alfresco-content-services
+    sources:
+    - https://github.com/Alfresco/acs-deployment
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/alfresco-content-services-1.2.5.tgz
+    version: 1.2.5
   - appVersion: 6.1.0-RC7
     created: 2020-07-02T07:44:53.780480485Z
     description: A Helm chart for deploying Alfresco Content Services
@@ -2377,23 +2394,6 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-identity-service-0.4.0.tgz
     version: 0.4.0
-  - created: 2020-07-02T07:44:54.462597411Z
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
-    digest: 01f36e1b3109aefb121348d561d3b616877fdd259336bae0197f9f9159bdd353
-    home: https://github.com/Alfresco/alfresco-identity-service/helm
-    keywords:
-    - alfresco
-    - keycloak
-    - identity-service
-    maintainers:
-    - name: Alfresco
-    name: alfresco-identity-service
-    sources:
-    - https://github.com/Alfresco/alfresco-identity-service/helm
-    urls:
-    - http://kubernetes-charts.alfresco.com/incubator/alfresco-identity-service-0.4.tgz
-    version: "0.4"
   - created: 2020-07-02T07:44:54.442773006Z
     description: The Alfresco Identity Service provides a Single Sign On experience
       for the Alfresco Digital Business Platform (DBP).
@@ -4135,4 +4135,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2020-07-02T07:44:53.754704608Z
+generated: 2020-07-02T09:43:41.954391646Z
