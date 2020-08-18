@@ -1417,6 +1417,22 @@ entries:
     version: 0.0.1
   alfresco-process-application:
   - apiVersion: v1
+    appVersion: 7.1.0-M9
+    created: 2020-08-18T09:49:45.232441097Z
+    description: A Helm chart for an Alfresco Activiti Enterprise application
+    digest: e3c5d473e3df56612d84a320dd0c83923f9394dc5e75e66e1dd8f235be6c05f3
+    home: https://github.com/Alfresco/alfresco-process-application-deployment
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - process
+    - alfresco
+    - activiti
+    - alfresco activiti enterprise
+    name: alfresco-process-application
+    urls:
+    - https://kubernetes-charts.alfresco.com/stable/alfresco-process-application-7.1.0-M9.tgz
+    version: 7.1.0-M9
+  - apiVersion: v1
     appVersion: 7.1.0-M8
     created: 2020-07-08T12:03:13.357545655Z
     description: A Helm chart for an Alfresco Activiti Enterprise application
@@ -2338,4 +2354,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: 2020-08-18T09:26:00.309561424Z
+generated: 2020-08-18T09:49:45.225311149Z
