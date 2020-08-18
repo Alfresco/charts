@@ -45,6 +45,33 @@ entries:
     version: 1.0.0
   alfresco-adf-app:
   - apiVersion: v1
+    created: 2020-08-18T09:26:00.311265257Z
+    description: A Helm chart for a generic Alfresco ADF frontend application
+    digest: c5384b176562ac8d5c5e0dd9ebb90a36935c7cb1dfa8d938ade9958f6ae1432d
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - alfresco
+    - adf
+    - alfresco development framework
+    - content
+    - content services
+    - alfresco content services
+    - process
+    - process services
+    - alfresco process services
+    - activiti
+    - activiti enterprise
+    - alfresco activiti enterprise
+    maintainers:
+    - name: Alfresco
+    name: alfresco-adf-app
+    sources:
+    - https://github.com/alfresco/alfresco-adf-app-deployment
+    urls:
+    - https://kubernetes-charts.alfresco.com/stable/alfresco-adf-app-2.2.2.tgz
+    version: 2.2.2
+  - apiVersion: v1
     created: 2020-07-08T12:03:13.07310564Z
     description: A Helm chart for a generic Alfresco ADF frontend application
     digest: d4f685ea7b60d577fb15d17be3ce4cc2f4093b5038cf0fb40ec5742c79e0eb8d
@@ -2311,4 +2338,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: 2020-07-17T12:41:41.974848053Z
+generated: 2020-08-18T09:26:00.309561424Z
