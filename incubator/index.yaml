@@ -3553,9 +3553,9 @@ entries:
   alfresco-process-services:
   - apiVersion: v1
     appVersion: 1.11.0
-    created: 2020-08-27T22:32:12.320308165Z
+    created: 2020-08-28T10:11:07.492553639Z
     description: A Helm chart for Alfresco Process Services
-    digest: a29e9fe1faa4bde18444e1ca53254015112bf23f354bb8e185c9e64ce52faa7e
+    digest: 8e0bff840c9f734d9751207c9c7b1b6b7570fcf88375812b2284fe74b8569693
     maintainers:
     - name: Alfresco
     name: alfresco-process-services
@@ -4227,4 +4227,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: 2020-08-28T08:44:35.972618291Z
+generated: 2020-08-28T10:11:07.490125187Z
