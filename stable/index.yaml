@@ -45,37 +45,6 @@ entries:
     version: 1.0.0
   alfresco-adf-app:
   - apiVersion: v1
-    created: "2020-09-17T10:52:46.781683635Z"
-    dependencies:
-    - name: common
-      repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.1.0-M9
-    description: A Helm chart for a generic Alfresco ADF frontend application
-    digest: a9f86fabdb0091b95d0e087d0aca94da1763162f2aca398ca0a635bbe9c70394
-    home: https://www.alfresco.com
-    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
-    keywords:
-    - alfresco
-    - adf
-    - alfresco 7.1.0-M10ment framework
-    - content
-    - content services
-    - alfresco content services
-    - process
-    - process services
-    - alfresco process services
-    - activiti
-    - activiti enterprise
-    - alfresco activiti enterprise
-    maintainers:
-    - name: Alfresco
-    name: alfresco-adf-app
-    sources:
-    - https://github.com/alfresco/alfresco-adf-app-deployment
-    urls:
-    - https://kubernetes-charts.alfresco.com/stable/alfresco-adf-app-7.1.0-M10.tgz
-    version: 7.1.0-M10
-  - apiVersion: v1
     created: "2020-09-17T12:09:10.247074804Z"
     dependencies:
     - name: common
@@ -1585,60 +1554,6 @@ entries:
     - http://kubernetes-charts.alfresco.com/stable/alfresco-process-application-7.1.0-M4.tgz
     version: 7.1.0-M4
   - apiVersion: v1
-    appVersion: 7.1.0-M10
-    created: "2020-09-17T08:42:54.555503841Z"
-    dependencies:
-    - condition: application.activiti-cloud-query.enabled,activiti-cloud-query.enabled
-      name: activiti-cloud-query
-      repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.1.0-M9
-    - alias: rabbitmq
-      condition: application.rabbitmq.enabled,rabbitmq.enabled
-      name: rabbitmq-ha
-      repository: https://kubernetes-charts.storage.googleapis.com
-      version: 1.38.1
-    - alias: postgres
-      condition: application.postgres.enabled,postgres.enabled
-      name: postgresql
-      repository: https://kubernetes-charts.storage.googleapis.com
-      version: 6.3.9
-    - condition: application.runtime-bundle.enabled,runtime-bundle.enabled
-      name: runtime-bundle
-      repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.1.0-M9
-    - condition: application.activiti-cloud-connector.enabled,activiti-cloud-connector.enabled
-      name: activiti-cloud-connector
-      repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.1.0-M9
-    - alias: alfresco-process-workspace-app
-      condition: application.alfresco-process-workspace-app.enabled,alfresco-process-workspace-app.enabled
-      name: alfresco-adf-app
-      repository: https://kubernetes-charts.alfresco.com/stable
-      version: 7.1.0-M10
-    - alias: alfresco-admin-app
-      condition: application.alfresco-admin-app.enabled,alfresco-admin-app.enabled
-      name: alfresco-adf-app
-      repository: https://kubernetes-charts.alfresco.com/stable
-      version: 7.1.0-M10
-    - alias: alfresco-digital-workspace-app
-      condition: application.alfresco-digital-workspace-app.enabled,alfresco-digital-workspace-app.enabled
-      name: alfresco-adf-app
-      repository: https://kubernetes-charts.alfresco.com/stable
-      version: 7.1.0-M10
-    description: A Helm chart for an Alfresco Activiti Enterprise application
-    digest: f27dc2d55d58114f982591d269087c050861c0f976a2ba56056c1e36e393f651
-    home: https://github.com/Alfresco/alfresco-process-application-deployment
-    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
-    keywords:
-    - process
-    - alfresco
-    - activiti
-    - alfresco activiti enterprise
-    name: alfresco-process-application
-    urls:
-    - https://kubernetes-charts.alfresco.com/stable/alfresco-process-application-7.1.0-M10.tgz
-    version: 7.1.0-M10
-  - apiVersion: v1
     appVersion: 7.1.0-A1
     created: "2020-09-17T12:20:00.830229732Z"
     dependencies:
@@ -1871,61 +1786,6 @@ entries:
     - http://kubernetes-charts.alfresco.com/stable/alfresco-process-infrastructure-7.1.0-M4.tgz
     version: 7.1.0-M4
   - apiVersion: v1
-    appVersion: 7.1.0-M10
-    created: "2020-09-17T08:43:43.491323047Z"
-    dependencies:
-    - name: common
-      repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 1.1.44
-    - alias: alfresco-identity-service
-      condition: alfresco-identity-service.enabled
-      name: alfresco-identity-service
-      repository: https://kubernetes-charts.alfresco.com/stable
-      version: 2.1.0
-    - alias: alfresco-modeling-service
-      name: alfresco-process-springboot-service
-      repository: https://kubernetes-charts.alfresco.com/stable
-      version: 7.1.0-M10
-    - alias: postgresql-ams
-      condition: alfresco-modeling-service.postgres.enabled
-      name: postgresql
-      repository: https://kubernetes-charts.storage.googleapis.com
-      version: 6.3.9
-    - alias: alfresco-modeling-app
-      name: alfresco-adf-app
-      repository: https://kubernetes-charts.alfresco.com/stable
-      version: 7.1.0-M10
-    - alias: postgresql-ads
-      condition: alfresco-deployment-service.postgres.enabled
-      name: postgresql
-      repository: https://kubernetes-charts.storage.googleapis.com
-      version: 6.3.9
-    - alias: alfresco-deployment-service
-      condition: alfresco-deployment-service.enabled
-      name: alfresco-process-springboot-service
-      repository: https://kubernetes-charts.alfresco.com/stable
-      version: 7.1.0-M10
-    - alias: alfresco-admin-app
-      condition: alfresco-deployment-service.enabled,alfresco-admin-app.enabled
-      name: alfresco-adf-app
-      repository: https://kubernetes-charts.alfresco.com/stable
-      version: 7.1.0-M10
-    description: A Helm chart for Alfresco Activiti Enterprise infrastructure
-    digest: 256009b36c1f59a30d7711af6e417e71cad265fbe72a320d1b3ee759b26a85df
-    home: https://github.com/Alfresco/alfresco-process-infrastructure
-    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
-    keywords:
-    - process
-    - alfresco
-    - activiti
-    - alfresco activiti enterprise
-    name: alfresco-process-infrastructure
-    sources:
-    - https://github.com/Alfresco/alfresco-process-infrastructure
-    urls:
-    - https://kubernetes-charts.alfresco.com/stable/alfresco-process-infrastructure-7.1.0-M10.tgz
-    version: 7.1.0-M10
-  - apiVersion: v1
     appVersion: 7.1.0-A1
     created: "2020-09-17T12:20:37.65407242Z"
     dependencies:
@@ -2077,36 +1937,6 @@ entries:
     - http://kubernetes-charts.alfresco.com/stable/alfresco-process-services-0.1.5.tgz
     version: 0.1.5
   alfresco-process-springboot-service:
-  - apiVersion: v1
-    created: "2020-09-17T10:51:48.769507196Z"
-    dependencies:
-    - name: common
-      repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 1.1.36
-    description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot
-      based microservice
-    digest: b7029199cd7f2556618ee449372066ef2f07519ffda766733c412ed47b348765
-    home: https://www.alfresco.com
-    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
-    keywords:
-    - alfresco
-    - content
-    - content services
-    - alfresco content services
-    - activiti
-    - process
-    - alfresco activiti enterprise
-    - java
-    - spring boot
-    - microservice
-    maintainers:
-    - name: Alfresco
-    name: alfresco-process-springboot-service
-    sources:
-    - https://github.com/Alfresco/alfresco-process-springboot-service-deployment
-    urls:
-    - https://kubernetes-charts.alfresco.com/stable/alfresco-process-springboot-service-7.1.0-M10.tgz
-    version: 7.1.0-M10
   - apiVersion: v1
     created: "2020-09-17T12:09:31.251031491Z"
     dependencies:
