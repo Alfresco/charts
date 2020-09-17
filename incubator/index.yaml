@@ -506,7 +506,7 @@ entries:
   alfresco-content-services:
   - apiVersion: v1
     appVersion: 7.0.0
-    created: "2020-09-17T09:28:00.549353163Z"
+    created: "2020-09-17T11:02:31.681995893Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -523,7 +523,7 @@ entries:
       repository: https://kubernetes-charts.alfresco.com/stable
       version: 2.2.1
     description: A Helm chart for deploying Alfresco Content Services
-    digest: 8e478d1885f625875215b16c1c84c1356aef164e4fe3d3ee7aa772fdc322215f
+    digest: 822564fe47a8a2c8592ba0ecf6fd50cad6943c5007450711523acfafd9b7f67b
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -4250,4 +4250,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2020-09-17T09:28:00.540056756Z"
+generated: "2020-09-17T11:02:31.672316487Z"
