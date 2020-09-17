@@ -45,13 +45,13 @@ entries:
     version: 1.0.0
   alfresco-adf-app:
   - apiVersion: v1
-    created: "2020-09-17T10:25:21.624975465Z"
+    created: "2020-09-17T10:26:40.86084389Z"
     dependencies:
     - name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
       version: 7.1.0-M9
     description: A Helm chart for a generic Alfresco ADF frontend application
-    digest: a1d8d9c47847ce22043ca2ea2483147c6348c2cf4924a2abbdaf06a6392ada6c
+    digest: 0fb2d02b028ba4b3da4ba3f1bf8d36bd7b37f7812a81c8beabf12bb91128bde4
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -2527,4 +2527,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: "2020-09-17T10:25:42.972795498Z"
+generated: "2020-09-17T10:26:40.858828871Z"
