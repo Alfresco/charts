@@ -3380,9 +3380,46 @@ entries:
     version: 7.1.0-M4
   - apiVersion: v1
     appVersion: 7.1.0-M10
-    created: "2020-09-18T09:06:16.963819796Z"
+    created: "2020-09-25T10:47:47.85769157Z"
+    dependencies:
+    - name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 1.1.44
+    - alias: alfresco-identity-service
+      condition: alfresco-identity-service.enabled
+      name: alfresco-identity-service
+      repository: https://kubernetes-charts.alfresco.com/stable
+      version: 2.1.0
+    - alias: alfresco-modeling-service
+      name: alfresco-process-springboot-service
+      repository: https://kubernetes-charts.alfresco.com/incubator
+      version: 7.1.0-M10
+    - alias: postgresql-ams
+      condition: alfresco-modeling-service.postgres.enabled
+      name: postgresql
+      repository: https://kubernetes-charts.storage.googleapis.com
+      version: 6.3.9
+    - alias: alfresco-modeling-app
+      name: alfresco-adf-app
+      repository: https://kubernetes-charts.alfresco.com/incubator
+      version: 7.1.0-M10
+    - alias: postgresql-ads
+      condition: alfresco-deployment-service.postgres.enabled
+      name: postgresql
+      repository: https://kubernetes-charts.storage.googleapis.com
+      version: 6.3.9
+    - alias: alfresco-deployment-service
+      condition: alfresco-deployment-service.enabled
+      name: alfresco-process-springboot-service
+      repository: https://kubernetes-charts.alfresco.com/incubator
+      version: 7.1.0-M10
+    - alias: alfresco-admin-app
+      condition: alfresco-deployment-service.enabled,alfresco-admin-app.enabled
+      name: alfresco-adf-app
+      repository: https://kubernetes-charts.alfresco.com/incubator
+      version: 7.1.0-M10
     description: A Helm chart for Alfresco Activiti Enterprise infrastructure
-    digest: 14794354a2c440e6656a86ba48ee3281c76fe00a64989e9ddac354d4555ad43e
+    digest: 9ef543fcac4c21e4b28f553e7c93791e3d807d1f7e23b7f077db025030f7af60
     home: https://github.com/Alfresco/alfresco-process-infrastructure
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -4247,4 +4284,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2020-09-25T10:16:24.065198945Z"
+generated: "2020-09-25T10:47:47.843165476Z"
