@@ -558,9 +558,24 @@ entries:
     - https://kubernetes-charts.alfresco.com/incubator/alfresco-content-services-5.0.0.tgz
     version: 5.0.0
   - apiVersion: v1
-    created: "2020-09-29T20:40:14.125805817Z"
+    created: "2020-10-07T12:28:13.331390129Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 8.6.4
+    - alias: postgresql-syncservice
+      condition: alfresco-sync-service.syncservice.enabled,postgresql-syncservice.enabled
+      name: postgresql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 8.6.4
+    - alias: alfresco-digital-workspace
+      condition: alfresco-content-services.alfresco-digital-workspace.enabled,alfresco-digital-workspace.enabled
+      name: alfresco-adf-app
+      repository: https://kubernetes-charts.alfresco.com/stable
+      version: 2.2.1
     description: A Helm chart for deploying Alfresco Content Services
-    digest: 63f2a5fc8d181127374523805ff2de2e8037ee119ec1cab380d7df019865cd60
+    digest: b989912dd5d43b15ca6bb19dfb32be2f8d777bd693d279a02c7d8994b1860735
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -4433,4 +4448,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2020-10-06T14:34:07.569482153Z"
+generated: "2020-10-07T12:28:13.321401669Z"
