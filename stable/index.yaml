@@ -244,6 +244,38 @@ entries:
     - http://kubernetes-charts.alfresco.com/stable/alfresco-adf-app-2.0.0.tgz
     version: 2.0.0
   alfresco-content-services:
+  - apiVersion: v1
+    created: "2020-10-16T13:21:21.927972599Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.9.6
+    - alias: postgresql-syncservice
+      condition: alfresco-sync-service.syncservice.enabled,postgresql-syncservice.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.9.6
+    - alias: alfresco-digital-workspace
+      condition: alfresco-content-services.alfresco-digital-workspace.enabled,alfresco-digital-workspace.enabled
+      name: alfresco-adf-app
+      repository: https://kubernetes-charts.alfresco.com/stable
+      version: 7.1.0-M10
+    description: A Helm chart for deploying Alfresco Content Services
+    digest: e13befe0d83e9e577359e96261bdf34355cd5f01d6ba823a3e7af8119032b448
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - content
+    - content services
+    - alfresco
+    - alfresco content services
+    name: alfresco-content-services
+    sources:
+    - https://github.com/Alfresco/acs-deployment
+    urls:
+    - https://kubernetes-charts.alfresco.com/stable/alfresco-content-services-5.0.0-M1.tgz
+    version: 5.0.0-M1
   - apiVersion: v2
     appVersion: 7.0.0
     created: "2020-06-26T19:49:28.379514414Z"
@@ -2742,4 +2774,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: "2020-10-14T23:20:18.610341146Z"
+generated: "2020-10-16T13:21:21.917258796Z"
