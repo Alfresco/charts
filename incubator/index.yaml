@@ -3189,7 +3189,7 @@ entries:
     version: 7.1.0-M4
   - apiVersion: v1
     appVersion: 7.1.0-M11
-    created: "2020-10-17T00:03:09.374291056Z"
+    created: "2020-10-19T22:48:21.034961129Z"
     dependencies:
     - condition: application.activiti-cloud-query.enabled,activiti-cloud-query.enabled
       name: activiti-cloud-query
@@ -3229,7 +3229,7 @@ entries:
       repository: https://kubernetes-charts.alfresco.com/incubator
       version: 7.1.0-M11
     description: A Helm chart for an Alfresco Activiti Enterprise application
-    digest: 4a39b1120901afdd82949e018ac8b7a030e965e686b7c9a7d9eeb583ba840aae
+    digest: 1b5899761ffc0ec9478ef086d0d3e57bc0d503a8bd6abf54151d68582167d02b
     home: https://github.com/Alfresco/alfresco-process-application-deployment
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -4642,4 +4642,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2020-10-19T21:18:33.54635291Z"
+generated: "2020-10-19T22:48:21.024937623Z"
