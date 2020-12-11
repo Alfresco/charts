@@ -3898,11 +3898,11 @@ entries:
     version: 7.1.0-M11MOCK1
   - apiVersion: v1
     appVersion: 7.1.0-M11
-    created: "2020-12-02T12:23:12.423526466Z"
+    created: "2020-12-11T12:30:27.814869988Z"
     dependencies:
     - name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.1.0-M10
+      version: 7.1.0-M11
     - condition: alfresco-identity-service.enabled
       name: alfresco-identity-service
       repository: https://kubernetes-charts.alfresco.com/stable
@@ -3936,7 +3936,7 @@ entries:
       repository: https://kubernetes-charts.alfresco.com/incubator
       version: 7.1.0-M11
     description: A Helm chart for Alfresco Activiti Enterprise infrastructure
-    digest: d4e7b55237b7216f569eeb5b7707675f8bace1181f203969032d6250bfbce349
+    digest: fb6fb5c1f0f7188a0fe14daf044cd53d8214d56c07ec3ac76f3be4b2ace453a8
     home: https://github.com/Alfresco/alfresco-process-infrastructure
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -5178,4 +5178,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2020-12-10T16:44:35.378400863Z"
+generated: "2020-12-11T12:30:27.797065745Z"
