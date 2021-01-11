@@ -3625,11 +3625,11 @@ entries:
     version: 7.1.0-M4
   - apiVersion: v1
     appVersion: 7.1.0-M12
-    created: "2020-12-23T09:37:08.89063751Z"
+    created: "2021-01-11T01:40:55.646632609Z"
     dependencies:
     - name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.1.7
+      version: 7.1.10
     - condition: alfresco-identity-service.enabled
       name: alfresco-identity-service
       repository: https://kubernetes-charts.alfresco.com/stable
@@ -3638,7 +3638,7 @@ entries:
       condition: alfresco-modeling-service.enabled
       name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.1.7
+      version: 7.1.10
     - condition: postgresql.enabled
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -3651,19 +3651,19 @@ entries:
       condition: alfresco-modeling-app.enabled
       name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.1.7
+      version: 7.1.10
     - alias: alfresco-deployment-service
       condition: alfresco-deployment-service.enabled
       name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.1.7
+      version: 7.1.10
     - alias: alfresco-admin-app
       condition: alfresco-admin-app.enabled
       name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.1.7
+      version: 7.1.10
     description: A Helm chart for Alfresco Activiti Enterprise infrastructure
-    digest: 1732460ba5d431a235cc807073f653db2053c8ca7414a1cc0741a6f81cb83887
+    digest: e3db7bce0d087645c2acd39f100cf11c06f3443f16667053da4f3a58aef0e1f7
     home: https://github.com/Alfresco/alfresco-process-infrastructure
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -4780,4 +4780,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2021-01-10T23:42:31.697303737Z"
+generated: "2021-01-11T01:40:55.630004636Z"
