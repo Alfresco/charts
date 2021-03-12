@@ -2094,11 +2094,11 @@ entries:
     version: 7.1.0-M4
   - apiVersion: v1
     appVersion: 7.1.0-M12
-    created: "2021-03-12T15:54:08.876428925Z"
+    created: "2021-03-12T15:58:40.334001209Z"
     dependencies:
     - name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.1.0-M12
+      version: 7.1.11
     - condition: alfresco-identity-service.enabled
       name: alfresco-identity-service
       repository: https://kubernetes-charts.alfresco.com/stable
@@ -2107,7 +2107,7 @@ entries:
       condition: alfresco-modeling-service.enabled
       name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.1.0-M12
+      version: 7.1.11
     - condition: postgresql.enabled
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -2120,24 +2120,24 @@ entries:
       condition: alfresco-modeling-app.enabled
       name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.1.0-M12
+      version: 7.1.11
     - alias: alfresco-deployment-service
       condition: alfresco-deployment-service.enabled
       name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.1.0-M12
+      version: 7.1.11
     - alias: alfresco-admin-app
       condition: alfresco-admin-app.enabled
       name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.1.0-M12
+      version: 7.1.11
     - alias: alfresco-tika-service
       condition: alfresco-tika-service.enabled
       name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.1.0-M12
+      version: 7.1.11
     description: A Helm chart for Alfresco Activiti Enterprise infrastructure
-    digest: 6169293a3dcaa99ae58b19375290065275b3c2aeed95cf4a2aedafae3e479250
+    digest: c7d0c7abdc0220b23963e7cf5d9f2c43e513792520e3562cc9b2c56852afb615
     home: https://github.com/Alfresco/alfresco-process-infrastructure
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -3181,4 +3181,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: "2021-03-12T15:54:08.860150518Z"
+generated: "2021-03-12T15:58:40.317568814Z"
