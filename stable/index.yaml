@@ -2235,6 +2235,66 @@ entries:
     - http://kubernetes-charts.alfresco.com/stable/alfresco-process-infrastructure-7.1.0-M4.tgz
     version: 7.1.0-M4
   - apiVersion: v1
+    appVersion: 7.1.0-M13
+    created: "2021-05-21T16:55:27.767106194Z"
+    dependencies:
+    - name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 7.1.0-M13
+    - condition: alfresco-identity-service.enabled
+      name: alfresco-identity-service
+      repository: https://kubernetes-charts.alfresco.com/stable
+      version: 3.0.0
+    - alias: alfresco-modeling-service
+      condition: alfresco-modeling-service.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 7.1.0-M13
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.1.1
+    - condition: rabbitmq.enabled
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: 7.8.0
+    - alias: alfresco-modeling-app
+      condition: alfresco-modeling-app.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 7.1.0-M13
+    - alias: alfresco-deployment-service
+      condition: alfresco-deployment-service.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 7.1.0-M13
+    - alias: alfresco-admin-app
+      condition: alfresco-admin-app.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 7.1.0-M13
+    - alias: alfresco-tika-service
+      condition: alfresco-tika-service.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 7.1.0-M13
+    description: A Helm chart for Alfresco Activiti Enterprise infrastructure
+    digest: b293e1e868db1cc4e1d58f68ba9ef2bea66e23eeb7b831a53596d1c4dcd6e778
+    home: https://github.com/Alfresco/alfresco-process-infrastructure
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - process
+    - alfresco
+    - activiti
+    - alfresco activiti enterprise
+    kubeVersion: '>=1.15.0-0'
+    name: alfresco-process-infrastructure
+    sources:
+    - https://github.com/Alfresco/alfresco-process-infrastructure
+    urls:
+    - https://kubernetes-charts.alfresco.com/stable/alfresco-process-infrastructure-7.1.0-M13.tgz
+    version: 7.1.0-M13
+  - apiVersion: v1
     appVersion: 7.1.0-M12
     created: "2021-03-13T00:09:13.674855251Z"
     dependencies:
@@ -3323,4 +3383,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: "2021-05-21T16:54:42.913707851Z"
+generated: "2021-05-21T16:55:27.747793379Z"
