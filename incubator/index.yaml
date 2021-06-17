@@ -620,6 +620,47 @@ entries:
     version: 0.0.1
   alfresco-content-services:
   - apiVersion: v1
+    created: "2021-06-17T07:45:21.247658893Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.9.6
+    - alias: postgresql-syncservice
+      condition: alfresco-sync-service.syncservice.enabled,postgresql-syncservice.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.9.6
+    - alias: alfresco-digital-workspace
+      condition: alfresco-content-services.alfresco-digital-workspace.enabled,alfresco-digital-workspace.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 7.1.0-M12
+    - name: activemq
+      repository: ""
+      version: 2.0.0
+    - name: alfresco-search
+      repository: ""
+      version: 1.0.4
+    - name: alfresco-sync-service
+      repository: ""
+      version: 3.0.8
+    description: A Helm chart for deploying Alfresco Content Services
+    digest: 5bf2170e1261962a1e06c153615e20de20717b5186cbfec46917e7c76eeadbef
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - content
+    - content services
+    - alfresco
+    - alfresco content services
+    name: alfresco-content-services
+    sources:
+    - https://github.com/Alfresco/acs-deployment
+    urls:
+    - https://kubernetes-charts.alfresco.com/incubator/alfresco-content-services-5.1.0-M1.tgz
+    version: 5.1.0-M1
+  - apiVersion: v1
     created: "2021-05-27T12:01:54.098999462Z"
     dependencies:
     - condition: postgresql.enabled
@@ -1420,23 +1461,6 @@ entries:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-content-services-1.0.1.tgz
     version: 1.0.1
   - appVersion: 6.1.0
-    created: "2020-07-08T12:03:08.82870456Z"
-    description: A Helm chart for deploying Alfresco Content Services
-    digest: 57591c454e124fcddf4288d058dc801e95822a5caac192cb9a5d2e3f81eac41a
-    home: https://www.alfresco.com
-    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
-    keywords:
-    - content
-    - content services
-    - alfresco
-    - alfresco content services
-    name: alfresco-content-services
-    sources:
-    - https://github.com/Alfresco/acs-deployment
-    urls:
-    - http://kubernetes-charts.alfresco.com/incubator/alfresco-content-services-3.0.0-include_sync_service.tgz
-    version: 3.0.0-include_sync_service
-  - appVersion: 6.1.0
     created: "2020-07-08T12:03:01.302026536Z"
     description: A Helm chart for deploying Alfresco Content Services
     digest: 57591c454e124fcddf4288d058dc801e95822a5caac192cb9a5d2e3f81eac41a
@@ -1452,6 +1476,23 @@ entries:
     - https://github.com/Alfresco/acs-deployment
     urls:
     - alfresco-content-services-3.0.0-include_sync_service.tgz
+    version: 3.0.0-include_sync_service
+  - appVersion: 6.1.0
+    created: "2020-07-08T12:03:08.82870456Z"
+    description: A Helm chart for deploying Alfresco Content Services
+    digest: 57591c454e124fcddf4288d058dc801e95822a5caac192cb9a5d2e3f81eac41a
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - content
+    - content services
+    - alfresco
+    - alfresco content services
+    name: alfresco-content-services
+    sources:
+    - https://github.com/Alfresco/acs-deployment
+    urls:
+    - http://kubernetes-charts.alfresco.com/incubator/alfresco-content-services-3.0.0-include_sync_service.tgz
     version: 3.0.0-include_sync_service
   alfresco-content-services-community:
   - appVersion: 6.2.1-ea
@@ -5324,4 +5365,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2021-06-11T15:40:25.969491368Z"
+generated: "2021-06-17T07:45:21.227393089Z"
