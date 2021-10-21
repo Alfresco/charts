@@ -277,7 +277,7 @@ entries:
     version: 2.0.0
   alfresco-content-services:
   - apiVersion: v2
-    created: "2021-10-07T17:15:03.370580739Z"
+    created: "2021-10-21T17:29:43.77677573Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -303,7 +303,7 @@ entries:
       repository: ""
       version: 3.0.9
     description: A Helm chart for deploying Alfresco Content Services
-    digest: 877c683d8ab68abd25f0319b9a255af2a07a43f827d9a983dd00c7b6c3174dbe
+    digest: c5c5d8c80a2beabd2cdcb599dc4844d6c496cc8ca8cd4cc7cd8c7120cda33d2c
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -3841,4 +3841,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: "2021-10-07T17:15:03.355002104Z"
+generated: "2021-10-21T17:29:43.764331493Z"
