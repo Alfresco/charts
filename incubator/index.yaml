@@ -2656,10 +2656,7 @@ entries:
     - name: keycloak
       repository: https://codecentric.github.io/helm-charts
       version: 15.0.0
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: 036949aea3e77ed76fc2cbe0d53d54c1972f804de1543fdb7501e7a1543783b8
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -2681,10 +2678,7 @@ entries:
     - name: keycloak
       repository: https://codecentric.github.io/helm-charts
       version: 15.0.0
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: 75c4360e806c4744cad3f84fdaa50d0442351bbfccebd454e3c969790d93960b
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -2706,10 +2700,7 @@ entries:
     - name: keycloak
       repository: https://codecentric.github.io/helm-charts
       version: 11.0.1
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: 64e05793529657854335e3f6acc86dc53a80baad12749000dba93619d8cc16eb
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -2731,10 +2722,7 @@ entries:
     - name: keycloak
       repository: https://codecentric.github.io/helm-charts
       version: 11.0.1
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: d0974c5d484813b4f403ce60806675c9613af9d3e62ff8d842c218b200d336a7
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -2756,10 +2744,7 @@ entries:
     - name: keycloak
       repository: https://codecentric.github.io/helm-charts
       version: 9.9.5
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: cd3337558d76b04858cfd45386c66131f3e8a71b8943e6c14e0e9e2f99a18e77
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -2781,10 +2766,7 @@ entries:
     - name: keycloak
       repository: https://codecentric.github.io/helm-charts
       version: 9.9.5
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: f1f73470350614a006ddef0dafc53b1327f148c811e4d00c6d231c844ae3b413
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -2806,10 +2788,7 @@ entries:
     - name: keycloak
       repository: https://codecentric.github.io/helm-charts
       version: 9.9.3
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: f41f4052270b2b6658fc52e4926c131e0b8b2b2c7bb8975ded051d0e052131dd
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -2827,10 +2806,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.4.0-SNAPSHOT
     created: "2020-12-16T10:00:30.835600364Z"
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: b6f7ccbe40cbae634bb0c561783acb2c6cc43fe5e59b726b6013bc3074e221ed
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -2848,10 +2824,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.3.0-A1
     created: "2020-07-08T12:03:09.486271513Z"
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: 0e09c4cf0a49726f79c3dfacfcfdd40596d92c9643aa19abbef4820463394fc7
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -2869,10 +2842,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.3.0-A1
     created: "2020-07-08T12:03:09.483386437Z"
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: e2559859db48c2dd914ca573512a720fd1d0cbb83e2118a01814e2e4292d10c7
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -2890,10 +2860,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.2.0
     created: "2020-07-08T12:03:09.480545395Z"
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: a3bff2d26c4c7d1192d88c830473b5d1795943a71e0ff4b75fd5c4dc70dcc112
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -2911,10 +2878,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.2.0
     created: "2020-07-08T12:03:09.476897668Z"
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: ab3b34d66b5ee0e3c0bf35a723b46a3aec7e65da041321851c3550e92e7eaf71
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -2932,10 +2896,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.2.0
     created: "2020-07-08T12:03:09.474178454Z"
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: db5e02b1a359061fcc70ef7829f5763ee565743bfe8bb8ea04fc2c9a6bb9e4c9
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -2953,10 +2914,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.2.0
     created: "2020-07-08T12:03:09.471513678Z"
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: da65e854a9b967d2229eea3bed91c6605232d9269fa9f2981f45a1f544f29760
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -2974,10 +2932,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.2.0
     created: "2020-07-08T12:03:09.468803768Z"
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: e8fb7ae5e81b6b171ebe5348a78ea56bc075fdc3168f4cdc26f28a3c2f4ee735
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -2995,10 +2950,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.2.0
     created: "2020-07-08T12:03:09.4630692Z"
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: b3c764b0256c7c15b863a64ab43e881e0588ebba420cc63b5a7366f23e11fe59
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3016,10 +2968,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.2.0
     created: "2020-07-08T12:03:09.465995033Z"
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: 2409dec573e9a50b467b58a78d848cde38748db9c98a2de3f6658c97cc43e9c4
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3037,10 +2986,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.2.0
     created: "2020-07-08T12:03:09.459316287Z"
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: cefdda8f86b45174a88c1a720098ebce7086b1c3c129f70d7d7f5047c1a339ec
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3058,10 +3004,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.2.0
     created: "2020-07-08T12:03:09.456540548Z"
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: 206dbe665c8bd3a68b59d1b845f704057d3d1091205d4dda446fda793cd1cfbd
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3078,10 +3021,7 @@ entries:
     version: 1.1.3
   - apiVersion: v1
     created: "2020-07-08T12:03:09.453831975Z"
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: 38a143d72c3d99fb7db6a1bc959c8a5055a1e4f4ea714cff0ddbd9ec4dce0006
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3098,10 +3038,7 @@ entries:
     version: 1.1.2
   - apiVersion: v1
     created: "2020-07-08T12:03:09.451987839Z"
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: 9b048661fbd46fc9b5d444c82d26be17e00b524242d6047c47fa4bdbdeb58028
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3119,10 +3056,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.2.0
     created: "2020-07-08T12:03:09.450123099Z"
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: 6320b29c911640f4b3f94e0827bc56615b2596c5ee5eb14adcc53b7c9ce0b77b
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3139,10 +3073,7 @@ entries:
     version: 1.1.2-AUTH-259
   - apiVersion: v1
     created: "2020-07-08T12:03:09.447439915Z"
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: 5c5c7615ebbc128322746f939c9ea0b59554ed7c8205ae105f2dcc4fea269cd7
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3159,10 +3090,7 @@ entries:
     version: 1.1.0-SNAPSHOT
   - apiVersion: v1
     created: "2020-07-08T12:03:09.444874434Z"
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: 0d90660d0222da2a32ce1c873ca836dd6a67ecc2e5d7df289e99cf0a992d573a
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3179,10 +3107,7 @@ entries:
     version: 1.1.0-AUTH217
   - apiVersion: v1
     created: "2020-07-08T12:03:09.443084722Z"
-    description: The Alfresco Identity Service will become the central component responsible
-      for identity-related capabilities needed by other Alfresco software, such as
-      managing users, groups, roles, profiles, and authentication. Currently it deals
-      just with authentication.
+    description: The Alfresco Identity Service will become the central component responsible for identity-related capabilities needed by other Alfresco software, such as managing users, groups, roles, profiles, and authentication. Currently it deals just with authentication.
     digest: 9b22323f6b4730621a78cba06fbb501db7598e69ba9ba76fdd16b1118df70fdf
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3199,8 +3124,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     created: "2020-07-08T12:03:09.441347076Z"
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
+    description: The Alfresco Identity Service provides a Single Sign On experience for the Alfresco Digital Business Platform (DBP).
     digest: 37704af91c5dd2e861b1dd354b88f07da230bd43ad51052e30b4e7cb75c17a05
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3217,8 +3141,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     created: "2020-07-08T12:03:09.437801183Z"
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
+    description: The Alfresco Identity Service provides a Single Sign On experience for the Alfresco Digital Business Platform (DBP).
     digest: 9a37c1a9e25a7858c233a14960d85c4fbda9870933efa3aa7c2b8050fbe1e5c4
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3235,8 +3158,7 @@ entries:
     version: 0.4.2
   - apiVersion: v1
     created: "2020-07-08T12:03:09.436070442Z"
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
+    description: The Alfresco Identity Service provides a Single Sign On experience for the Alfresco Digital Business Platform (DBP).
     digest: 5d357ae0f94304d53273782cb38961e83e29edbcc27c50063c0de7ba96272de2
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3253,8 +3175,7 @@ entries:
     version: 0.4.1
   - apiVersion: v1
     created: "2020-07-08T12:03:09.419686664Z"
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
+    description: The Alfresco Identity Service provides a Single Sign On experience for the Alfresco Digital Business Platform (DBP).
     digest: 3fcea6375bb22bffe48a696c2f6760cbae8463f90852e383346a7dcc5dabc71f
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3271,8 +3192,7 @@ entries:
     version: 0.3.10
   - apiVersion: v1
     created: "2020-07-08T12:03:09.432622673Z"
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
+    description: The Alfresco Identity Service provides a Single Sign On experience for the Alfresco Digital Business Platform (DBP).
     digest: e3fab83599b91b8c70adcbb6ed0718ed3f54b3fe8f048160db969908caf84cf5
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3289,8 +3209,7 @@ entries:
     version: 0.3.9
   - apiVersion: v1
     created: "2020-07-08T12:03:09.430921117Z"
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
+    description: The Alfresco Identity Service provides a Single Sign On experience for the Alfresco Digital Business Platform (DBP).
     digest: cfd8371a78b38a5f0a8b4af58a73b7906bb261a12be75909d17b11b995206549
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3307,8 +3226,7 @@ entries:
     version: 0.3.8
   - apiVersion: v1
     created: "2020-07-08T12:03:09.428414156Z"
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
+    description: The Alfresco Identity Service provides a Single Sign On experience for the Alfresco Digital Business Platform (DBP).
     digest: 1d50821bcf3fe73b0ff633c00192c684e380f70d6ac689e5c8c9cc2dba3a7b6f
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3325,8 +3243,7 @@ entries:
     version: 0.3.7
   - apiVersion: v1
     created: "2020-07-08T12:03:09.426718315Z"
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
+    description: The Alfresco Identity Service provides a Single Sign On experience for the Alfresco Digital Business Platform (DBP).
     digest: e1434822d6f0da7b71e3787ae107e9fb469b95d5f79638f98dfa616face9626a
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3343,8 +3260,7 @@ entries:
     version: 0.3.6
   - apiVersion: v1
     created: "2020-07-08T12:03:09.425053935Z"
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
+    description: The Alfresco Identity Service provides a Single Sign On experience for the Alfresco Digital Business Platform (DBP).
     digest: f9ed74ebbf302ba7383a1b5483e2024eeba320c1c71f1b46a21a392fd0fb673c
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3361,8 +3277,7 @@ entries:
     version: 0.3.5
   - apiVersion: v1
     created: "2020-07-08T12:03:09.423724365Z"
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
+    description: The Alfresco Identity Service provides a Single Sign On experience for the Alfresco Digital Business Platform (DBP).
     digest: 6a41cd64d919e88a15f6080a3f16a280e11ad9d35927f37214e800b915146aa9
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3379,8 +3294,7 @@ entries:
     version: 0.3.4
   - apiVersion: v1
     created: "2020-07-08T12:03:09.422335956Z"
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
+    description: The Alfresco Identity Service provides a Single Sign On experience for the Alfresco Digital Business Platform (DBP).
     digest: 5d19b865687269b81a28619336585fa38a147a9f622c6cad3adc953f3609312f
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3397,8 +3311,7 @@ entries:
     version: 0.3.3
   - apiVersion: v1
     created: "2020-07-08T12:03:09.421017911Z"
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
+    description: The Alfresco Identity Service provides a Single Sign On experience for the Alfresco Digital Business Platform (DBP).
     digest: 127b8c00b5777c181d34579ec91e50c73364b6bcc8c40afe917701cd16f4d7ea
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3415,8 +3328,7 @@ entries:
     version: 0.3.2
   - apiVersion: v1
     created: "2020-07-08T12:03:09.417946781Z"
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
+    description: The Alfresco Identity Service provides a Single Sign On experience for the Alfresco Digital Business Platform (DBP).
     digest: aced934d53f985bb137f74aed6fc2edeb2851fc18d4e5a95226f443ef72e4884
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3433,8 +3345,7 @@ entries:
     version: 0.3.1
   - apiVersion: v1
     created: "2020-07-08T12:03:09.416123015Z"
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
+    description: The Alfresco Identity Service provides a Single Sign On experience for the Alfresco Digital Business Platform (DBP).
     digest: 50c130337d5af10f4135a23f312ad1afe558649a45a439a437f7dc98b9258224
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3451,8 +3362,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     created: "2020-07-08T12:03:09.414227331Z"
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
+    description: The Alfresco Identity Service provides a Single Sign On experience for the Alfresco Digital Business Platform (DBP).
     digest: a79a2110fd448e6bf3fcbb36ad41d997a15fb2c876400423068c43a7fbc4e0d0
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3469,8 +3379,7 @@ entries:
     version: "0.2"
   - apiVersion: v1
     created: "2020-07-08T12:03:09.41153094Z"
-    description: The Alfresco Identity Service provides a Single Sign On experience
-      for the Alfresco Digital Business Platform (DBP).
+    description: The Alfresco Identity Service provides a Single Sign On experience for the Alfresco Digital Business Platform (DBP).
     digest: eb44d12e3f99926aca1ec7bfba9aeba9efe1a11a1629bf50c048007d86c00cec
     home: https://github.com/Alfresco/alfresco-identity-service/helm
     keywords:
@@ -3488,9 +3397,7 @@ entries:
   alfresco-infrastructure:
   - apiVersion: v1
     created: "2020-07-08T12:03:09.563199628Z"
-    description: A Helm chart Providing the required Alfresco infrastructure for the
-      Digital Business Platform. This includes activemq, alfresco-identity-service,
-      nginx-ingress and a persistent volume to use with the DBP chart.
+    description: A Helm chart Providing the required Alfresco infrastructure for the Digital Business Platform. This includes activemq, alfresco-identity-service, nginx-ingress and a persistent volume to use with the DBP chart.
     digest: 34fa093f1f77a9922eb3e25cc9b5d73f6872f4c3782c0555a01bbba23915feda
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
@@ -3499,9 +3406,7 @@ entries:
     version: 5.2.1
   - apiVersion: v1
     created: "2020-07-08T12:03:09.558280556Z"
-    description: A Helm chart Providing the required Alfresco infrastructure for the
-      Digital Business Platform. This includes activemq, alfresco-identity-service,
-      nginx-ingress and a persistent volume to use with the DBP chart.
+    description: A Helm chart Providing the required Alfresco infrastructure for the Digital Business Platform. This includes activemq, alfresco-identity-service, nginx-ingress and a persistent volume to use with the DBP chart.
     digest: 9a0efeac6673bf7f2589796442a5279bf45411e3a0b67a56634b6df1d7042058
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
@@ -3510,9 +3415,7 @@ entries:
     version: 5.2.0
   - apiVersion: v1
     created: "2020-07-08T12:03:09.554211814Z"
-    description: A Helm chart Providing the required Alfresco infrastructure for the
-      Digital Business Platform. This includes activemq, alfresco-identity-service,
-      nginx-ingress and a persistent volume to use with the DBP chart.
+    description: A Helm chart Providing the required Alfresco infrastructure for the Digital Business Platform. This includes activemq, alfresco-identity-service, nginx-ingress and a persistent volume to use with the DBP chart.
     digest: ea8a5beec7287c8c3694300f747ab944dcd5628ef61945988b4083194d85a12a
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
@@ -3521,9 +3424,7 @@ entries:
     version: 5.2.0-AUTH-356
   - apiVersion: v1
     created: "2020-07-08T12:03:09.550271142Z"
-    description: A Helm chart Providing the required Alfresco infrastructure for the
-      Digital Business Platform. This includes activemq, alfresco-identity-service,
-      nginx-ingress and a persistent volume to use with the DBP chart.
+    description: A Helm chart Providing the required Alfresco infrastructure for the Digital Business Platform. This includes activemq, alfresco-identity-service, nginx-ingress and a persistent volume to use with the DBP chart.
     digest: 347360b184ef2776e8026ad4b5d4133c9bf8a384d48b61709d3bc9b72989b56c
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
@@ -3532,9 +3433,7 @@ entries:
     version: 5.1.3
   - apiVersion: v1
     created: "2020-07-08T12:03:09.546117243Z"
-    description: A Helm chart Providing the required Alfresco infrastructure for the
-      Digital Business Platform. This includes activemq, alfresco-identity-service,
-      nginx-ingress and a persistent volume to use with the DBP chart.
+    description: A Helm chart Providing the required Alfresco infrastructure for the Digital Business Platform. This includes activemq, alfresco-identity-service, nginx-ingress and a persistent volume to use with the DBP chart.
     digest: 28a09a083ba56b39c5b751e531977ee71a66005f025e0b28671b8881422881ea
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
@@ -3543,9 +3442,7 @@ entries:
     version: 5.1.2
   - apiVersion: v1
     created: "2020-07-08T12:03:09.541621864Z"
-    description: A Helm chart Providing the required Alfresco infrastructure for the
-      Digital Business Platform. This includes activemq, alfresco-identity-service,
-      nginx-ingress and a persistent volume to use with the DBP chart.
+    description: A Helm chart Providing the required Alfresco infrastructure for the Digital Business Platform. This includes activemq, alfresco-identity-service, nginx-ingress and a persistent volume to use with the DBP chart.
     digest: 685425a5efa1d15456266cd0995c997bc819980e242698b77eaa95d3f6f2c2fe
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
@@ -3554,10 +3451,7 @@ entries:
     version: 5.1.2-AUTH-356
   - apiVersion: v1
     created: "2020-07-08T12:03:09.537643659Z"
-    description: A Helm chart Providing the required Alfresco infrastructure for the
-      Digital Business Platform. This includes activemq, alfresco-identity-service,
-      akfresco-event-gateway nginx-ingress and a persistent volume to use with the
-      DBP chart.
+    description: A Helm chart Providing the required Alfresco infrastructure for the Digital Business Platform. This includes activemq, alfresco-identity-service, akfresco-event-gateway nginx-ingress and a persistent volume to use with the DBP chart.
     digest: 31228e79c93dfb9d358e395ca38739995f7779e64be828d1d449d55c8a2ac96a
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
@@ -3566,10 +3460,7 @@ entries:
     version: 5.1.1
   - apiVersion: v1
     created: "2020-07-08T12:03:09.534279752Z"
-    description: A Helm chart Providing the required Alfresco infrastructure for the
-      Digital Business Platform. This includes activemq, alfresco-identity-service,
-      akfresco-event-gateway nginx-ingress and a persistent volume to use with the
-      DBP chart.
+    description: A Helm chart Providing the required Alfresco infrastructure for the Digital Business Platform. This includes activemq, alfresco-identity-service, akfresco-event-gateway nginx-ingress and a persistent volume to use with the DBP chart.
     digest: bea3e24d3e693154440cc334c0404ec86c2376726e8293e6d893a55b70b38666
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
@@ -3578,10 +3469,7 @@ entries:
     version: 5.1.0
   - apiVersion: v1
     created: "2020-07-08T12:03:09.530996717Z"
-    description: A Helm chart Providing the required Alfresco infrastructure for the
-      Digital Business Platform. This includes activemq, alfresco-identity-service,
-      akfresco-event-gateway nginx-ingress and a persistent volume to use with the
-      DBP chart.
+    description: A Helm chart Providing the required Alfresco infrastructure for the Digital Business Platform. This includes activemq, alfresco-identity-service, akfresco-event-gateway nginx-ingress and a persistent volume to use with the DBP chart.
     digest: cfd6bc5fe6419eab85e3ba4b3f53d452d1196faf4e33fe60be9dfe878c14dc7b
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
@@ -3590,9 +3478,7 @@ entries:
     version: 5.0.0
   - apiVersion: v1
     created: "2020-07-08T12:03:09.526351086Z"
-    description: A Helm chart Providing the required Alfresco infrastructure for the
-      Digital Business Platform. This includes activemq, alfresco-identity-service,
-      nginx-ingress and a persistent volume to use with the DBP chart.
+    description: A Helm chart Providing the required Alfresco infrastructure for the Digital Business Platform. This includes activemq, alfresco-identity-service, nginx-ingress and a persistent volume to use with the DBP chart.
     digest: 51743b249865b56b1d0587aa33ab63171715847cd94fb09440d38afd836c1064
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
@@ -3601,9 +3487,7 @@ entries:
     version: 4.1.1
   - apiVersion: v1
     created: "2020-07-08T12:03:09.523396761Z"
-    description: A Helm chart Providing the required Alfresco infrastructure for the
-      Digital Business Platform. This includes activemq, alfresco-identity-service,
-      nginx-ingress and a persistent volume to use with the DBP chart.
+    description: A Helm chart Providing the required Alfresco infrastructure for the Digital Business Platform. This includes activemq, alfresco-identity-service, nginx-ingress and a persistent volume to use with the DBP chart.
     digest: cf138447e7e11542642439ce77c8c1065bf21e1749dc5bf7444808b2862936ea
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
@@ -3612,9 +3496,7 @@ entries:
     version: 4.1.1-aims-1.2
   - apiVersion: v1
     created: "2020-07-08T12:03:09.519417469Z"
-    description: A Helm chart Providing the required Alfresco infrastructure for the
-      Digital Business Platform. This includes activemq, alfresco-identity-service,
-      nginx-ingress and a persistent volume to use with the DBP chart.
+    description: A Helm chart Providing the required Alfresco infrastructure for the Digital Business Platform. This includes activemq, alfresco-identity-service, nginx-ingress and a persistent volume to use with the DBP chart.
     digest: 4cc916e4239d43590c7e9798a21a1d4bd792383a5b53af53ad02d3b77f579fbe
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
@@ -3623,9 +3505,7 @@ entries:
     version: 4.0.0-SNAPSHOT
   - apiVersion: v1
     created: "2020-07-08T12:03:09.516327299Z"
-    description: A Helm chart Providing the required Alfresco infrastructure for the
-      Digital Business Platform. This includes activemq, alfresco-identity-service,
-      nginx-ingress and a persistent volume to use with the dbp chart.
+    description: A Helm chart Providing the required Alfresco infrastructure for the Digital Business Platform. This includes activemq, alfresco-identity-service, nginx-ingress and a persistent volume to use with the dbp chart.
     digest: b4dbe4ae5abe9d75c6ba180974fbe08d5d80ba1ff5f3ff74cd3b545da968b01b
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
@@ -3634,9 +3514,7 @@ entries:
     version: 3.0.0-SNAPSHOT
   - apiVersion: v1
     created: "2020-07-08T12:03:09.513350333Z"
-    description: A Helm chart Providing the required Alfresco infrastructure for the
-      Digital Business Platform. This includes activemq, alfresco-identity-service,
-      nginx-ingress and a persistent volume to use with the dbp chart.
+    description: A Helm chart Providing the required Alfresco infrastructure for the Digital Business Platform. This includes activemq, alfresco-identity-service, nginx-ingress and a persistent volume to use with the dbp chart.
     digest: 4a97da8eddcadcd89c08bbfbd2d49f2445963bd693a5d2b74a1fd5053882b81b
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
@@ -3645,9 +3523,7 @@ entries:
     version: 2.0.5-SNAPSHOT
   - apiVersion: v1
     created: "2020-07-08T12:03:09.509359115Z"
-    description: A Helm chart Providing the required Alfresco infrastructure for the
-      Digital Business Platform. This includes activemq, alfresco-api-gateway, alfresco-identity-service,
-      nginx-ingress and a persistent volume to use with the dbp chart.
+    description: A Helm chart Providing the required Alfresco infrastructure for the Digital Business Platform. This includes activemq, alfresco-api-gateway, alfresco-identity-service, nginx-ingress and a persistent volume to use with the dbp chart.
     digest: 1ed732b851871099cf7d6fa2b46a5327c544cf55c8e55f103640454b1fe58cb9
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
@@ -3656,9 +3532,7 @@ entries:
     version: 2.0.4-SNAPSHOT
   - apiVersion: v1
     created: "2020-07-08T12:03:09.506134532Z"
-    description: A Helm chart Providing the required Alfresco infrastructure for the
-      Digital Business Platform. This includes activemq, alfresco-api-gateway, alfresco-identity-service,
-      nginx-ingress and a persistent volume to use with the dbp chart.
+    description: A Helm chart Providing the required Alfresco infrastructure for the Digital Business Platform. This includes activemq, alfresco-api-gateway, alfresco-identity-service, nginx-ingress and a persistent volume to use with the dbp chart.
     digest: c06ffc895df36806a18b9b2c882bdb25625af3ae368e47ab69bccb09855b99d1
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
@@ -3667,9 +3541,7 @@ entries:
     version: 2.0.3-SNAPSHOT
   - apiVersion: v1
     created: "2020-07-08T12:03:09.503010291Z"
-    description: A Helm chart Providing the required Alfresco infrastructure for the
-      Digital Business Platform. This includes activemq, alfresco-api-gateway, alfresco-identity-service,
-      nginx-ingress and a persistent volume to use with the dbp chart.
+    description: A Helm chart Providing the required Alfresco infrastructure for the Digital Business Platform. This includes activemq, alfresco-api-gateway, alfresco-identity-service, nginx-ingress and a persistent volume to use with the dbp chart.
     digest: 1ba3b4344c72441c7dc760e56fd7b40620822048a18d397a8be25a1a572a302a
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
@@ -3678,9 +3550,7 @@ entries:
     version: 2.0.2-SNAPSHOT
   - apiVersion: v1
     created: "2020-07-08T12:03:09.500022507Z"
-    description: A Helm chart Providing the required Alfresco infrastructure for the
-      Digital Business Platform. This includes activemq, nginx-ingress and a persistent
-      volume to use with the dbp chart.
+    description: A Helm chart Providing the required Alfresco infrastructure for the Digital Business Platform. This includes activemq, nginx-ingress and a persistent volume to use with the dbp chart.
     digest: 62ce770eac386d7279a75446a2cb39103cd5a08e1989137324e072600a0da5a3
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
@@ -3689,9 +3559,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     created: "2020-07-08T12:03:09.499665001Z"
-    description: A Helm chart Providing the required Alfresco infrastructure for the
-      Digital Business Platform. This includes activemq, alfresco-api-gateway, alfresco-identity-service,
-      nginx-ingress and a persistent volume to use with the dbp chart.
+    description: A Helm chart Providing the required Alfresco infrastructure for the Digital Business Platform. This includes activemq, alfresco-api-gateway, alfresco-identity-service, nginx-ingress and a persistent volume to use with the dbp chart.
     digest: ffa1740d7c46f240853b2b11744598791f3a77a1b6b2c924f0b73739d1ef6dae
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
@@ -3700,8 +3568,7 @@ entries:
     version: 2.0.0-SNAPSHOT
   - apiVersion: v1
     created: "2020-07-08T12:03:09.496214389Z"
-    description: A Helm chart Providing the required Alfresco infrastructure for the
-      Digital Business Platform.
+    description: A Helm chart Providing the required Alfresco infrastructure for the Digital Business Platform.
     digest: 73ee7969918896ea9f39f56014a7f042a21da2fc35bde9388ffc50d7f58dc942
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
@@ -3710,8 +3577,7 @@ entries:
     version: 1.1.0-SNAPSHOT
   - apiVersion: v1
     created: "2020-07-08T12:03:09.494405585Z"
-    description: A Helm chart Providing the required Alfresco infrastructure for the
-      Digital Business Platform.
+    description: A Helm chart Providing the required Alfresco infrastructure for the Digital Business Platform.
     digest: 857af535c5265c5ac55cea1a6fb1de286f237b5711017d112e42c6617f41be54
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-infrastructure
@@ -3720,9 +3586,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     created: "2020-07-08T12:03:09.493893193Z"
-    description: A Helm chart Providing the required Alfresco infrastructure. This
-      includes nginx-ingress, activemq, alfresco-api-gateway, alfresco-identity-service,
-      and the content services volume.
+    description: A Helm chart Providing the required Alfresco infrastructure. This includes nginx-ingress, activemq, alfresco-api-gateway, alfresco-identity-service, and the content services volume.
     digest: f7d60e73d1e9107edda3fff17993a69a2498b8840311dc9f19263b3607a68354
     name: alfresco-infrastructure
     urls:
@@ -3730,9 +3594,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     created: "2020-07-08T12:03:09.490947973Z"
-    description: A Helm chart Providing the required Alfresco infrastructure. This
-      includes nginx-ingress, activemq, alfresco-api-gateway, alfresco-identity-service,
-      and the content services volume.
+    description: A Helm chart Providing the required Alfresco infrastructure. This includes nginx-ingress, activemq, alfresco-api-gateway, alfresco-identity-service, and the content services volume.
     digest: 54af5ce5dbfad5c6e3fb1cebe2cd15899713a24db00f29524a9acb822f0f980c
     name: alfresco-infrastructure
     urls:
@@ -3914,6 +3776,61 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-process-application-7.1.0-M4.tgz
     version: 7.1.0-M4
+  - apiVersion: v1
+    appVersion: 7.1.0-M17
+    created: "2021-11-23T10:51:31.758324876Z"
+    dependencies:
+    - alias: activiti-cloud-query
+      condition: application.activiti-cloud-query.enabled,activiti-cloud-query.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 7.1.0-M16
+    - condition: application.postgresql.enabled,postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.1.1
+    - condition: application.rabbitmq.enabled,rabbitmq.enabled
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.20.5
+    - alias: runtime-bundle
+      condition: application.runtime-bundle.enabled,runtime-bundle.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 7.1.0-M16
+    - alias: activiti-cloud-connector
+      condition: application.activiti-cloud-connector.enabled,activiti-cloud-connector.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 7.1.0-M16
+    - alias: alfresco-admin-app
+      condition: application.alfresco-admin-app.enabled,alfresco-admin-app.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 7.1.0-M16
+    - alias: alfresco-digital-workspace-app
+      condition: application.alfresco-digital-workspace-app.enabled,alfresco-digital-workspace-app.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 7.1.0-M16
+    - condition: application.kafka.enabled,kafka.enabled
+      name: kafka
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.x.x
+    description: A Helm chart for an Alfresco Activiti Enterprise application
+    digest: 1fec76c69575ed429602cde58ad47d1156a67f6292b7b1a5efc46ed3a18cf167
+    home: https://github.com/Alfresco/alfresco-process-application-deployment
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - process
+    - alfresco
+    - activiti
+    - alfresco activiti enterprise
+    kubeVersion: '>=1.15.0-0'
+    name: alfresco-process-application
+    urls:
+    - https://kubernetes-charts.alfresco.com/incubator/alfresco-process-application-7.1.0-M17.tgz
+    version: 7.1.0-M17
   - apiVersion: v1
     appVersion: 7.1.0-M16MOCK2
     created: "2021-11-19T14:01:57.47768943Z"
@@ -5652,8 +5569,7 @@ entries:
   alfresco-process-springboot-service:
   - apiVersion: v1
     created: "2020-12-10T16:13:00.110339436Z"
-    description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot
-      based microservice
+    description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot based microservice
     digest: 0df9ce6a70fb8f26b4fc817b96b6708703456689264c53f16af787d7240e0f91
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
@@ -5679,8 +5595,7 @@ entries:
     version: 7.1.0-M12
   - apiVersion: v1
     created: "2020-12-03T15:37:20.233260512Z"
-    description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot
-      based microservice
+    description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot based microservice
     digest: ff3039e66b23eb022534a3f5a603e14388e89bd6cc53c8eaf60ee2a8afa6ca2f
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
@@ -5706,8 +5621,7 @@ entries:
     version: 7.1.0-M11MOCK1
   - apiVersion: v1
     created: "2020-11-13T22:16:52.94332757Z"
-    description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot
-      based microservice
+    description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot based microservice
     digest: 91853fb1d020f6608cbbc7a33ae72c71f25b2de92291aa6f8038d843dd5e7bdd
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
@@ -5733,8 +5647,7 @@ entries:
     version: 7.1.0-M11
   - apiVersion: v1
     created: "2020-10-06T14:32:45.835124553Z"
-    description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot
-      based microservice
+    description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot based microservice
     digest: c33f317683da06dca1d5a52edc6467ca2f09958f0a334e75eb8ad51f1ce27510
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
@@ -5759,8 +5672,7 @@ entries:
     version: 7.1.0-M10MOCK1
   - apiVersion: v1
     created: "2020-09-17T12:10:53.213138494Z"
-    description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot
-      based microservice
+    description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot based microservice
     digest: 1f98414f323bd4cc4e2339a58ccc725ce0321a10b4468e8915756400089e42af
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
@@ -5785,8 +5697,7 @@ entries:
     version: 7.1.0-M10
   - apiVersion: v1
     created: "2020-07-08T12:03:09.854640096Z"
-    description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot
-      based microservice
+    description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot based microservice
     digest: fed9858212d81dc95d4214ad6896e032725df39d55858b604b1755341e3778f3
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
@@ -5811,8 +5722,7 @@ entries:
     version: 2.2.1
   - apiVersion: v1
     created: "2020-07-08T12:03:09.85387417Z"
-    description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot
-      based microservice
+    description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot based microservice
     digest: edaad3129d625e0df9278754e3be9a81d13c06ef91d595a727d9ebfab6ab574f
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
@@ -5837,8 +5747,7 @@ entries:
     version: 2.2.0
   - apiVersion: v1
     created: "2020-07-08T12:03:09.853135675Z"
-    description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot
-      based microservice
+    description: A Helm chart for a generic Alfresco Process/Activiti Spring Boot based microservice
     digest: 3a260c0324457cec5c99a22345639008b0c6a827f0002120e9b002ecb87892f9
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
@@ -6324,4 +6233,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2021-11-22T12:15:48.595853146Z"
+generated: "2021-11-23T10:51:31.741378955Z"
