@@ -2144,7 +2144,7 @@ entries:
     version: 7.1.0-M4
   - apiVersion: v1
     appVersion: 7.1.0-M17.4
-    created: "2022-03-16T20:12:12.938561337Z"
+    created: "2022-03-17T09:42:52.424567476Z"
     dependencies:
     - alias: activiti-cloud-query
       condition: application.activiti-cloud-query.enabled,activiti-cloud-query.enabled
@@ -2163,28 +2163,28 @@ entries:
       condition: application.runtime-bundle.enabled,runtime-bundle.enabled
       name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.1.0-M17.4
+      version: 7.1.0-M17
     - alias: activiti-cloud-connector
       condition: application.activiti-cloud-connector.enabled,activiti-cloud-connector.enabled
       name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.1.0-M17.4
+      version: 7.1.0-M17
     - alias: alfresco-admin-app
       condition: application.alfresco-admin-app.enabled,alfresco-admin-app.enabled
       name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.1.0-M17.4
+      version: 7.1.0-M17
     - alias: alfresco-digital-workspace-app
       condition: application.alfresco-digital-workspace-app.enabled,alfresco-digital-workspace-app.enabled
       name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.1.0-M17.4
+      version: 7.1.0-M17
     - condition: application.kafka.enabled,kafka.enabled
       name: kafka
       repository: https://charts.bitnami.com/bitnami
       version: 12.x.x
     description: A Helm chart for an Alfresco Activiti Enterprise application
-    digest: ba021f5e4a33dc60cebff96f1d41110d507ec35cdbe86e538b743c3e6aa907f3
+    digest: ec79728b267e4800aa2a567f8cea352a1d425659cb2dd3205740e1053a9193fd
     home: https://github.com/Alfresco/alfresco-process-application-deployment
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -4530,4 +4530,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: "2022-03-17T09:24:48.060412584Z"
+generated: "2022-03-17T09:42:52.405677117Z"
