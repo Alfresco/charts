@@ -623,22 +623,22 @@ entries:
     version: 0.0.1
   alfresco-content-services:
   - apiVersion: v2
-    created: "2022-03-16T11:26:04.158161068Z"
+    created: "2022-03-17T17:21:42.628201494Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
-      version: 10.13.9
+      version: 10.16.2
     - alias: postgresql-syncservice
       condition: alfresco-sync-service.syncservice.enabled,postgresql-syncservice.enabled
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
-      version: 10.13.9
+      version: 10.16.2
     - alias: alfresco-digital-workspace
       condition: alfresco-content-services.alfresco-digital-workspace.enabled,alfresco-digital-workspace.enabled
       name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.1.0-M16
+      version: 7.1.0-M17
     - name: activemq
       repository: ""
       version: 2.0.0
@@ -649,7 +649,7 @@ entries:
       repository: ""
       version: 3.0.9
     description: A Helm chart for deploying Alfresco Content Services
-    digest: 1662f3c99b84e4bc23a373dc5315b74caa9679a0702e9619338471d84604fe66
+    digest: 497aee9fcc207f1a318c8f338ca1f0b24e1d7466d69b126f8e7c72ae2ada8b85
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -6977,4 +6977,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2022-03-17T12:53:23.018635526Z"
+generated: "2022-03-17T17:21:42.614160148Z"
