@@ -2066,7 +2066,7 @@ entries:
   alfresco-process-application:
   - apiVersion: v1
     appVersion: 7.2.0
-    created: "2022-03-24T15:13:06.986894314Z"
+    created: "2022-03-24T15:34:18.208712391Z"
     dependencies:
     - alias: activiti-cloud-query
       condition: application.activiti-cloud-query.enabled,activiti-cloud-query.enabled
@@ -2106,7 +2106,7 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 12.x.x
     description: A Helm chart for an Alfresco Activiti Enterprise application
-    digest: c7af99877a7f80543bca4bbec682b70a52da6ce11364558adeb696ead31d6ef3
+    digest: 0ef35058d09416d8eafccf0685b59e243726019e234efbd1b95e2c4524e8790d
     home: https://github.com/Alfresco/alfresco-process-application-deployment
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -4728,4 +4728,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: "2022-03-24T15:13:06.971084696Z"
+generated: "2022-03-24T15:34:18.192577572Z"
