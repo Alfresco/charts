@@ -2952,9 +2952,9 @@ entries:
     - http://kubernetes-charts.alfresco.com/stable/alfresco-process-application-2.0.0.tgz
     version: 2.0.0
   alfresco-process-infrastructure:
-  - apiVersion: v1
+  - apiVersion: v2
     appVersion: 7.2.0
-    created: "2022-03-24T15:44:06.96433672Z"
+    created: "2022-03-25T10:52:20.897142647Z"
     dependencies:
     - name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
@@ -2962,7 +2962,7 @@ entries:
     - condition: alfresco-identity-service.enabled
       name: alfresco-identity-service
       repository: https://kubernetes-charts.alfresco.com/stable
-      version: 5.0.0
+      version: 6.0.0
     - alias: alfresco-modeling-service
       condition: alfresco-modeling-service.enabled
       name: common
@@ -2971,7 +2971,7 @@ entries:
     - condition: postgresql.enabled
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
-      version: 9.1.1
+      version: 10.3.13
     - condition: rabbitmq.enabled
       name: rabbitmq
       repository: https://charts.bitnami.com/bitnami
@@ -2997,7 +2997,7 @@ entries:
       repository: https://activiti.github.io/activiti-cloud-helm-charts
       version: 7.2.0
     description: A Helm chart for Alfresco Activiti Enterprise infrastructure
-    digest: 7bbc6af131649575b6fc2d2e67e0f8aecd341e962c72857438103a1e8c45ea25
+    digest: 938542e10d8b633d8a86e86484adc35ce0446a5a839e1e2c8e59da59da0d16df
     home: https://github.com/Alfresco/alfresco-process-infrastructure
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -4843,4 +4843,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: "2022-03-24T15:48:41.077987973Z"
+generated: "2022-03-25T10:52:20.876562455Z"
