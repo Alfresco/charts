@@ -747,6 +747,49 @@ entries:
     - https://kubernetes-charts.alfresco.com/incubator/alfresco-content-services-5.2.0-M1.tgz
     version: 5.2.0-M1
   - apiVersion: v2
+    created: "2022-04-21T10:00:45.529614729Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.16.2
+    - alias: postgresql-syncservice
+      condition: alfresco-sync-service.syncservice.enabled,postgresql-syncservice.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.16.2
+    - alias: alfresco-digital-workspace
+      condition: alfresco-content-services.alfresco-digital-workspace.enabled,alfresco-digital-workspace.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 7.2.0
+    - condition: activemq.enabled
+      name: activemq
+      repository: ""
+      version: 2.1.0
+    - condition: alfresco-search.enabled
+      name: alfresco-search
+      repository: ""
+      version: 1.0.4
+    - name: alfresco-sync-service
+      repository: ""
+      version: 3.0.9
+    description: A Helm chart for deploying Alfresco Content Services
+    digest: 3e41815dd89755192b1c3269f6c094b2d7615aaa17c86ea7f7a072e99ccfdf63
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - content
+    - content services
+    - alfresco
+    - alfresco content services
+    name: alfresco-content-services
+    sources:
+    - https://github.com/Alfresco/acs-deployment
+    urls:
+    - https://kubernetes-charts.alfresco.com/incubator/alfresco-content-services-5.2.0-A97.tgz
+    version: 5.2.0-A97
+  - apiVersion: v2
     created: "2022-04-21T09:47:34.290005448Z"
     dependencies:
     - condition: postgresql.enabled
@@ -7227,4 +7270,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2022-04-21T09:47:34.277099195Z"
+generated: "2022-04-21T10:00:45.514822562Z"
