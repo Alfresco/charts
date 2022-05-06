@@ -623,8 +623,11 @@ entries:
     version: 0.0.1
   alfresco-content-services:
   - apiVersion: v2
-    created: "2022-04-27T10:24:21.432805395Z"
+    created: "2022-05-06T12:39:30.832155184Z"
     dependencies:
+    - name: alfresco-content-common
+      repository: ""
+      version: 0.1.0
     - condition: postgresql.enabled
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -647,11 +650,20 @@ entries:
       name: alfresco-search
       repository: ""
       version: 1.0.4
+    - condition: alfresco-elasticsearch-connector.enabled
+      name: alfresco-elasticsearch-connector
+      repository: ""
+      version: 0.1.0
     - name: alfresco-sync-service
       repository: ""
       version: 3.0.9
+    - alias: elasticsearch
+      condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.10.1
     description: A Helm chart for deploying Alfresco Content Services
-    digest: de94f0695d7e322321372458320545c0719177b09b18327f746bc1db6737b8bd
+    digest: 69b63271e3c28122d989e0b48eb58c503e3a94fb4c9609f68d4c0c95ae5a7da2
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -7472,4 +7484,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2022-04-27T10:24:21.418393165Z"
+generated: "2022-05-06T12:39:30.813459489Z"
