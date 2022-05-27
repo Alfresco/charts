@@ -623,6 +623,61 @@ entries:
     version: 0.0.1
   alfresco-content-services:
   - apiVersion: v2
+    created: "2022-05-27T17:50:29.235147745Z"
+    dependencies:
+    - name: alfresco-content-common
+      repository: ""
+      version: 0.1.0
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.16.2
+    - alias: postgresql-syncservice
+      condition: alfresco-sync-service.syncservice.enabled,postgresql-syncservice.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.16.2
+    - alias: alfresco-digital-workspace
+      condition: alfresco-content-services.alfresco-digital-workspace.enabled,alfresco-digital-workspace.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 7.2.0
+    - condition: activemq.enabled
+      name: activemq
+      repository: ""
+      version: 2.1.0
+    - condition: alfresco-search.enabled
+      name: alfresco-search
+      repository: ""
+      version: 1.0.4
+    - condition: alfresco-elasticsearch-connector.enabled
+      name: alfresco-elasticsearch-connector
+      repository: ""
+      version: 0.1.0
+    - name: alfresco-sync-service
+      repository: ""
+      version: 3.0.9
+    - alias: elasticsearch
+      condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.10.1
+    description: A Helm chart for deploying Alfresco Content Services
+    digest: 060a7642b8fafea7ffb45fa30b31fe1769a19937fc3765a6a048995f22322217
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - content
+    - content services
+    - alfresco
+    - alfresco content services
+    name: alfresco-content-services
+    sources:
+    - https://github.com/Alfresco/acs-deployment
+    urls:
+    - https://kubernetes-charts.alfresco.com/incubator/alfresco-content-services-5.3.0-A172.tgz
+    version: 5.3.0-A172
+  - apiVersion: v2
     created: "2022-05-27T17:49:25.259023231Z"
     dependencies:
     - name: alfresco-content-common
@@ -7599,4 +7654,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2022-05-27T17:49:25.241877351Z"
+generated: "2022-05-27T17:50:29.21893437Z"
