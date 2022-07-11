@@ -5902,7 +5902,7 @@ entries:
     version: 22.2.0-mock1
   - apiVersion: v2
     appVersion: 7.5.0
-    created: "2022-07-11T11:19:57.465988768Z"
+    created: "2022-07-11T14:34:54.016075767Z"
     dependencies:
     - name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
@@ -5958,8 +5958,13 @@ entries:
       name: opensearch
       repository: https://opensearch-project.github.io/helm-charts
       version: 1.11.1
+    - alias: alfresco-identity-adapter-service
+      condition: alfresco-identity-adapter-service.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 7.4.0
     description: A Helm chart for Alfresco Activiti Enterprise infrastructure
-    digest: 966b0c0fba3c4639ebf9a3354eef739289cb4934e8720bfbe6efda8bd9fb4c50
+    digest: e965d352d92ab17ca84d77a158eee0fd686a782d07edbdd224b8e5053da2db2a
     home: https://github.com/Alfresco/alfresco-process-infrastructure
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -8216,4 +8221,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2022-07-11T11:58:54.835522088Z"
+generated: "2022-07-11T14:34:53.992604113Z"
