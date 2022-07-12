@@ -623,7 +623,7 @@ entries:
     version: 0.0.1
   alfresco-content-services:
   - apiVersion: v2
-    created: "2022-07-11T11:58:54.854633632Z"
+    created: "2022-07-12T07:59:41.606776808Z"
     dependencies:
     - name: alfresco-content-common
       repository: ""
@@ -663,7 +663,7 @@ entries:
       repository: https://helm.elastic.co
       version: 7.10.1
     description: A Helm chart for deploying Alfresco Content Services
-    digest: 9bb83423d82ee39401a3b44eb87d20a2158e351c3b29471a25bc2040940e5351
+    digest: 57fed66dbbcfeea6e3d0147deea9c55fe1bc0a049feea0ff5dd5c1567770cfa1
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -8221,4 +8221,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2022-07-11T14:34:53.992604113Z"
+generated: "2022-07-12T07:59:41.585662789Z"
