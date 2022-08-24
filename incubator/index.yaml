@@ -4718,7 +4718,7 @@ entries:
     version: 22.2.0-mock1
   - apiVersion: v2
     appVersion: 7.5.0
-    created: "2022-08-22T16:23:27.26299495Z"
+    created: "2022-08-24T05:56:23.173453216Z"
     dependencies:
     - alias: activiti-cloud-query
       condition: application.activiti-cloud-query.enabled,activiti-cloud-query.enabled
@@ -4758,7 +4758,7 @@ entries:
       repository: https://raw.githubusercontent.com/bitnami/charts/eb5f9a9513d987b519f0ecd732e7031241c50328/bitnami
       version: 12.x.x
     description: A Helm chart for an Alfresco Activiti Enterprise application
-    digest: 9d0dc1aa5b23e03015054f65e18758050e7e684eda799c42312d86ace3488590
+    digest: 05eda2607d4e5e85ae5b40dccc0f6df2a0cd46f7125e19d8df97eefb6784a6d4
     home: https://github.com/Alfresco/alfresco-process-application-deployment
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -8276,4 +8276,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2022-08-23T15:40:11.557250117Z"
+generated: "2022-08-24T05:56:23.154529123Z"
