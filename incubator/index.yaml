@@ -603,6 +603,17 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/alfresco-api-gateway-0.1.0.tgz
     version: 0.1.0
+  alfresco-common:
+  - apiVersion: v2
+    created: "2022-09-06T18:58:41.112611575Z"
+    description: 'A helper subchart to avoid duplication in alfresco charts and set
+      common external dependencies '
+    digest: e2405df5ec2721b1ed8e188171287723af4ce2206937bc5f3e299bca39dee9aa
+    name: alfresco-common
+    type: library
+    urls:
+    - https://kubernetes-charts.alfresco.com/incubator/alfresco-common-0.1.0-A416.tgz
+    version: 0.1.0-A416
   alfresco-content-application:
   - apiVersion: v1
     appVersion: v1.4.0
@@ -8410,4 +8421,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2022-09-06T10:09:10.011236096Z"
+generated: "2022-09-06T18:58:41.112227171Z"
