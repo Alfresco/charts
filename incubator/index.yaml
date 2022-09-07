@@ -7599,6 +7599,26 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 2.3.0
+    created: "2022-09-07T10:12:00.235301831Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami/
+      version: 8.9.6
+    - name: common
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami/
+      version: 1.12.0
+    description: A Helm chart for Alfresco Process Services
+    digest: cb31f0929b00b415c39894ed6f9650739e9339efbf4321742376649f0f6f8aee
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    maintainers:
+    - name: Alfresco
+    name: alfresco-process-services
+    urls:
+    - https://kubernetes-charts.alfresco.com/incubator/alfresco-process-services-0.4.0-A65.tgz
+    version: 0.4.0-A65
+  - apiVersion: v2
+    appVersion: 2.3.0
     created: "2022-09-07T10:10:36.208327266Z"
     dependencies:
     - condition: postgresql.enabled
@@ -8456,4 +8476,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2022-09-07T10:10:36.191798869Z"
+generated: "2022-09-07T10:12:00.230593849Z"
