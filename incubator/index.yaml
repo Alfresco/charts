@@ -6313,7 +6313,7 @@ entries:
     version: 22.2.0-mock1
   - apiVersion: v2
     appVersion: 7.6.0
-    created: "2022-09-13T11:01:32.21224221Z"
+    created: "2022-09-13T11:16:43.318584386Z"
     dependencies:
     - name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
@@ -6375,7 +6375,7 @@ entries:
       repository: https://activiti.github.io/activiti-cloud-helm-charts
       version: 7.5.0
     description: A Helm chart for Alfresco Activiti Enterprise infrastructure
-    digest: 9f6a6cc817c696961c5bd873001d3a5a6622684bde85685c30980e04f9d7247e
+    digest: b13c5a5116154be73e0e0318ddbf27e7e8fa2ce023ca816a4cea577f99eea210
     home: https://github.com/Alfresco/alfresco-process-infrastructure
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -8930,4 +8930,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2022-09-13T11:01:32.188684319Z"
+generated: "2022-09-13T11:16:43.295720363Z"
