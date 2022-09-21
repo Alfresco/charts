@@ -3408,7 +3408,7 @@ entries:
   alfresco-process-infrastructure:
   - apiVersion: v2
     appVersion: 7.5.1
-    created: "2022-09-21T15:57:04.628949403Z"
+    created: "2022-09-21T16:25:17.691336878Z"
     dependencies:
     - name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
@@ -3470,7 +3470,7 @@ entries:
       repository: https://activiti.github.io/activiti-cloud-helm-charts
       version: 7.5.1
     description: A Helm chart for Alfresco Activiti Enterprise infrastructure
-    digest: c98a2f0f23c7b4025c3502ef51e5f167bc356cb5df0f91ee762a6871861cf419
+    digest: 5e314d2b6e5aa7e0edc973ccbdd4b6bbd0377e7d413a45be6ee96ead090c5ef6
     home: https://github.com/Alfresco/alfresco-process-infrastructure
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -5669,4 +5669,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: "2022-09-21T15:57:04.608975998Z"
+generated: "2022-09-21T16:25:17.667472738Z"
