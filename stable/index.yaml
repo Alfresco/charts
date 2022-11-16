@@ -275,6 +275,22 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/alfresco-adf-app-2.0.0.tgz
     version: 2.0.0
+  alfresco-common:
+  - apiVersion: v2
+    created: "2022-11-16T17:13:28.33190559Z"
+    dependencies:
+    - name: common
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami/
+      version: 1.x.x
+    description: 'A helper subchart to avoid duplication in alfresco charts and set
+      common external dependencies '
+    digest: 8aec766f758411089c4a69560252434e6bc4776a311c5a45bc4455f10ded2823
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    name: alfresco-common
+    type: library
+    urls:
+    - https://kubernetes-charts.alfresco.com/stable/alfresco-common-0.1.0.tgz
+    version: 0.1.0
   alfresco-content-services:
   - apiVersion: v2
     created: "2022-08-05T15:39:02.588792177Z"
@@ -5803,4 +5819,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: "2022-10-27T09:54:06.551233604Z"
+generated: "2022-11-16T17:13:28.330655819Z"
