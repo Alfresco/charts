@@ -308,7 +308,7 @@ entries:
     version: 0.1.0
   alfresco-content-services:
   - apiVersion: v2
-    created: "2022-12-12T19:27:21.998242262Z"
+    created: "2022-12-19T09:12:44.845001725Z"
     dependencies:
     - name: alfresco-common
       repository: https://kubernetes-charts.alfresco.com/stable
@@ -353,7 +353,7 @@ entries:
       repository: https://helm.elastic.co
       version: 7.10.1
     description: A Helm chart for deploying Alfresco Content Services
-    digest: ee91b028e80192fc92bb34751baab2a60a8ec9e1b95b164d3ea37fc05641f1ed
+    digest: 79aa11ee92c4f921f92144724963c836457692b1c2323478eb2949630194dc85
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -6217,4 +6217,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: "2022-12-15T20:53:16.988213566Z"
+generated: "2022-12-19T09:12:44.828593909Z"
