@@ -605,14 +605,14 @@ entries:
     version: 0.1.0
   alfresco-common:
   - apiVersion: v2
-    created: "2023-01-06T17:06:43.898474043Z"
+    created: "2023-01-09T10:40:06.539554309Z"
     dependencies:
     - name: common
       repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami/
       version: 1.x.x
     description: 'A helper subchart to avoid duplication in alfresco charts and set
       common external dependencies '
-    digest: f4150b43d42a054df15f0bf5c4856d8008877f2f4e3e770a6ddb85c3a9da025a
+    digest: 9e3b5a2396f5303de48fb3b1111ec587544096a7695336ecd94118a9a6b0a31e
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     name: alfresco-common
     type: library
@@ -25036,4 +25036,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2023-01-09T10:31:35.97114757Z"
+generated: "2023-01-09T10:40:06.538311812Z"
