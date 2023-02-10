@@ -769,11 +769,12 @@ entries:
     version: 0.0.1
   alfresco-content-services:
   - apiVersion: v2
-    created: "2023-01-09T10:40:59.731978095Z"
+    appVersion: 7.4.0-M2
+    created: "2023-02-10T08:43:44.750122665Z"
     dependencies:
     - name: alfresco-common
       repository: https://kubernetes-charts.alfresco.com/incubator
-      version: 0.3.0-SNAPSHOT
+      version: 0.4.0-SNAPSHOT
     - condition: postgresql.enabled
       name: postgresql
       repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami/
@@ -792,29 +793,29 @@ entries:
       condition: alfresco-digital-workspace.enabled
       name: common
       repository: https://activiti.github.io/activiti-cloud-helm-charts
-      version: 7.6.0
+      version: 7.7.0
     - condition: activemq.enabled
       name: activemq
       repository: ""
-      version: 2.2.0-SNAPSHOT
+      version: 2.3.0-SNAPSHOT
     - condition: alfresco-search.enabled
       name: alfresco-search
       repository: ""
-      version: 1.0.5-SNAPSHOT
+      version: 1.2.0-SNAPSHOT
     - condition: alfresco-elasticsearch-connector.enabled
       name: alfresco-elasticsearch-connector
       repository: ""
-      version: 0.2.0-SNAPSHOT
+      version: 0.3.0-SNAPSHOT
     - name: alfresco-sync-service
       repository: ""
-      version: 3.0.9
+      version: 3.2.0-SNAPSHOT
     - alias: elasticsearch
       condition: elasticsearch.enabled
       name: elasticsearch
       repository: https://helm.elastic.co
       version: 7.10.1
     description: A Helm chart for deploying Alfresco Content Services
-    digest: 303a7232bfe49c09205e6e744c8f5630d80040b0c7c58c78f102c6b29e2538e8
+    digest: 3430e22f94d30fe1784071af3e8539923f386d8c03e1462f2c267a622b1f4253
     home: https://www.alfresco.com
     icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
     keywords:
@@ -34702,4 +34703,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2023-02-10T08:40:24.139564202Z"
+generated: "2023-02-10T08:43:44.731488271Z"
