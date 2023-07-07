@@ -377,6 +377,59 @@ entries:
     version: 6.1.0-M.1
   - apiVersion: v2
     appVersion: 7.4.0
+    created: "2023-07-07T10:51:07.624095925Z"
+    dependencies:
+    - name: alfresco-common
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 2.0.0
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.5.6
+    - alias: alfresco-control-center
+      condition: alfresco-admin-app.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 7.7.0
+    - alias: alfresco-digital-workspace
+      condition: alfresco-digital-workspace.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 7.7.0
+    - condition: activemq.enabled
+      name: activemq
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 3.1.0
+    - alias: alfresco-search
+      condition: alfresco-search.enabled
+      name: alfresco-search-service
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 1.1.0
+    - condition: alfresco-sync-service.enabled
+      name: alfresco-sync-service
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 4.1.0
+    - condition: alfresco-search-enterprise.enabled
+      name: alfresco-search-enterprise
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 1.2.0
+    description: A Helm chart for deploying Alfresco Content Services
+    digest: f13fa057e0e7a46b3e412a4445c8b9719662d674ddeae14d713ad2038c687ad7
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - content
+    - content services
+    - alfresco
+    - alfresco content services
+    name: alfresco-content-services
+    sources:
+    - https://github.com/Alfresco/acs-deployment
+    urls:
+    - https://kubernetes-charts.alfresco.com/stable/alfresco-content-services-6.0.2.tgz
+    version: 6.0.2
+  - apiVersion: v2
+    appVersion: 7.4.0
     created: "2023-06-07T07:04:04.5241096Z"
     dependencies:
     - name: alfresco-common
@@ -7510,4 +7563,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: "2023-07-07T10:43:46.279521138Z"
+generated: "2023-07-07T10:51:07.576638492Z"
