@@ -323,6 +323,80 @@ entries:
     version: 0.1.0
   alfresco-content-services:
   - apiVersion: v2
+    appVersion: 23.1.0-A27
+    created: "2023-08-24T15:07:33.709270699Z"
+    dependencies:
+    - name: alfresco-common
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 2.1.0
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.8.5
+    - alias: alfresco-control-center
+      condition: alfresco-admin-app.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 7.11.0
+    - alias: alfresco-digital-workspace
+      condition: alfresco-digital-workspace.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 7.11.0
+    - condition: activemq.enabled
+      name: activemq
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 3.2.0
+    - condition: alfresco-transform-service.enabled
+      name: alfresco-transform-service
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 0.2.0
+    - alias: alfresco-search
+      condition: alfresco-search.enabled
+      name: alfresco-search-service
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 1.3.0
+    - condition: alfresco-sync-service.enabled
+      name: alfresco-sync-service
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 4.3.0
+    - condition: alfresco-search-enterprise.enabled
+      name: alfresco-search-enterprise
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 1.4.0
+    - condition: alfresco-connector-msteams.enabled
+      name: alfresco-connector-msteams
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 0.2.0
+    - alias: share
+      condition: share.enabled
+      name: alfresco-share
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 0.1.0
+    - condition: alfresco-connector-ms365.enabled
+      name: alfresco-connector-ms365
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 0.4.0
+    - condition: alfresco-ai-transformer.enabled
+      name: alfresco-ai-transformer
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 0.3.0
+    description: A Helm chart for deploying Alfresco Content Services
+    digest: 7fe222adac39bbb2f5fb67f7dd5e8fdbc52ac92ad0441d03581b236ed084fb7b
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - content
+    - content services
+    - alfresco
+    - alfresco content services
+    name: alfresco-content-services
+    sources:
+    - https://github.com/Alfresco/acs-deployment
+    urls:
+    - https://kubernetes-charts.alfresco.com/stable/alfresco-content-services-7.0.0-M.1.tgz
+    version: 7.0.0-M.1
+  - apiVersion: v2
     appVersion: 23.1.0-A19
     created: "2023-07-07T10:43:46.321518412Z"
     dependencies:
@@ -7595,4 +7669,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: "2023-08-04T11:42:56.214763033Z"
+generated: "2023-08-24T15:07:33.653346368Z"
