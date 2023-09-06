@@ -3946,7 +3946,7 @@ entries:
   alfresco-identity-service:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2023-09-01T12:16:50.536447902Z"
+    created: "2023-09-06T05:10:47.353253295Z"
     dependencies:
     - name: keycloakx
       repository: https://codecentric.github.io/helm-charts
@@ -3962,7 +3962,7 @@ entries:
       for identity-related capabilities needed by other Alfresco software, such as
       managing users, groups, roles, profiles, and authentication. Currently it deals
       just with authentication.
-    digest: a407f757cdc4d22b22f492c8cc800a9cf86ff2e5661c0072cc520644537d3056
+    digest: 662862a2dee3c4b0f6d87e9e733710a9a37f8511e65ffaa21ec782d8489ba3d1
     home: https://github.com/Alfresco/alfresco-identity-service/tree/master/helm/alfresco-identity-service
     keywords:
     - alfresco
@@ -94434,4 +94434,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2023-09-05T21:20:52.987206748Z"
+generated: "2023-09-06T05:10:47.343308739Z"
