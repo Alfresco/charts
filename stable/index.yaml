@@ -7171,6 +7171,26 @@ entries:
     version: 2.0.0
   alfresco-process-services:
   - apiVersion: v2
+    appVersion: 2.4.2
+    created: "2023-11-13T16:43:04.333537324Z"
+    dependencies:
+    - name: alfresco-common
+      repository: https://kubernetes-charts.alfresco.com/stable
+      version: 0.2.0
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami/
+      version: 10.16.2
+    description: A Helm chart for Alfresco Process Services
+    digest: 2516937912efe2e6164a6225da43fbad0477382ba6a7b80460784c93bcf46c98
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    maintainers:
+    - name: Alfresco
+    name: alfresco-process-services
+    urls:
+    - https://kubernetes-charts.alfresco.com/stable/alfresco-process-services-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v2
     appVersion: 2.4.1
     created: "2023-09-20T15:45:57.588101973Z"
     dependencies:
@@ -7978,4 +7998,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: "2023-11-10T16:15:43.62407236Z"
+generated: "2023-11-13T16:43:04.326798446Z"
