@@ -5248,6 +5248,61 @@ entries:
     version: 0.1.0
   alfresco-process-application:
   - apiVersion: v2
+    appVersion: 7.14.0-rc.22
+    created: "2024-01-16T10:50:59.509981903Z"
+    dependencies:
+    - alias: activiti-cloud-query
+      condition: application.activiti-cloud-query.enabled,activiti-cloud-query.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 8.2.0-alpha.4
+    - condition: application.postgresql.enabled,postgresql.enabled
+      name: postgresql
+      repository: https://raw.githubusercontent.com/bitnami/charts/eb5f9a9513d987b519f0ecd732e7031241c50328/bitnami
+      version: 10.3.13
+    - condition: application.rabbitmq.enabled,rabbitmq.enabled
+      name: rabbitmq
+      repository: https://raw.githubusercontent.com/bitnami/charts/eb5f9a9513d987b519f0ecd732e7031241c50328/bitnami
+      version: 8.20.5
+    - alias: runtime-bundle
+      condition: application.runtime-bundle.enabled,runtime-bundle.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 8.2.0-alpha.4
+    - alias: activiti-cloud-connector
+      condition: application.activiti-cloud-connector.enabled,activiti-cloud-connector.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 8.2.0-alpha.4
+    - alias: alfresco-admin-app
+      condition: application.alfresco-admin-app.enabled,alfresco-admin-app.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 8.2.0-alpha.4
+    - alias: alfresco-digital-workspace-app
+      condition: application.alfresco-digital-workspace-app.enabled,alfresco-digital-workspace-app.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 8.2.0-alpha.4
+    - condition: application.kafka.enabled,kafka.enabled
+      name: kafka
+      repository: https://raw.githubusercontent.com/bitnami/charts/eb5f9a9513d987b519f0ecd732e7031241c50328/bitnami
+      version: 12.x.x
+    description: A Helm chart for an Alfresco Activiti Enterprise application
+    digest: 9d52da3ff8327ccda5ff5e17296a6c742254d4ebd31539c3b313b9867a05a021
+    home: https://github.com/Alfresco/alfresco-process-application-deployment
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - process
+    - alfresco
+    - activiti
+    - alfresco activiti enterprise
+    kubeVersion: '>=1.15.0-0'
+    name: alfresco-process-application
+    urls:
+    - https://kubernetes-charts.alfresco.com/incubator/alfresco-process-application-7.14.0-rc.22.tgz
+    version: 7.14.0-rc.22
+  - apiVersion: v2
     appVersion: 7.14.0-rc.19
     created: "2024-01-11T07:50:28.883717599Z"
     dependencies:
@@ -42301,4 +42356,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2024-01-16T07:12:19.369009835Z"
+generated: "2024-01-16T10:50:59.497748998Z"
