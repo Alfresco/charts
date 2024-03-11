@@ -18148,6 +18148,90 @@ entries:
     version: 2.1.0
   alfresco-process-infrastructure:
   - apiVersion: v2
+    appVersion: 7.16.0-rc.8
+    created: "2024-03-11T13:01:58.44265601Z"
+    dependencies:
+    - name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 8.2.0-alpha.4
+    - condition: alfresco-identity-service.enabled
+      name: alfresco-identity-service
+      repository: https://kubernetes-charts.alfresco.com/stable
+      version: 6.0.0
+    - alias: alfresco-modeling-service
+      condition: alfresco-modeling-service.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 8.2.0-alpha.4
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami/
+      version: 10.3.13
+    - condition: rabbitmq.enabled
+      name: rabbitmq
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami/
+      version: 8.20.5
+    - alias: alfresco-modeling-app
+      condition: alfresco-modeling-app.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 8.2.0-alpha.4
+    - alias: alfresco-deployment-service
+      condition: alfresco-deployment-service.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 8.2.0-alpha.4
+    - alias: alfresco-admin-app
+      condition: alfresco-admin-app.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 8.2.0-alpha.4
+    - alias: alfresco-tika-service
+      condition: alfresco-tika-service.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 8.2.0-alpha.4
+    - alias: alfresco-process-analytics-service
+      condition: alfresco-process-analytics-service.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 8.2.0-alpha.4
+    - alias: alfresco-process-analytics-playground
+      condition: alfresco-process-analytics-playground.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 8.2.0-alpha.4
+    - condition: opensearch.enabled
+      name: opensearch
+      repository: https://opensearch-project.github.io/helm-charts
+      version: 1.11.1
+    - alias: alfresco-identity-adapter-service
+      condition: alfresco-identity-adapter-service.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 8.2.0-alpha.4
+    - alias: alfresco-static-resources
+      condition: alfresco-static-resources.enabled
+      name: common
+      repository: https://activiti.github.io/activiti-cloud-helm-charts
+      version: 8.2.0-alpha.4
+    description: A Helm chart for Alfresco Activiti Enterprise infrastructure
+    digest: 0cbc5d6d529eb27ef784f339c6e60ea4644988161c72acf70e09a833f1703b56
+    home: https://github.com/Alfresco/alfresco-process-infrastructure-deployment
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - process
+    - alfresco
+    - activiti
+    - alfresco activiti enterprise
+    kubeVersion: '>=1.15.0-0'
+    name: alfresco-process-infrastructure
+    sources:
+    - https://github.com/Alfresco/alfresco-process-infrastructure-deployment
+    urls:
+    - https://kubernetes-charts.alfresco.com/incubator/alfresco-process-infrastructure-7.16.0-rc.8.tgz
+    version: 7.16.0-rc.8
+  - apiVersion: v2
     appVersion: 7.16.0-rc.7
     created: "2024-03-08T21:03:30.974544153Z"
     dependencies:
@@ -62340,4 +62424,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/incubator/process-services-infrastructure-0.1.1.tgz
     version: 0.1.1
-generated: "2024-03-11T11:45:16.167334557Z"
+generated: "2024-03-11T13:01:58.42626155Z"
