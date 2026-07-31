@@ -323,6 +323,102 @@ entries:
     version: 0.1.0
   alfresco-content-services:
   - apiVersion: v2
+    appVersion: 26.2.0
+    created: "2026-07-31T13:22:02.385078808Z"
+    dependencies:
+    - name: alfresco-common
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 5.1.0
+    - alias: postgresql-sync
+      condition: postgresql-sync.enabled
+      name: postgres
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 0.7.0
+    - alias: postgresql
+      condition: postgresql.enabled
+      name: postgres
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 0.7.0
+    - alias: alfresco-control-center
+      condition: alfresco-control-center.enabled
+      name: alfresco-adf-app
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 0.8.0
+    - alias: alfresco-digital-workspace
+      condition: alfresco-digital-workspace.enabled
+      name: alfresco-adf-app
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 0.8.0
+    - name: alfresco-repository
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 1.9.0
+    - condition: activemq.enabled
+      name: activemq
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 4.2.0
+    - condition: alfresco-transform-service.enabled
+      name: alfresco-transform-service
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 2.9.1
+    - alias: alfresco-search
+      condition: alfresco-search.enabled
+      name: alfresco-search-service
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 6.3.1
+    - condition: alfresco-sync-service.enabled
+      name: alfresco-sync-service
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 7.12.1
+    - condition: alfresco-search-enterprise.enabled
+      name: alfresco-search-enterprise
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 5.2.0
+    - condition: alfresco-search-community.enabled
+      name: alfresco-search-community
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 0.2.0
+    - condition: alfresco-connector-msteams.enabled
+      name: alfresco-connector-msteams
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 2.8.1
+    - alias: share
+      condition: share.enabled
+      name: alfresco-share
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 2.5.0
+    - condition: alfresco-connector-ms365.enabled
+      name: alfresco-connector-ms365
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 3.8.1
+    - condition: alfresco-ai-transformer.enabled
+      name: alfresco-ai-transformer
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 3.8.1
+    - alias: elasticsearch
+      condition: elasticsearch.enabled
+      name: elastic
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 0.7.0
+    - condition: alfresco-audit-storage.enabled
+      name: alfresco-audit-storage
+      repository: https://alfresco.github.io/alfresco-helm-charts/
+      version: 0.11.1
+    description: A Helm chart for deploying Alfresco Content Services
+    digest: c9c4224a409bd2886c1a07b178675660f2fd52c3d038e08dc5b8349ad78e510c
+    home: https://www.alfresco.com
+    icon: https://avatars0.githubusercontent.com/u/391127?s=200&v=4
+    keywords:
+    - content
+    - content services
+    - alfresco
+    - alfresco content services
+    name: alfresco-content-services
+    sources:
+    - https://github.com/Alfresco/acs-deployment
+    urls:
+    - https://kubernetes-charts.alfresco.com/stable/alfresco-content-services-10.7.0.tgz
+    version: 10.7.0
+  - apiVersion: v2
     appVersion: 26.1.0
     created: "2026-06-16T15:19:42.145744146Z"
     dependencies:
@@ -14359,4 +14455,4 @@ entries:
     urls:
     - http://kubernetes-charts.alfresco.com/stable/hello-world-app-0.1.tgz
     version: "0.1"
-generated: "2026-07-30T08:49:03.182108663Z"
+generated: "2026-07-31T13:22:02.3643323Z"
